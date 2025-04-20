@@ -5,7 +5,7 @@ rarity = "SSR"
 text = "これが私たちみんなで届ける最高のライブなんですっ♪"
 subject = "everyone"
 type = "costume"
-[[IMT-01-001.appeal_value]]
+[IMT-01-001.appeal_value] # Use single brackets for a table, not double for array of tables
 vocal = 1373
 dance = 1226
 visual = 1481
