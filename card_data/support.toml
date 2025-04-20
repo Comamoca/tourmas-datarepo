@@ -5,4 +5,4 @@ rarity = "SSR"
 text = "この特別なステージで、私たちの全力を見せるよ。"
 support_effects = "rhythm"
 type = "support"
-subject = "everyone" # Add missing subject field (assuming everyone, please verify)
+subject = "everyone"

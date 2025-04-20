@@ -3,21 +3,19 @@ card_name = "ソングオブピース"
 idol_name = "柏木 翼"
 rarity = "SSR"
 text = "オレたちの歌をステージいっぱいに響かせます！"
-type = "sp_appeal" # Correct type based on card name/effects
+type = "sp_appeal"
 subject = "everyone"
 rhythm_live_effects = ["成功判定のコンボ数UP(中)", "判定が長くなる(中)"]
 
-# --- Commented out due to unknown correct Card ID ---
-# TODO: Replace IMT-01-XXX with the correct card ID and uncomment
-# [[IMT-01-XXX]]
-# card_name = "パーティータイム"
-# idol_name = "八宮 めぐる"
-# rarity = "SR"
-# text = "みんなが笑顔になるステージわたしたちならきっとできるよ！"
-# type = "sp_appeal" # Set correct type
-# subject = "everyone" # Set subject (assuming everyone, please verify)
-# rhythm_live_effects = [
-#   "このカードを使用するとSPアピールを変更できます。",
-#   "※演出は演者が女性である場合のみ発動します。",
-#   "※SPアピール効果は対象に関わらず発動します。",
-# ]
+[[IMT-01-084]]
+card_name = "パーティータイム"
+idol_name = "八宮 めぐる"
+rarity = "SR"
+text = "みんなが笑顔になるステージわたしたちならきっとできるよ！"
+type = "sp_appeal"
+subject = "everyone"
+rhythm_live_effects = [
+  "このカードを使用するとSPアピールを変更できます。",
+  "※演出は演者が女性である場合のみ発動します。",
+  "※SPアピール効果は対象に関わらず発動します。",
+]
