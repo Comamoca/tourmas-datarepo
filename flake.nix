@@ -70,16 +70,6 @@
                   language = "system";
                   types = [ "text" ];
                 };
-                validate-card-data = {
-                  enable = true;
-                  name = "Validate Card Data";
-                  entry = "uv run python ./validators/card_data.py";
-                  language = "system";
-                  # Run only when TOML files in card_data/ change
-                  files = "^card_data/";
-                  types = [ "toml" ];
-                  pass_filenames = false; # The script reads the directory directly
-                };
               };
             };
           };
