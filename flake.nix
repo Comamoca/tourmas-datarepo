@@ -70,6 +70,23 @@
                   language = "system";
                   types = [ "text" ];
                 };
+                # Validate card data using the devenv environment
+                validate-card-data = {
+                  enable = true;
+                  name = "Validate Card Data";
+                  # Wrap the command in a script executed by the devenv shell
+                  entry = "${config.devenv.shells.default.pkgs.writeShellScript "validate-card-data-hook" ''
+                    set -e
+                    echo "Running card data validation hook..."
+                    # Ensure we are in the project root relative to the script
+                    cd "$(${pkgs.git}/bin/git rev-parse --show-toplevel)"
+                    uv run python ./validators/card_data.py
+                  ''}/bin/validate-card-data-hook";
+                  language = "script"; # The entry is now a script path
+                  files = "^card_data/"; # Regex matching files in card_data/
+                  types = [ "toml" ];    # Only trigger for toml files
+                  pass_filenames = false; # The script doesn't take filenames as args
+                };
               };
             };
           };
