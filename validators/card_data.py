@@ -1,3 +1,4 @@
+import re # 正規表現モジュールをインポート
 import sys
 import tomllib
 from pathlib import Path
@@ -100,9 +101,13 @@ def validate_toml_file(file_path: Path) -> List[str]:
         errors.append(f"Error in {file_path}: TOML root must be a table (dictionary).")
         return errors
 
+    # 正規表現パターンを定義 (IMT-XX-XXX)
+    card_id_pattern = re.compile(r"^IMT-\d{2}-\d{3}$")
+
     for card_id, card_list in data.items():
-        if not card_id.startswith("IMT-"):
-             errors.append(f"Error in {file_path}: Invalid card ID format '{card_id}'. Must start with 'IMT-'.")
+        # カードIDのフォーマットを正規表現でチェック
+        if not card_id_pattern.match(card_id):
+             errors.append(f"Error in {file_path}: Invalid card ID format '{card_id}'. Must match 'IMT-XX-XXX'.")
              # Continue validation if possible, but log the ID error
 
         if not isinstance(card_list, list):
