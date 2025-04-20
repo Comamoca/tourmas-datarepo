@@ -3,7 +3,7 @@ import re
 import sys
 import tomllib
 from pathlib import Path
-from typing import Dict, List, Literal, Optional, Union
+from typing import List, Literal, Optional
 
 from pydantic import BaseModel, ValidationError, field_validator
 
