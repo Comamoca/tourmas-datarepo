@@ -9,3 +9,15 @@ type = "costume"
 vocal = 1373
 dance = 1226
 visual = 1481
+
+[[IMT-01-007]]
+card_name = "デイアフターデイAMCG"
+idol_name = "天海 春香"
+rarity = "SSR"
+text = "みんなと一緒なら⋯⋯どこまでもいけますっ♪"
+subject = "unique"
+type = "costume"
+[IMT-01-007.appeal_value]
+vocal = 1400
+dance = 1306
+visual = 1334
