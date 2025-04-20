@@ -6,3 +6,12 @@ text = "ようこそ、お花の国へ！なーんちゃって・・・えへへ
 subject = "everyone"
 type = "accessory"
 body_part = "head"
+
+[[IMT-01-025]]
+card_name = "花の冠（青）"
+idol_name = "島村 卯月"
+rarity = "SR"
+text = "ようこそ、お花の国へ！なーんちゃって・・・えへへ♪"
+subject = "everyone"
+type = "accessory"
+body_part = "head"
