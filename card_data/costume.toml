@@ -21,3 +21,15 @@ type = "costume"
 vocal = 1400
 dance = 1306
 visual = 1334
+
+[[IMT-01-011]]
+card_name = "ノーブルプライド"
+idol_name = "天道 輝"
+rarity = "SSR"
+text = "さぁ、フェスの始まりだ！最後までついてきてくれよな！"
+subject = "unique"
+type = "costume"
+[IMT-01-007.appeal_value]
+vocal = 1333
+dance = 1414
+visual = 1293
