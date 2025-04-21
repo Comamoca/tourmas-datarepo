@@ -33,3 +33,15 @@ type = "costume"
 vocal = 1333
 dance = 1414
 visual = 1293
+
+[[IMT-01-015]]
+card_name = "トワイライトダンス"
+idol_name = "最上 静香"
+rarity = "SSR"
+text = "黄昏の饗宴へようこそ。 魂をふるわせてあげるわ･･･！"
+subject = "everyone"
+type = "costume"
+[IMT-01-015.appeal_value]
+vocal = 1209
+dance = 1053
+visual = 1638
