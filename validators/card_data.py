@@ -139,8 +139,6 @@ def validate_toml_file(file_path: Path) -> List[str]:
             data = tomllib.load(f)
     except tomllib.TOMLDecodeError as e:
         # Add line number information if possible, though tomllib doesn't easily provide it
-        errors.append(f"Error decoding TOML in {file_path}: {e}")
-        return errors
         errors.append(f"Error decoding TOML in {file_path.name}: {e}")
         # If TOML decoding fails, further validation is likely impossible or misleading.
         return errors
@@ -211,7 +209,7 @@ def validate_toml_file(file_path: Path) -> List[str]:
                 # if card_type in ["support", "sp_appeal", "costume"] and "body_part" in card_data:
                 #     errors.append(
                 #         f"Error in {file_path.name}, ID '{card_id}', item {index + 1}: Field 'body_part' is not allowed for type '{card_type}'."
-                         )
+                #     )
 
 
             except ValidationError as e:
