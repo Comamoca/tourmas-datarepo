@@ -1,3 +1,4 @@
-.aider*
+.aider*/
+!.aiderrules
 .devenv
 .direnv
