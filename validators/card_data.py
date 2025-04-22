@@ -1,10 +1,10 @@
-import re # 正規表現モジュールをインポート
+import re
 import sys
 import tomllib
 from pathlib import Path
 from typing import List, Literal, Optional
 
-from pydantic import BaseModel, ValidationError, field_validator, Field
+from pydantic import BaseModel, Field, ValidationError, field_validator
 
 
 # --- Pydantic Models ---
