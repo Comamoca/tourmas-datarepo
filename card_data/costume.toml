@@ -29,7 +29,7 @@ rarity = "SSR"
 text = "さぁ、フェスの始まりだ！最後までついてきてくれよな！"
 subject = "unique"
 type = "costume"
-[IMT-01-007.appeal_value]
+[IMT-01-011.appeal_value]
 vocal = 1333
 dance = 1414
 visual = 1293
@@ -45,3 +45,51 @@ type = "costume"
 vocal = 1209
 dance = 1053
 visual = 1638
+
+[[IMT-01-015]]
+card_name = "トワイライトダンス"
+idol_name = "最上 静香"
+rarity = "SSR"
+text = "黄昏の饗宴へようこそ。 魂をふるわせてあげるわ･･･！"
+subject = "everyone"
+type = "costume"
+[IMT-01-015.appeal_value]
+vocal = 1209
+dance = 1053
+visual = 1638
+
+[[IMT-01-016]]
+card_name = "トワイライトダンス"
+idol_name = "桜庭 薫"
+rarity = "SSR"
+text = "饗宴の準備は整った。宵闇が深まる迄もてなそう。"
+subject = "everyone"
+type = "costume"
+[IMT-01-016.appeal_value]
+vocal = 1209
+dance = 1053
+visual = 1638
+
+[[IMT-01-017]]
+card_name = "ディープワイヤード"
+idol_name = "風野 灯織"
+rarity = "SSR"
+text = "どうでしょう？⋯⋯似合っていますか？"
+subject = "everyone"
+type = "costume"
+[IMT-01-017.appeal_value]
+vocal = 1071
+dance = 1632
+visual = 1122
+
+[[IMT-01-018]]
+card_name = "ディープワイヤード"
+idol_name = "桜 庭薫"
+rarity = "SSR"
+text = "安心してくれ。どんな仕事も完ぺきにこなしてみせる。"
+subject = "everyone"
+type = "costume"
+[IMT-01-018.appeal_value]
+vocal = 1071
+dance = 1632
+visual = 1122
