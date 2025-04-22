@@ -8,7 +8,7 @@
 
 <img src="https://emoji2svg.deno.dev/api/🦊" alt="eyecatch" height="100">
 
-# toursmas-datarepo
+# tourmas-datarepo
 
 ツアマスに関するデータを集めたリポジトリです。
 
