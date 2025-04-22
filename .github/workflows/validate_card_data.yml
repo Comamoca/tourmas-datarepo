@@ -1,0 +1,22 @@
+name: Validate Card Data
+
+on:
+  push:
+    branches:
+      - main # またはデフォルトブランチ名
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Nix
+        uses: cachix/install-nix-action@v31
+        with:
+          github_access_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Validate card data
+        run: nix develop --command uv run python validators/card_data.py
