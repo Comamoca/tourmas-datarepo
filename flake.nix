@@ -94,6 +94,8 @@
           # When execute `nix develop`, you go in shell installed nil.
           devenv.shells.default = {
             packages = with pkgs; [
+	      # For aider
+	      playwright
 	      ruff
               nil
             ];
