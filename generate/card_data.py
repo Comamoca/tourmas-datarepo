@@ -26,7 +26,9 @@ def convert_toml_to_json(toml_dir: str, json_file_path: str) -> None:
                     elif isinstance(toml_data, list):
                         all_card_data.extend(toml_data)
                     else:
-                        print(f"Unexpected data structure in {filename}")
+                        print(
+                            f"Unexpected data structure in {filename}"
+                        )  # Enhanced logging
             except Exception as e:
                 print(f"Error reading {filename}: {e}")
                 continue
@@ -39,7 +41,8 @@ def convert_toml_to_json(toml_dir: str, json_file_path: str) -> None:
         print(f"Successfully converted TOML files to {json_file_path}")
         print(f"JSON file created at: {os.path.abspath(json_file_path)}")
     except Exception as e:
-        print(f"Error writing to {json_file_path}: {e}")
+        print(f"Error writing to {json_file_path}: {e}")  # Enhanced logging
+        print(f"Exception details: {e}")
 
 
 if __name__ == "__main__":
