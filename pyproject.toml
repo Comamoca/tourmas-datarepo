@@ -17,3 +17,6 @@ select = ["E", "F"]
 ignore = []
 extend-select = []
 extend-ignore = []
+
+[dependency-groups]
+dev = ["python-lsp-server>=1.12.2"]
