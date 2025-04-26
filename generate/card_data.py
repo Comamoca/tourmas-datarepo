@@ -23,7 +23,11 @@ def convert_toml_to_json(toml_dir: str, json_file_path: str) -> None:
                     with open(file_path, "r", encoding="utf-8") as f:
                         toml_data = toml.load(f)
                         if isinstance(toml_data, dict):
-                            all_card_data.extend(toml_data.values())
+                            for value in toml_data.values():
+                                if isinstance(value, list):
+                                    all_card_data.extend(value)
+                                else:
+                                    all_card_data.append(value)
                         elif isinstance(toml_data, list):
                             all_card_data.extend(toml_data)
                         else:
