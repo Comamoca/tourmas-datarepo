@@ -68,8 +68,13 @@ class CostumeCard(BaseCard):
     """Model for 'costume' type cards."""
     type: Literal["costume"]
     appeal: AppealValue # Renamed from appeal_value
-    skill: Skill # Added skill field
+    # skill: Skill # Removed as costume cards don't have skills according to user feedback
     # subject is inherited from BaseCard
+    # Ensure other type-specific fields are not present
+    skill: Optional[Skill] = Field(None, exclude=True)
+    support_skill: Optional[SupportSkill] = Field(None, exclude=True)
+    sp_appeal: Optional[SpAppeal] = Field(None, exclude=True)
+    body_part: Optional[str] = Field(None, exclude=True)
 
 
 class AccessoryCard(BaseCard):
