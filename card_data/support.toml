@@ -6,6 +6,6 @@ rarity = "SSR"
 text = "この特別なステージで、私たちの全力を見せるよ。"
 type = "support"
 subject = "everyone"
-[support_skill]
+[card.support_skill]
 name = "all you've got"
 description = "rhythm" # Using the value from support_effects as description, might need refinement

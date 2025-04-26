@@ -6,9 +6,9 @@ rarity = "SSR"
 text = "オレたちの歌をステージいっぱいに響かせます！"
 type = "sp_appeal"
 subject = "everyone"
-[sp_appeal]
+[card.sp_appeal]
 name = "ソングオブピース"
-description = "成功判定のコンボ数UP(中)" # Using first element from rhythm_live_effects as description
+description = "成功判定のコンボ数UP(中)"
 
 [[card]]
 id = "IMT-01-084"
@@ -18,6 +18,6 @@ rarity = "SR"
 text = "みんなが笑顔になるステージわたしたちならきっとできるよ！"
 type = "sp_appeal"
 subject = "everyone"
-[sp_appeal]
+[card.sp_appeal]
 name = "パーティータイム"
-description = "このカードを使用するとSPアピールを変更できます。" # Using first element from rhythm_live_effects as description
+description = "このカードを使用するとSPアピールを変更できます。"
