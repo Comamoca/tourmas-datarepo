@@ -61,7 +61,6 @@ class SupportSkill(BaseModel):
 
 class SpAppeal(BaseModel):
     """Model for SP appeal name and effect (used by SpAppeal)."""
-    name: str
     effect: List[str]
 
 
