@@ -60,9 +60,9 @@ class SupportSkill(BaseModel):
 
 
 class SpAppeal(BaseModel):
-    """Model for SP appeal name and description (used by SpAppeal)."""
+    """Model for SP appeal name and effect (used by SpAppeal)."""
     name: str
-    description: str
+    effect: List[str]
 
 
 class CostumeCard(BaseCard):
@@ -102,10 +102,13 @@ class SupportCard(BaseCard):
 
 class SpAppealCard(BaseCard):
     """Model for 'sp_appeal' type cards."""
+
     type: Literal["sp_appeal"]
-    sp_appeal: SpAppeal # Renamed from rhythm_live_effects, now a structured model
+    sp_appeal: SpAppeal  # Renamed from rhythm_live_effects, now a structured model
     # subject is inherited from BaseCard
-    appeal: Optional[AppealValue] = Field(None, exclude=True) # Ensure appeal is NOT present
+    appeal: Optional[AppealValue] = Field(
+        None, exclude=True
+    )  # Ensure appeal is NOT present
     skill: Optional[Skill] = Field(None, exclude=True) # Ensure skill is NOT present
     body_part: Optional[str] = Field(None, exclude=True) # Ensure body_part is NOT present
     support_skill: Optional[SupportSkill] = Field(None, exclude=True) # Ensure support_skill is NOT present
