@@ -7,7 +7,7 @@ text = "オレたちの歌をステージいっぱいに響かせます！"
 type = "sp_appeal"
 subject = "everyone"
 [card.sp_appeal]
-description = ["成功判定のコンボ数UP(中)"]
+effect = ["成功判定のコンボ数UP(中)"]
 
 [[card]]
 id = "IMT-01-084"
@@ -18,7 +18,7 @@ text = "みんなが笑顔になるステージわたしたちならきっとで
 type = "sp_appeal"
 subject = "everyone"
 [card.sp_appeal]
-description = ["全ての判定がPERFECTになる"]
+effect = ["全ての判定がPERFECTになる"]
 
 [[card]]
 id = "IMT-01-085"
@@ -29,17 +29,104 @@ text = "みんなと作る最高のステージ見逃がさないでください
 type = "sp_appeal"
 subject = "female"
 [card.sp_appeal]
-description = ["GOOD以上判定時のスコアUP(小)"]
+effect = ["GOOD以上判定時のスコアUP(小)"] 
 
 
-# [[card]]
-# id = "IMT-01-086"
-# name = "トリオザベスト"
-# idol = "春日 未来"
-# rarity = "SR"
-# text = "みんなと作る最高のステージ見逃がさないでくださいね！"
-# type = "sp_appeal"
-# subject = "female"
-# [card.sp_appeal]
-# name = "パーティータイム"
-# description = ["GOOD以上判定時のスコアUP(小)"] 
+[[card]]
+id = "IMT-01-086"
+name = "ゲンキの魔法☆"
+idol = "本田 未央"
+rarity = "SR"
+text = "みんな、ちゅうもーく☆"
+type = "sp_appeal"
+subject = "uniq"
+[card.sp_appeal]
+effect = ["GOOD以上判定のスコアUP(小)", "FEAVERゲージ上昇率UP(小)" ] 
+
+[[card]]
+id = "IMT-01-087"
+name = "addicted♡"
+idol = "伊吹 翼"
+rarity = "SR"
+text = "わたしから目を離しちゃだめですよ♪ちゃーんと見ててね？"
+type = "sp_appeal"
+subject = "uniq"
+[card.sp_appeal]
+effect = ["コンボに応じてスコア獲得(大)するが、残りのSPアピール個数を1回消費する", "※SPアピールが消費できない場合、効果は発動しない"] 
+
+[[card]]
+id = "IMT-01-088"
+name = "グッとしてGOOD‼"
+idol = "天道 輝"
+rarity = "SR"
+text = "みんな、待たせたな！アイドル界の一番星になる男、天道輝だ！"
+type = "sp_appeal"
+subject = "uniq"
+[card.sp_appeal]
+effect = ["GOOD以上判定時のスコア上昇(大)するが、FEAVERゲージを消費する(中)", "※FEAVERゲージが消費できない場合、効果は発動しない"] 
+
+[[card]]
+id = "IMT-01-089"
+name = "Buddy☆Bang"
+idol = "星井 美希"
+rarity = "R"
+text = "ミキたちのパフォーマンスでハートを狙い撃ちなのっ☆"
+type = "sp_appeal"
+subject = "female"
+[card.sp_appeal]
+effect = ["PERFECT判定時のスコアUP(小)"] 
+
+[[card]]
+id = "IMT-01-090"
+name = "スカイハイ！"
+idol = "最上 静香"
+rarity = "R"
+text = "会場中のファンのみなさんに見てもらえるようにもっと高く！"
+type = "sp_appeal"
+subject = "everyone"
+[card.sp_appeal]
+effect = ["GREAT以上判定時のスコアUP(小)"] 
+
+[[card]]
+id = "IMT-01-091"
+name = "Flower blow"
+idol = "天海 春香"
+rarity = "R"
+text = "みなさんに、素敵な春！届きますように。"
+type = "sp_appeal"
+subject = "female"
+[card.sp_appeal]
+effect = ["FEAVERゲージ上昇率UP(小)"] 
+
+[[card]]
+id = "IMT-01-092"
+name = "We are 315!!"
+idol = "桜庭 薫"
+rarity = "R"
+text = "コンディションは抜群だ。最高のパフォーマンスを見せよう。"
+type = "sp_appeal"
+subject = "male"
+[card.sp_appeal]
+effect = ["MISS判定でもコンボが継続する"] 
+
+[[card]]
+id = "IMT-01-093"
+name = "ラブリー♡エフェクト"
+idol = "櫻木 真乃"
+rarity = "N"
+text = "みなさんが一緒に楽しんでくれると嬉しいですっ"
+type = "sp_appeal"
+subject = "everyone"
+[card.sp_appeal]
+effect = ["GOOD以上判定時のスコアUP(小)するが、FEAVERゲージを消費する(極小)", "※FEAVERゲージが消費できない場合、効果は発動しない"]
+
+[[card]]
+id = "IMT-01-094"
+name = "スカイアングル"
+idol = "風野 灯織"
+rarity = "N"
+text = "この距離なら、手が届きますか。"
+type = "sp_appeal"
+subject = "everyone"
+[card.sp_appeal]
+effect = ["GOOD判定以上のスコアUP(小)", "判定が長くなる(極小)"]
