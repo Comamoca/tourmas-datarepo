@@ -29,8 +29,7 @@ text = "みんなと作る最高のステージ見逃がさないでください
 type = "sp_appeal"
 subject = "female"
 [card.sp_appeal]
-name = "パーティータイム"
-description = ["GOOD以上判定時のスコアUP(小)"] 
+description = ["GOOD以上判定時のスコアUP(小)"]
 
 
 # [[card]]
