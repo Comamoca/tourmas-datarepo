@@ -1,8 +1,11 @@
-[[IMT-01-054]]
-card_name = "all you've got"
-idol_name = "渋谷 凛"
+[[card]]
+id = "IMT-01-054"
+name = "all you've got"
+idol = "渋谷 凛"
 rarity = "SSR"
 text = "この特別なステージで、私たちの全力を見せるよ。"
-support_effects = "rhythm"
 type = "support"
 subject = "everyone"
+[support_skill]
+name = "all you've got"
+description = "rhythm" # Using the value from support_effects as description, might need refinement

@@ -1,103 +1,97 @@
 [[card]]
-card_id = "IMT-01-001"
-card_name = "アテンダントツアラー"
-idol_name = "天海 春香"
+id = "IMT-01-001"
+name = "アテンダントツアラー"
+idol = "天海 春香"
 rarity = "SSR"
 text = "これが私たちみんなで届ける最高のライブなんですっ♪"
 subject = "everyone"
 type = "costume"
-[card.appeal_value] # Use single brackets for a table, not double for array of tables
+[appeal]
 vocal = 1373
 dance = 1226
 visual = 1481
+# TODO: Add skill table [skill] with name and description
 
 [[card]]
-card_id = "IMT-01-007"
-card_name = "デイアフターデイAMCG"
-idol_name = "天海 春香"
+id = "IMT-01-007"
+name = "デイアフターデイAMCG"
+idol = "天海 春香"
 rarity = "SSR"
 text = "みんなと一緒なら⋯⋯どこまでもいけますっ♪"
 subject = "unique"
 type = "costume"
-[card.appeal_value]
+[appeal]
 vocal = 1400
 dance = 1306
 visual = 1334
+# TODO: Add skill table [skill] with name and description
 
 [[card]]
-card_id = "IMT-01-011"
-card_name = "ノーブルプライド"
-idol_name = "天道 輝"
+id = "IMT-01-011"
+name = "ノーブルプライド"
+idol = "天道 輝"
 rarity = "SSR"
 text = "さぁ、フェスの始まりだ！最後までついてきてくれよな！"
 subject = "unique"
 type = "costume"
-[card.appeal_value]
+[appeal]
 vocal = 1333
 dance = 1414
 visual = 1293
+# TODO: Add skill table [skill] with name and description
 
 [[card]]
-card_id = "IMT-01-015"
-card_name = "トワイライトダンス"
-idol_name = "最上 静香"
+id = "IMT-01-015"
+name = "トワイライトダンス"
+idol = "最上 静香"
 rarity = "SSR"
 text = "黄昏の饗宴へようこそ。 魂をふるわせてあげるわ･･･！"
 subject = "everyone"
 type = "costume"
-[card.appeal_value]
+[appeal]
 vocal = 1209
 dance = 1053
 visual = 1638
+# TODO: Add skill table [skill] with name and description
 
 [[card]]
-card_id = "IMT-01-015"
-card_name = "トワイライトダンス"
-idol_name = "最上 静香"
-rarity = "SSR"
-text = "黄昏の饗宴へようこそ。 魂をふるわせてあげるわ･･･！"
-subject = "everyone"
-type = "costume"
-[card.appeal_value]
-vocal = 1209
-dance = 1053
-visual = 1638
-
-[[card]]
-card_id = "IMT-01-016"
-card_name = "トワイライトダンス"
-idol_name = "桜庭 薫"
+id = "IMT-01-016"
+name = "トワイライトダンス"
+idol = "桜庭 薫"
 rarity = "SSR"
 text = "饗宴の準備は整った。宵闇が深まる迄もてなそう。"
 subject = "everyone"
 type = "costume"
-[card.appeal_value]
+[appeal]
 vocal = 1209
 dance = 1053
 visual = 1638
+# TODO: Add skill table [skill] with name and description
 
 [[card]]
-card_id = "IMT-01-017"
-card_name = "ディープワイヤード"
-idol_name = "風野 灯織"
+id = "IMT-01-017"
+name = "ディープワイヤード"
+idol = "風野 灯織"
 rarity = "SSR"
 text = "どうでしょう？⋯⋯似合っていますか？"
 subject = "everyone"
 type = "costume"
-[card.appeal_value]
+[appeal]
 vocal = 1071
 dance = 1632
 visual = 1122
+# TODO: Add skill table [skill] with name and description
 
 [[card]]
-card_id = "IMT-01-018"
-card_name = "ディープワイヤード"
-idol_name = "桜 庭薫"
+id = "IMT-01-018"
+name = "ディープワイヤード"
+idol = "桜 庭薫" # Note: Original data had a space before 薫, keeping it for now but might need correction
 rarity = "SSR"
 text = "安心してくれ。どんな仕事も完ぺきにこなしてみせる。"
 subject = "everyone"
 type = "costume"
-[card.appeal_value]
+[appeal]
 vocal = 1071
 dance = 1632
 visual = 1122
+# TODO: Add skill table [skill] with name and description
