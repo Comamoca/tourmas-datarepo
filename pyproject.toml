@@ -13,3 +13,9 @@ line-length = 80
 
 [tool.ruff.format]
 docstring-code-format = true
+
+[tool.ruff.flake8]
+select = ["E", "F"]
+ignore = []
+extend-select = []
+extend-ignore = []
