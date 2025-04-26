@@ -7,8 +7,7 @@ text = "オレたちの歌をステージいっぱいに響かせます！"
 type = "sp_appeal"
 subject = "everyone"
 [card.sp_appeal]
-name = "ソングオブピース"
-description = "成功判定のコンボ数UP(中)"
+description = ["成功判定のコンボ数UP(中)"]
 
 [[card]]
 id = "IMT-01-084"
@@ -19,5 +18,29 @@ text = "みんなが笑顔になるステージわたしたちならきっとで
 type = "sp_appeal"
 subject = "everyone"
 [card.sp_appeal]
+description = ["全ての判定がPERFECTになる"]
+
+[[card]]
+id = "IMT-01-085"
+name = "トリオザベスト"
+idol = "春日 未来"
+rarity = "SR"
+text = "みんなと作る最高のステージ見逃がさないでくださいね！"
+type = "sp_appeal"
+subject = "female"
+[card.sp_appeal]
 name = "パーティータイム"
-description = "このカードを使用するとSPアピールを変更できます。"
+description = ["GOOD以上判定時のスコアUP(小)"] 
+
+
+# [[card]]
+# id = "IMT-01-086"
+# name = "トリオザベスト"
+# idol = "春日 未来"
+# rarity = "SR"
+# text = "みんなと作る最高のステージ見逃がさないでくださいね！"
+# type = "sp_appeal"
+# subject = "female"
+# [card.sp_appeal]
+# name = "パーティータイム"
+# description = ["GOOD以上判定時のスコアUP(小)"] 
