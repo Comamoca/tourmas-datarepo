@@ -125,7 +125,7 @@ def validate_toml_file(file_path: Path) -> List[str]:
     """Validates a single TOML file against the appropriate Pydantic model."""
     errors: List[str] = []
     print(f"Validating {file_path}...")
-    card_ids = set()  # カードIDを格納するセット
+    card_ids: set[str] = set()  # カードIDを格納するセット
 
     try:
         with open(file_path, "rb") as f:
@@ -148,18 +148,13 @@ def validate_toml_file(file_path: Path) -> List[str]:
         errors.append(f"Error in {file_path.name}: TOML root must be a table (dictionary).")
         return errors
 
-    # --- Data Structure Validation ---
-    if not isinstance(data, dict):
-        errors.append(f"Error in {file_path.name}: TOML root must be a table (dictionary).")
-        return errors
-
     # Check for [[card]] format (This is the only supported format now)
     if "card" not in data:
         errors.append(f"Error in {file_path.name}: Missing '[[card]]' array definition. Data must be defined as an array of tables under the 'card' key.")
         # If 'card' key doesn't exist, but the file is not empty, it's an error.
         if data:
-             errors.append(f"Info: Found top-level keys {list(data.keys())} instead of '[[card]]'.")
-        return errors # Cannot proceed without [[card]]
+            errors.append(f"Info: Found top-level keys {list(data.keys())} instead of '[[card]]'.")
+        return errors  # Cannot proceed without [[card]]
 
     card_list = data["card"]
     if not isinstance(card_list, list):
@@ -167,21 +162,21 @@ def validate_toml_file(file_path: Path) -> List[str]:
         return errors
     if not card_list:
         print(f"Info: {file_path.name} contains 'card = []' but no card entries.")
-        return errors # No cards to validate, but not an error state itself.
+        return errors  # No cards to validate, but not an error state itself.
 
     # --- Validate each card in [[card]] list ---
     for index, card_data in enumerate(card_list):
         item_description = f"[[card]] item {index + 1}"
         if not isinstance(card_data, dict):
             errors.append(f"Error in {file_path.name}, {item_description}: Expected a table, found {type(card_data).__name__}.")
-            continue # Skip this item, check others
+            continue  # Skip this item, check others
 
         # 'id' must exist within the table for [[card]] format
         if "id" not in card_data:
-             errors.append(f"Error in {file_path.name}, {item_description}: Missing 'id' field.")
-             continue # Cannot proceed validation for this item without id
+            errors.append(f"Error in {file_path.name}, {item_description}: Missing 'id' field.")
+            continue  # Cannot proceed validation for this item without id
 
-        card_id = card_data.get("id", "UNKNOWN_ID") # Get id for error reporting, use placeholder if missing
+        card_id = card_data.get("id", "UNKNOWN_ID")  # Get id for error reporting, use placeholder if missing
 
         if card_id in card_ids:
             errors.append(f"Error in {file_path.name}, {item_description}: Duplicate card ID '{card_id}'")
