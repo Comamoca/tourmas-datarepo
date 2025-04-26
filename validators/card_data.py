@@ -123,8 +123,9 @@ CARD_MODELS = {
 
 def validate_toml_file(file_path: Path) -> List[str]:
     """Validates a single TOML file against the appropriate Pydantic model."""
-    errors = []
+    errors: List[str] = []
     print(f"Validating {file_path}...")
+    card_ids = set()  # カードIDを格納するセット
 
     try:
         with open(file_path, "rb") as f:
@@ -181,6 +182,12 @@ def validate_toml_file(file_path: Path) -> List[str]:
              continue # Cannot proceed validation for this item without id
 
         card_id = card_data.get("id", "UNKNOWN_ID") # Get id for error reporting, use placeholder if missing
+
+        if card_id in card_ids:
+            errors.append(f"Error in {file_path.name}, {item_description}: Duplicate card ID '{card_id}'")
+        else:
+            card_ids.add(card_id)
+
         _validate_single_card(file_path.name, item_description, card_id, card_data, errors)
 
     return errors
