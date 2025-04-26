@@ -18,5 +18,8 @@ jobs:
         with:
           github_access_token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Format code with ruff
+        run: nix develop --command uv run ruff format validators/card_data.py
+
       - name: Validate card data
         run: nix develop --command uv run python validators/card_data.py
