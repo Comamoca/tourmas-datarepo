@@ -37,6 +37,7 @@ def convert_toml_to_json(toml_dir: str, json_file_path: str) -> None:
         with open(json_file_path, "w", encoding="utf-8") as f:
             json.dump(output_data, f, indent=4, ensure_ascii=False)
         print(f"Successfully converted TOML files to {json_file_path}")
+        print(f"JSON file created at: {os.path.abspath(json_file_path)}")
     except Exception as e:
         print(f"Error writing to {json_file_path}: {e}")
 
