@@ -15,23 +15,28 @@ def convert_toml_to_json(toml_dir: str, json_file_path: str) -> None:
         json_file_path: The output JSON file path.
     """
     all_card_data = []
-    for filename in os.listdir(toml_dir):
-        if filename.endswith(".toml"):
-            file_path = os.path.join(toml_dir, filename)
-            try:
-                with open(file_path, "r", encoding="utf-8") as f:
-                    toml_data = toml.load(f)
-                    if isinstance(toml_data, dict):
-                        all_card_data.extend(toml_data.values())
-                    elif isinstance(toml_data, list):
-                        all_card_data.extend(toml_data)
-                    else:
-                        print(
-                            f"Unexpected data structure in {filename}"
-                        )  # Enhanced logging
-            except Exception as e:
-                print(f"Error reading {filename}: {e}")
-                continue
+    try:
+        for filename in os.listdir(toml_dir):
+            if filename.endswith(".toml"):
+                file_path = os.path.join(toml_dir, filename)
+                try:
+                    with open(file_path, "r", encoding="utf-8") as f:
+                        toml_data = toml.load(f)
+                        if isinstance(toml_data, dict):
+                            all_card_data.extend(toml_data.values())
+                        elif isinstance(toml_data, list):
+                            all_card_data.extend(toml_data)
+                        else:
+                            print(
+                                f"Unexpected data structure in {filename}"
+                            )  # Enhanced logging
+                except Exception as e:
+                    print(f"Error reading {filename}: {e}")
+                    continue
+    except FileNotFoundError as e:
+        print(f"Error: TOML directory not found: {toml_dir}")
+        print(f"Exception details: {e}")
+        return
 
     output_data = {"data": all_card_data}
 
