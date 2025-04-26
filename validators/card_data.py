@@ -11,31 +11,31 @@ from pydantic import BaseModel, Field, ValidationError, field_validator
 
 class BaseCard(BaseModel):
     """Base model for all card types, containing common fields."""
-    card_id: str # Added card_id field
-    card_name: str
-    idol_name: str
+    id: str # Changed from card_id
+    name: str # Changed from card_name
+    idol: str # Changed from idol_name
     rarity: Literal["N", "R", "SR", "SSR"]
     text: str
     type: Literal["costume", "accessory", "support", "sp_appeal"]
     subject: Literal["everyone", "female", "male", "unique"] | str # Common but handled in subtypes for specific rules if needed
 
-    @field_validator("idol_name")
+    @field_validator("idol")
     @classmethod
     def check_idol_name_format(cls, value: str) -> str:
-        """Ensure idol_name has a space between first and last name."""
+        """Ensure idol has a space between first and last name."""
         if " " not in value.strip():
             # Allow single names (like 'P') for now, adjust if needed
             if len(value.strip().split()) == 1:
                  return value
-            raise ValueError("idol_name must contain a space between first and last name.")
+            raise ValueError("idol must contain a space between first and last name.")
         return value
 
-    @field_validator("card_id")
+    @field_validator("id")
     @classmethod
     def check_card_id_format(cls, value: str) -> str:
-        """Ensure card_id follows the IMT-XX-XXX format."""
+        """Ensure id follows the IMT-XX-XXX format."""
         if not re.match(r"^IMT-\d{2}-\d{3}$", value):
-            raise ValueError("card_id must be in the format IMT-XX-XXX")
+            raise ValueError("id must be in the format IMT-XX-XXX")
         return value
 
 
@@ -46,10 +46,29 @@ class AppealValue(BaseModel):
     visual: int = Field(..., ge=0)
 
 
+class Skill(BaseModel):
+    """Model for skill name and description (used by Costume)."""
+    name: str
+    description: str
+
+
+class SupportSkill(BaseModel):
+    """Model for support skill name and description (used by Support)."""
+    name: str
+    description: str
+
+
+class SpAppeal(BaseModel):
+    """Model for SP appeal name and description (used by SpAppeal)."""
+    name: str
+    description: str
+
+
 class CostumeCard(BaseCard):
     """Model for 'costume' type cards."""
     type: Literal["costume"]
-    appeal_value: AppealValue
+    appeal: AppealValue # Renamed from appeal_value
+    skill: Skill # Added skill field
     # subject is inherited from BaseCard
 
 
@@ -58,25 +77,32 @@ class AccessoryCard(BaseCard):
     type: Literal["accessory"]
     body_part: Literal["head", "face", "hand", "body", "waist", "leg"]
     # subject is inherited from BaseCard
-    appeal_value: Optional[AppealValue] = Field(None, exclude=True) # Ensure appeal_value is NOT present
+    appeal: Optional[AppealValue] = Field(None, exclude=True) # Ensure appeal is NOT present
+    skill: Optional[Skill] = Field(None, exclude=True) # Ensure skill is NOT present
+    support_skill: Optional[SupportSkill] = Field(None, exclude=True) # Ensure support_skill is NOT present
+    sp_appeal: Optional[SpAppeal] = Field(None, exclude=True) # Ensure sp_appeal is NOT present
 
 
 class SupportCard(BaseCard):
     """Model for 'support' type cards."""
     type: Literal["support"]
-    support_effects: str # Keep as string for now, can be refined if structure is known
+    support_skill: SupportSkill # Renamed from support_effects, now a structured model
     # subject is inherited from BaseCard
-    appeal_value: Optional[AppealValue] = Field(None, exclude=True) # Ensure appeal_value is NOT present
+    appeal: Optional[AppealValue] = Field(None, exclude=True) # Ensure appeal is NOT present
+    skill: Optional[Skill] = Field(None, exclude=True) # Ensure skill is NOT present
     body_part: Optional[str] = Field(None, exclude=True) # Ensure body_part is NOT present
+    sp_appeal: Optional[SpAppeal] = Field(None, exclude=True) # Ensure sp_appeal is NOT present
 
 
 class SpAppealCard(BaseCard):
     """Model for 'sp_appeal' type cards."""
     type: Literal["sp_appeal"]
-    rhythm_live_effects: List[str]
+    sp_appeal: SpAppeal # Renamed from rhythm_live_effects, now a structured model
     # subject is inherited from BaseCard
-    appeal_value: Optional[AppealValue] = Field(None, exclude=True) # Ensure appeal_value is NOT present
+    appeal: Optional[AppealValue] = Field(None, exclude=True) # Ensure appeal is NOT present
+    skill: Optional[Skill] = Field(None, exclude=True) # Ensure skill is NOT present
     body_part: Optional[str] = Field(None, exclude=True) # Ensure body_part is NOT present
+    support_skill: Optional[SupportSkill] = Field(None, exclude=True) # Ensure support_skill is NOT present
 
 
 # --- Mapping and Validation Logic ---
@@ -132,15 +158,16 @@ def validate_toml_file(file_path: Path) -> List[str]:
                 errors.append(f"Error in {file_path.name}, {item_description}: Expected a table, found {type(card_data).__name__}.")
                 continue
 
-            # card_id must exist within the table for [[card]] format
-            if "card_id" not in card_data:
-                 errors.append(f"Error in {file_path.name}, {item_description}: Missing 'card_id' field.")
-                 continue # Cannot proceed without card_id
+            # 'id' must exist within the table for [[card]] format
+            if "id" not in card_data:
+                 errors.append(f"Error in {file_path.name}, {item_description}: Missing 'id' field.")
+                 continue # Cannot proceed without id
 
-            card_id = card_data["card_id"] # Use card_id from data for error reporting
+            card_id = card_data["id"] # Use id from data for error reporting
             _validate_single_card(file_path.name, item_description, card_id, card_data, errors)
 
-    # Check for [[IMT-XX-XXX]] format
+    # Check for [[IMT-XX-XXX]] format (This format is deprecated according to docs/rules/card_data.md)
+    # Keeping the logic for now but it might be removed later if the format is fully abandoned.
     else:
         if not data:
             errors.append(f"Warning in {file_path.name}: TOML file is empty or contains no card definitions.")
@@ -148,7 +175,7 @@ def validate_toml_file(file_path: Path) -> List[str]:
 
         # --- Validate each card defined by [[IMT-XX-XXX]] key ---
         for card_id, card_data in data.items():
-            item_description = f"[[{card_id}]]"
+            item_description = f"[[{card_id}]]" # card_id here refers to the TOML key
 
             # Validate the key format itself
             if not re.match(r"^IMT-\d{2}-\d{3}$", card_id):
@@ -160,15 +187,15 @@ def validate_toml_file(file_path: Path) -> List[str]:
                 errors.append(f"Error in {file_path.name}, {item_description}: Expected a table, found {type(card_data).__name__}.")
                 continue
 
-            # Add the key as card_id to the data for Pydantic validation
+            # Add the key as 'id' to the data for Pydantic validation
             card_data_with_id = card_data.copy()
-            card_data_with_id["card_id"] = card_id
+            card_data_with_id["id"] = card_id # Use 'id' field name
             _validate_single_card(file_path.name, item_description, card_id, card_data_with_id, errors)
 
     return errors
 
 
-def _validate_single_card(filename: str, item_desc: str, card_id_str: str, card_data: dict, errors: list):
+def _validate_single_card(filename: str, item_desc: str, card_id: str, card_data: dict, errors: list):
     """Helper function to validate a single card's data using Pydantic."""
     card_type = card_data.get("type")
     if not card_type:
@@ -192,15 +219,16 @@ def _validate_single_card(filename: str, item_desc: str, card_id_str: str, card_
 
     except ValidationError as e:
         for error in e.errors():
-            field_path = " -> ".join(map(str, error["loc"]))
+            # Use '.' for nested fields as is common practice
+            field_path = ".".join(map(str, error["loc"]))
             message = error["msg"]
             input_value = error.get("input", "N/A")
             errors.append(
-                f"Error in {filename}, {item_desc} (ID: {card_id_str}), field '{field_path}': {message} [Input: {input_value}]"
+                f"Error in {filename}, {item_desc} (ID: {card_id}), field '{field_path}': {message} [Input: {input_value}]"
             )
     except Exception as e:
         errors.append(
-            f"Unexpected error during Pydantic validation in {filename}, {item_desc} (ID: {card_id_str}): {e}"
+            f"Unexpected error during Pydantic validation in {filename}, {item_desc} (ID: {card_id}): {e}"
         )
 
 
