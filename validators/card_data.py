@@ -17,7 +17,7 @@ class BaseCard(BaseModel):
     rarity: Literal["N", "R", "SR", "SSR"]
     text: str
     type: Literal["costume", "accessory", "support", "sp_appeal"]
-    subject: Literal["everyone", "female", "male", "unique"] | str # Common but handled in subtypes for specific rules if needed
+    subject: Optional[Literal["everyone", "female", "male", "unique"] | str] = None # Common but handled in subtypes for specific rules if needed
 
     @field_validator("idol")
     @classmethod
