@@ -55,7 +55,7 @@ class Skill(BaseModel):
 class SupportSkill(BaseModel):
     """Model for support skill type and description (used by Support)."""
     # name: str # Removed as it's not present in the updated support.toml example
-    live_type: Literal["rhythm", "create"] # Added based on support.toml and docs
+    live_type: List[Literal["rhythm", "create"]] # Changed from Literal to List[Literal] based on updated support.toml
     description: List[str] # Changed from str to List[str] based on updated support.toml
 
 
