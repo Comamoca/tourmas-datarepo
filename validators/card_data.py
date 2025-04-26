@@ -141,56 +141,41 @@ def validate_toml_file(file_path: Path) -> List[str]:
         errors.append(f"Error in {file_path.name}: TOML root must be a table (dictionary).")
         return errors
 
-    # Check for [[card]] format
-    if "card" in data:
-        card_list = data["card"]
-        if not isinstance(card_list, list):
-            errors.append(f"Error in {file_path.name}: Expected a list under the 'card' key, found {type(card_list).__name__}.")
-            return errors
-        if not card_list:
-            print(f"Info: {file_path.name} contains 'card = []' but no card entries.")
-            return errors
+    # --- Data Structure Validation ---
+    if not isinstance(data, dict):
+        errors.append(f"Error in {file_path.name}: TOML root must be a table (dictionary).")
+        return errors
 
-        # --- Validate each card in [[card]] list ---
-        for index, card_data in enumerate(card_list):
-            item_description = f"[[card]] item {index + 1}"
-            if not isinstance(card_data, dict):
-                errors.append(f"Error in {file_path.name}, {item_description}: Expected a table, found {type(card_data).__name__}.")
-                continue
+    # Check for [[card]] format (This is the only supported format now)
+    if "card" not in data:
+        errors.append(f"Error in {file_path.name}: Missing '[[card]]' array definition. Data must be defined as an array of tables under the 'card' key.")
+        # If 'card' key doesn't exist, but the file is not empty, it's an error.
+        if data:
+             errors.append(f"Info: Found top-level keys {list(data.keys())} instead of '[[card]]'.")
+        return errors # Cannot proceed without [[card]]
 
-            # 'id' must exist within the table for [[card]] format
-            if "id" not in card_data:
-                 errors.append(f"Error in {file_path.name}, {item_description}: Missing 'id' field.")
-                 continue # Cannot proceed without id
+    card_list = data["card"]
+    if not isinstance(card_list, list):
+        errors.append(f"Error in {file_path.name}: Expected a list under the 'card' key, found {type(card_list).__name__}.")
+        return errors
+    if not card_list:
+        print(f"Info: {file_path.name} contains 'card = []' but no card entries.")
+        return errors # No cards to validate, but not an error state itself.
 
-            card_id = card_data["id"] # Use id from data for error reporting
-            _validate_single_card(file_path.name, item_description, card_id, card_data, errors)
+    # --- Validate each card in [[card]] list ---
+    for index, card_data in enumerate(card_list):
+        item_description = f"[[card]] item {index + 1}"
+        if not isinstance(card_data, dict):
+            errors.append(f"Error in {file_path.name}, {item_description}: Expected a table, found {type(card_data).__name__}.")
+            continue # Skip this item, check others
 
-    # Check for [[IMT-XX-XXX]] format (This format is deprecated according to docs/rules/card_data.md)
-    # Keeping the logic for now but it might be removed later if the format is fully abandoned.
-    else:
-        if not data:
-            errors.append(f"Warning in {file_path.name}: TOML file is empty or contains no card definitions.")
-            return errors
+        # 'id' must exist within the table for [[card]] format
+        if "id" not in card_data:
+             errors.append(f"Error in {file_path.name}, {item_description}: Missing 'id' field.")
+             continue # Cannot proceed validation for this item without id
 
-        # --- Validate each card defined by [[IMT-XX-XXX]] key ---
-        for card_id, card_data in data.items():
-            item_description = f"[[{card_id}]]" # card_id here refers to the TOML key
-
-            # Validate the key format itself
-            if not re.match(r"^IMT-\d{2}-\d{3}$", card_id):
-                errors.append(f"Error in {file_path.name}: Invalid key format '{card_id}'. Expected format IMT-XX-XXX.")
-                # Continue checking other keys even if one is invalid
-                continue
-
-            if not isinstance(card_data, dict):
-                errors.append(f"Error in {file_path.name}, {item_description}: Expected a table, found {type(card_data).__name__}.")
-                continue
-
-            # Add the key as 'id' to the data for Pydantic validation
-            card_data_with_id = card_data.copy()
-            card_data_with_id["id"] = card_id # Use 'id' field name
-            _validate_single_card(file_path.name, item_description, card_id, card_data_with_id, errors)
+        card_id = card_data.get("id", "UNKNOWN_ID") # Get id for error reporting, use placeholder if missing
+        _validate_single_card(file_path.name, item_description, card_id, card_data, errors)
 
     return errors
 
