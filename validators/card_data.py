@@ -11,6 +11,7 @@ from pydantic import BaseModel, Field, ValidationError, field_validator
 
 class BaseCard(BaseModel):
     """Base model for all card types, containing common fields."""
+    card_id: str # Added card_id field
     card_name: str
     idol_name: str
     rarity: Literal["N", "R", "SR", "SSR"]
@@ -27,6 +28,14 @@ class BaseCard(BaseModel):
             if len(value.strip().split()) == 1:
                  return value
             raise ValueError("idol_name must contain a space between first and last name.")
+        return value
+
+    @field_validator("card_id")
+    @classmethod
+    def check_card_id_format(cls, value: str) -> str:
+        """Ensure card_id follows the IMT-XX-XXX format."""
+        if not re.match(r"^IMT-\d{2}-\d{3}$", value):
+            raise ValueError("card_id must be in the format IMT-XX-XXX")
         return value
 
 
@@ -85,58 +94,12 @@ def validate_toml_file(file_path: Path) -> List[str]:
     errors = []
     print(f"Validating {file_path}...")
 
-    # --- Text-based pre-validation for nested key consistency ---
-    try:
-        with open(file_path, "r", encoding="utf-8") as f:
-            lines = f.readlines()
-    except FileNotFoundError:
-        errors.append(f"Error: File not found at {file_path}")
-        return errors
-    except Exception as e:
-        errors.append(f"Error reading file {file_path}: {e}")
-        return errors
-
-    current_top_level_key = None
-    # Regex to capture top-level keys like [IMT-XX-XXX] or [[IMT-XX-XXX]]
-    top_level_key_pattern = re.compile(r"^\[{1,2}(IMT-\d{2}-\d{3})\]{1,2}")
-    # Regex to capture nested appeal_value keys like [IMT-XX-XXX.appeal_value]
-    nested_appeal_key_pattern = re.compile(r"^\[(IMT-\d{2}-\d{3})\.appeal_value\]")
-
-    for line_num, line in enumerate(lines):
-        stripped_line = line.strip()
-        if not stripped_line or stripped_line.startswith("#"): # Skip empty lines and comments
-            continue
-
-        top_level_match = top_level_key_pattern.match(stripped_line)
-        if top_level_match:
-            current_top_level_key = top_level_match.group(1)
-            continue # Move to next line after finding a top-level key
-
-        nested_appeal_match = nested_appeal_key_pattern.match(stripped_line)
-        if nested_appeal_match:
-            nested_key_prefix = nested_appeal_match.group(1)
-            if current_top_level_key is None:
-                # Error if a nested key appears before any top-level key
-                errors.append(
-                    f"Error in {file_path.name}, line {line_num + 1}: Nested key '{stripped_line}' found before any top-level key '[IMT-XX-XXX]' or '[[IMT-XX-XXX]]'."
-                )
-            elif nested_key_prefix != current_top_level_key:
-                # Error if the prefix of the nested key does not match the current top-level key
-                errors.append(
-                    f"Error in {file_path.name}, line {line_num + 1}: Key mismatch for nested table. Expected prefix '{current_top_level_key}' but found '{nested_key_prefix}' in '{stripped_line}'."
-                )
-
-    # --- End of text-based pre-validation ---
-
-    # Proceed with tomllib parsing and Pydantic validation only if pre-validation passed,
-    # or if you want to collect all errors (Pydantic errors might be redundant if structure is wrong).
-    # If pre-validation found errors, we could return early:
-    # if errors:
-    #     return errors
-
     try:
         with open(file_path, "rb") as f:
             data = tomllib.load(f)
+    except FileNotFoundError:
+        errors.append(f"Error: File not found at {file_path}")
+        return errors
     except tomllib.TOMLDecodeError as e:
         # Add line number information if possible, though tomllib doesn't easily provide it
         errors.append(f"Error decoding TOML in {file_path.name}: {e}")
@@ -147,87 +110,98 @@ def validate_toml_file(file_path: Path) -> List[str]:
         errors.append(f"Unexpected error during TOML parsing of {file_path.name}: {e}")
         return errors
 
-    # Check if the root is a dictionary (table)
+    # --- Data Structure Validation ---
     if not isinstance(data, dict):
         errors.append(f"Error in {file_path.name}: TOML root must be a table (dictionary).")
         return errors
 
-    # Card ID format check using the same pattern as pre-validation
-    card_id_pattern = re.compile(r"^IMT-\d{2}-\d{3}$")
-
-    for card_id, card_list in data.items():
-        # Validate the format of the top-level key (card_id)
-        if not card_id_pattern.match(card_id):
-             errors.append(f"Error in {file_path.name}: Invalid top-level key format '{card_id}'. Must match 'IMT-XX-XXX'.")
-             continue # Skip validation for this malformed key block
-
-        # Check if the value associated with the card_id is a list
+    # Check for [[card]] format
+    if "card" in data:
+        card_list = data["card"]
         if not isinstance(card_list, list):
-            errors.append(
-                f"Error in {file_path.name}, ID '{card_id}': Expected a list of cards (defined with [[{card_id}]]), found {type(card_list).__name__}."
-            )
-            continue # Skip this card_id block
+            errors.append(f"Error in {file_path.name}: Expected a list under the 'card' key, found {type(card_list).__name__}.")
+            return errors
+        if not card_list:
+            print(f"Info: {file_path.name} contains 'card = []' but no card entries.")
+            return errors
 
-        # Iterate through each card definition within the list
+        # --- Validate each card in [[card]] list ---
         for index, card_data in enumerate(card_list):
-            # Ensure each item in the list is a dictionary (table)
+            item_description = f"[[card]] item {index + 1}"
             if not isinstance(card_data, dict):
-                errors.append(
-                    f"Error in {file_path.name}, ID '{card_id}', item {index + 1}: Expected a table (dictionary), found {type(card_data).__name__}."
-                )
-                continue # Skip this item
+                errors.append(f"Error in {file_path.name}, {item_description}: Expected a table, found {type(card_data).__name__}.")
+                continue
 
-            # Get the card type to determine the correct Pydantic model
-            card_type = card_data.get("type")
-            if not card_type:
-                errors.append(
-                    f"Error in {file_path.name}, ID '{card_id}', item {index + 1}: Missing 'type' field."
-                )
-                continue # Skip this card item
+            # card_id must exist within the table for [[card]] format
+            if "card_id" not in card_data:
+                 errors.append(f"Error in {file_path.name}, {item_description}: Missing 'card_id' field.")
+                 continue # Cannot proceed without card_id
 
-            # Find the corresponding Pydantic model based on the type
-            model = CARD_MODELS.get(card_type)
-            if not model:
-                errors.append(
-                    f"Error in {file_path.name}, ID '{card_id}', item {index + 1}: Unknown card type '{card_type}'."
-                )
-                continue # Skip item with unknown type
+            card_id = card_data["card_id"] # Use card_id from data for error reporting
+            _validate_single_card(file_path.name, item_description, card_id, card_data, errors)
 
-            # Validate the card data against the selected Pydantic model
-            try:
-                # Add context for better error messages if needed later
-                # card_data_with_context = {"card_id": card_id, "file": str(file_path), **card_data}
-                model.model_validate(card_data)
+    # Check for [[IMT-XX-XXX]] format
+    else:
+        if not data:
+            errors.append(f"Warning in {file_path.name}: TOML file is empty or contains no card definitions.")
+            return errors
 
-                # Explicitly check for disallowed fields based on type using Pydantic's validation logic (already handled by exclude=True)
-                # However, adding explicit checks here can provide slightly clearer error messages if needed.
-                # Example (optional, as Pydantic should catch this):
-                # if card_type in ["support", "sp_appeal", "accessory"] and "appeal_value" in card_data:
-                #     errors.append(
-                #         f"Error in {file_path.name}, ID '{card_id}', item {index + 1}: Field 'appeal_value' is not allowed for type '{card_type}'."
-                #     )
-                # if card_type in ["support", "sp_appeal", "costume"] and "body_part" in card_data:
-                #     errors.append(
-                #         f"Error in {file_path.name}, ID '{card_id}', item {index + 1}: Field 'body_part' is not allowed for type '{card_type}'."
-                #     )
+        # --- Validate each card defined by [[IMT-XX-XXX]] key ---
+        for card_id, card_data in data.items():
+            item_description = f"[[{card_id}]]"
 
+            # Validate the key format itself
+            if not re.match(r"^IMT-\d{2}-\d{3}$", card_id):
+                errors.append(f"Error in {file_path.name}: Invalid key format '{card_id}'. Expected format IMT-XX-XXX.")
+                # Continue checking other keys even if one is invalid
+                continue
 
-            except ValidationError as e:
-                for error in e.errors():
-                    # Format Pydantic validation errors for better readability
-                    field_path = " -> ".join(map(str, error["loc"]))
-                    message = error["msg"]
-                    input_value = error.get("input", "N/A") # Get the input value that caused the error
-                    errors.append(
-                        f"Error in {file_path.name}, ID '{card_id}', item {index + 1}, field '{field_path}': {message} [Input: {input_value}]"
-                    )
-            except Exception as e:
-                # Catch any other unexpected errors during Pydantic validation
-                errors.append(
-                    f"Unexpected error during Pydantic validation in {file_path.name}, ID '{card_id}', item {index + 1}: {e}"
-                )
+            if not isinstance(card_data, dict):
+                errors.append(f"Error in {file_path.name}, {item_description}: Expected a table, found {type(card_data).__name__}.")
+                continue
+
+            # Add the key as card_id to the data for Pydantic validation
+            card_data_with_id = card_data.copy()
+            card_data_with_id["card_id"] = card_id
+            _validate_single_card(file_path.name, item_description, card_id, card_data_with_id, errors)
 
     return errors
+
+
+def _validate_single_card(filename: str, item_desc: str, card_id_str: str, card_data: dict, errors: list):
+    """Helper function to validate a single card's data using Pydantic."""
+    card_type = card_data.get("type")
+    if not card_type:
+        errors.append(
+            f"Error in {filename}, {item_desc}: Missing 'type' field."
+        )
+        return # Skip this card item
+
+    model = CARD_MODELS.get(card_type)
+    if not model:
+        errors.append(
+            f"Error in {filename}, {item_desc}: Unknown card type '{card_type}'."
+        )
+        return # Skip item with unknown type
+
+    try:
+        # Validate the card data (including card_id added for [[IMT...]] format)
+        model.model_validate(card_data)
+
+        # Explicit checks for disallowed fields are handled by `exclude=True` in models
+
+    except ValidationError as e:
+        for error in e.errors():
+            field_path = " -> ".join(map(str, error["loc"]))
+            message = error["msg"]
+            input_value = error.get("input", "N/A")
+            errors.append(
+                f"Error in {filename}, {item_desc} (ID: {card_id_str}), field '{field_path}': {message} [Input: {input_value}]"
+            )
+    except Exception as e:
+        errors.append(
+            f"Unexpected error during Pydantic validation in {filename}, {item_desc} (ID: {card_id_str}): {e}"
+        )
 
 
 def main():
