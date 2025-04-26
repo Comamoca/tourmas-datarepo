@@ -88,3 +88,81 @@ type = "costume"
 vocal = 1071
 dance = 1632
 visual = 1122
+
+[[card]]
+id = "IMT-01-019"
+name = "オリエンタルクロシズ"
+idol = "本田 未央"
+rarity = "R"
+text = "アソビもライブも全力で！それが未央ちゃん流ってね♪"
+subject = "everyone"
+type = "costume"
+[card.appeal]
+vocal = 1326
+dance = 1204
+visual = 1295
+
+[[card]]
+id = "IMT-01-020"
+name = "オリエンタルクロシズ"
+idol = "柏木 翼"
+rarity = "R"
+text = "わぁ、今日はなんだか楽しい日になりそうですね！"
+subject = "everyone"
+type = "costume"
+[card.appeal]
+vocal = 1326
+dance = 1204
+visual = 1295
+
+[[card]]
+id = "IMT-01-021"
+name = "ドリームナビゲーター"
+idol = "渋谷 凛"
+rarity = "R"
+text = "私に任せといて。見たことない景色見せてあげる。"
+subject = "everyone"
+type = "costume"
+[card.appeal]
+vocal = 1581
+dance = 1020
+visual = 1224
+
+[[card]]
+id = "IMT-01-022"
+name = "ドリームナビゲーター"
+idol = "柏木 翼"
+rarity = "R"
+text = "夢のようなフライトにようこそ。最後までお楽しみください。"
+subject = "everyone"
+type = "costume"
+[card.appeal]
+vocal = 1581
+dance = 1020
+visual = 1224
+
+[[card]]
+id = "IMT-01-023"
+name = "ミキシンググルーヴ"
+idol = "櫻木 真乃"
+rarity = "N"
+text = "今日は思いっきり、楽しんじゃいます⋯⋯っ"
+subject = "everyone"
+type = "costume"
+[card.appeal]
+vocal = 1252
+dance = 1283
+visual = 1240
+
+[[card]]
+id = "IMT-01-024"
+name = "ミキシンググルーヴ"
+idol = "天道 輝"
+rarity = "N"
+text = "みんなも思いっきりはじけて最高のライブにしようぜ！"
+subject = "everyone"
+type = "costume"
+[card.appeal]
+vocal = 1252
+dance = 1283
+visual = 1240
