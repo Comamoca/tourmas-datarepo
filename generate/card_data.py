@@ -7,23 +7,31 @@ import toml
 
 def convert_toml_to_json(toml_dir: str, json_file_path: str):
     """
-    Converts multiple TOML files in a directory to a single JSON file.
+    Converts multiple TOML files in a directory to a single JSON file with
+    the structure {"data": [all card information]}.
 
     Args:
         toml_dir (str): The directory containing the TOML files.
         json_file_path (str): The output JSON file path.
     """
-    output_data = {}
+    all_card_data = []
     for filename in os.listdir(toml_dir):
         if filename.endswith(".toml"):
             file_path = os.path.join(toml_dir, filename)
             try:
                 with open(file_path, "r", encoding="utf-8") as f:
                     toml_data = toml.load(f)
-                    output_data[filename[:-5]] = toml_data  # Remove ".toml" extension
+                    if isinstance(toml_data, dict):
+                        all_card_data.extend(toml_data.values())
+                    elif isinstance(toml_data, list):
+                        all_card_data.extend(toml_data)
+                    else:
+                        print(f"Unexpected data structure in {filename}")
             except Exception as e:
                 print(f"Error reading {filename}: {e}")
                 continue
+
+    output_data = {"data": all_card_data}
 
     try:
         with open(json_file_path, "w", encoding="utf-8") as f:
