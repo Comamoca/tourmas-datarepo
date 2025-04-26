@@ -43,6 +43,6 @@ def convert_toml_to_json(toml_dir: str, json_file_path: str) -> None:
 
 
 if __name__ == "__main__":
-    toml_directory = "../card_data"
+    toml_directory = "./card_data"
     output_json_file = "card_data.json"
     convert_toml_to_json(toml_directory, output_json_file)
