@@ -7,3 +7,283 @@ text = "ようこそ、お花の国へ！なーんちゃって・・・えへへ
 subject = "everyone"
 type = "accessory"
 body_part = "head"
+
+[[card]]
+id = "IMT-01-026"
+name = "シルクハット（黒）"
+idol = "渋谷 凛"
+rarity = "SR"
+text = "ちゃんとついて来てる？ここから・・・もっと輝くよ。"
+subject = "everyone"
+type = "accessory"
+body_part = "head"
+
+[[card]]
+id = "IMT-01-027"
+name = "天使のリング"
+idol = "本田未央"
+rarity = "R"
+text = "未央ちゃんの不思議なパワーで浮いているのだ☆"
+subject = "everyone"
+type = "accessory"
+body_part = "head"
+
+[[card]]
+id = "IMT-01-028"
+name = "天使の羽"
+idol = "春日未来"
+rarity = "R"
+text = "羽があれば遅れててもびゅーんって間に合うのにな〜"
+subject = "everyone"
+type = "accessory"
+body_part = "body"
+
+[[card]]
+id = "IMT-01-029"
+name = "狐のお面"
+idol = "如月 千早"
+rarity = "R"
+text = "お面ひとつでいつもと違った雰囲気になりますわね。"
+subject = "everyone"
+type = "accessory"
+body_part = "head"
+
+[[card]]
+id = "IMT-01-030"
+name = "クラウン"
+idol = "桜庭 薫"
+rarity = "R"
+text = "冠を戴く程度では、満足できない。知っているだろう？"
+subject = "everyone"
+type = "accessory"
+body_part = "head"
+
+[[card]]
+id = "IMT-01-031"
+name = "眼帯（黒）"
+idol = "天海 春香"
+rarity = "R"
+text = "私のかっこいいところも見せちゃいますね！"
+subject = "everyone"
+type = "accessory"
+body_part = "head"
+
+[[card]]
+id = "IMT-01-032"
+name = "ハートペイント（ピンク）"
+idol = "星井 美希"
+rarity = "R"
+text = "みてみてカワイイ？みんなクギツケにするの♪"
+subject = "everyone"
+type = "accessory"
+body_part = "face"
+
+[[card]]
+id = "IMT-01-033"
+name = "マスカレードマスク（黒）"
+idol = "最上 静香"
+rarity = "R"
+text = "今宵、素顔を隠したパーティーに招待いたします・・・"
+subject = "everyone"
+type = "accessory"
+body_part = "face"
+
+[[card]]
+id = "IMT-01-034"
+name = "ブライトブレスレット（白）"
+idol = "渋谷 凛"
+rarity = "R"
+text = "いい感じ。もっと輝く私をみんなに見せられそう。"
+subject = "everyone"
+type = "accessory"
+body_part = "hand"
+
+[[card]]
+id = "IMT-01-035"
+name = "ブライトアンクレット（白）"
+idol = "八宮 めぐる"
+rarity = "R"
+text = "ほら見て！綺麗でしょー♪わたしも、気に入っちゃった！"
+subject = "everyone"
+type = "accessory"
+body_part = "leg"
+
+[[card]]
+id = "IMT-01-036"
+name = "お姫様ティアラ"
+idol = "春日 未来"
+rarity = "N"
+text = "オシャレは頭の上から、ですよね！キラキラアクセ、見てください！"
+subject = "everyone"
+type = "accessory"
+body_part = "head"
+
+[[card]]
+id = "IMT-01-037"
+name = "宇宙人アンテナ"
+idol = "天海 春香"
+rarity = "N"
+text = "もしテレパシーが使えたらいつでも連絡できちゃいますね！"
+subject = "everyone"
+type = "accessory"
+body_part = "head"
+
+[[card]]
+id = "IMT-01-038"
+name = "悪魔の角（紫）"
+idol = "最上 静香"
+rarity = "N"
+text = "ふふ、魅了してあげますよ♪ノリノリ？ち、違いますっ！"
+subject = "everyone"
+type = "accessory"
+body_part = "head"
+
+[[card]]
+id = "IMT-01-039"
+name = "悪魔の羽（紫）"
+idol = "星井 美希"
+rarity = "N"
+text = "今日のミキは、いつもよりちょっぴり小悪魔なの！"
+subject = "everyone"
+type = "accessory"
+body_part = "body"
+
+[[card]]
+id = "IMT-01-040"
+name = "悪魔の尻尾（紫）"
+idol = "櫻木 真乃"
+rarity = "N"
+text = "ほわぁ⋯⋯可愛い尻尾です\nふふっ。ふりふり、ゆらゆら⋯⋯"
+subject = "everyone"
+type = "accessory"
+body_part = "waist" 
+
+[[card]]
+id = "IMT-01-041"
+name = "ねこみみ（白）"
+idol = "島村 卯月"
+rarity = "N"
+text = "今の私は、自由気ままな猫ちゃんです！にゃ〜♪"
+subject = "everyone"
+type = "accessory"
+body_part = "head" 
+
+[[card]]
+id = "IMT-01-042"
+name = "ねこみみ（白）"
+idol = "桜庭 薫"
+rarity = "N"
+text = "どんな衣装も着こなしてこそアイドルだろう？"
+subject = "everyone"
+type = "accessory"
+body_part = "head" 
+
+[[card]]
+id = "IMT-01-043"
+name = "ねこしっぽ（白）"
+idol = "如月 千早"
+rarity = "N"
+text = "し、仕方ありませんね⋯⋯に、にゃ〜ん⋯⋯！⋯⋯くっ！"
+subject = "everyone"
+type = "accessory"
+body_part = "waist" 
+
+[[card]]
+id = "IMT-01-044"
+name = "ねこしっぽ（白）"
+idol = "柏木 翼"
+rarity = "N"
+text = "猫っぽく、ポーズとかとってみたりして。えへへ⋯"
+subject = "everyone"
+type = "accessory"
+body_part = "waist" 
+
+[[card]]
+id = "IMT-01-045"
+name = "ねこみみ（三毛）"
+idol = "風野 灯織"
+rarity = "N"
+text = "猫っぽく⋯⋯出来ていますか？自分じゃわからなくて⋯⋯"
+subject = "everyone"
+type = "accessory"
+body_part = "head" 
+
+[[card]]
+id = "IMT-01-046"
+name = "ねこしっぽ（三毛）"
+idol = "伊吹 翼"
+rarity = "N"
+text = "えへへ、翼猫のかわいさに見惚れちゃったかにゃ〜？"
+subject = "everyone"
+type = "accessory"
+body_part = "waist" 
+
+[[card]]
+id = "IMT-01-047"
+name = "インカムマイク（黒）"
+idol = "渋谷 凛"
+rarity = "N"
+text = "うん、これなら思いっきり歌もダンスもファンのみんなに届けられそう。"
+subject = "everyone"
+type = "accessory"
+body_part = "face" 
+
+[[card]]
+id = "IMT-01-048"
+name = "スクウェア眼鏡（黒）"
+idol = "星井 美希"
+rarity = "N"
+text = "なになに？今のミキはなんでも教えてあげちゃう♪"
+subject = "everyone"
+type = "accessory"
+body_part = "face" 
+
+[[card]]
+id = "IMT-01-049"
+name = "つけひげ"
+idol = "伊吹 翼"
+rarity = "N"
+text = "プロデューサーさん、見て見て！うぉっほん！ちゃーんとご褒美をくれたまえよ！"
+subject = "everyone"
+type = "accessory"
+body_part = "face" 
+
+[[card]]
+id = "IMT-01-050"
+name = "チェーンブレスレット"
+idol = "天道 輝"
+rarity = "N"
+text = "チェーンのアクセにチェーンジしてっと⋯今のはイケてたか？"
+subject = "everyone"
+type = "accessory"
+body_part = "hand" 
+
+[[card]]
+id = "IMT-01-051"
+name = "ねこのて（白）"
+idol = "春日 未来"
+rarity = "N"
+text = "私の手なら、いつでもお貸ししまーす！"
+subject = "everyone"
+type = "accessory"
+body_part = "hand" 
+
+[[card]]
+id = "IMT-01-052"
+name = "蝶の羽（青アゲハ）"
+idol = "最上 静香"
+rarity = "N"
+text = "小さなころに読んだおとぎ話⋯その主人公になったみたいです。"
+subject = "everyone"
+type = "accessory"
+body_part = "body" 
+
+[[card]]
+id = "IMT-01-053"
+name = "へびのぬいぐるみ"
+idol = "本田 未央"
+rarity = "N"
+text = "巳年の未央ちゃんも大活躍、間違いなし！見逃さないように♪"
+subject = "everyone"
+type = "accessory"
+body_part = "leg" 
