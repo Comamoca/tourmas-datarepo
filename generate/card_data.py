@@ -1,34 +1,37 @@
-import toml
 import json
 import os
 from pathlib import Path
 
-def convert_toml_to_json(toml_dir: str, json_file: str):
+import toml
+
+
+def convert_toml_to_json(toml_dir: str, json_file_path: str):
     """
     Converts multiple TOML files in a directory to a single JSON file.
 
     Args:
         toml_dir (str): The directory containing the TOML files.
-        json_file (str): The output JSON file.
+        json_file_path (str): The output JSON file path.
     """
-    data = {}
+    output_data = {}
     for filename in os.listdir(toml_dir):
         if filename.endswith(".toml"):
             file_path = os.path.join(toml_dir, filename)
             try:
                 with open(file_path, "r", encoding="utf-8") as f:
                     toml_data = toml.load(f)
-                    data[filename[:-5]] = toml_data  # Remove ".toml" extension
+                    output_data[filename[:-5]] = toml_data  # Remove ".toml" extension
             except Exception as e:
                 print(f"Error reading {filename}: {e}")
                 continue
 
     try:
-        with open(json_file, "w", encoding="utf-8") as f:
-            json.dump(data, f, indent=4, ensure_ascii=False)
-        print(f"Successfully converted TOML files to {json_file}")
+        with open(json_file_path, "w", encoding="utf-8") as f:
+            json.dump(output_data, f, indent=4, ensure_ascii=False)
+        print(f"Successfully converted TOML files to {json_file_path}")
     except Exception as e:
-        print(f"Error writing to {json_file}: {e}")
+        print(f"Error writing to {json_file_path}: {e}")
+
 
 if __name__ == "__main__":
     toml_directory = "./card_data"
