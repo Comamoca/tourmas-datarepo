@@ -5,7 +5,314 @@ idol = "渋谷 凛"
 rarity = "SSR"
 text = "この特別なステージで、私たちの全力を見せるよ。"
 type = "support"
-subject = "everyone"
 [card.support_skill]
-name = "all you've got"
-description = "rhythm" # Using the value from support_effects as description, might need refinement
+live_type = ["rhythm"]
+description = ["PERFECT判定時のスコアUP(極大)するが、判定が短かくなる。(大)"]
+
+[[card]]
+id = "IMT-01-055"
+name = "mutual gift"
+idol = "伊吹 翼"
+rarity = "SSR"
+text = "みんなでキラキラ〜♪幸せをお届けしちゃいます！"
+type = "support"
+[card.support_skill]
+live_type = ["rhythm", "create"]
+description = ["獲得ファン数UP(中)", "判定が長くなる(中)"]
+
+[[card]]
+id = "IMT-01-056"
+name = "glittering essence"
+idol = "星井 美希"
+rarity = "SR"
+text = "⋯⋯ねぇ。ミキのこともっとずっと見てて？"
+type = "support"
+[card.support_skill]
+live_type = ["rhythm"]
+description = ["アピール値(Vi)上昇(小)", "GOOD以上判定時のスコアUP(小)"]
+
+[[card]]
+id = "IMT-01-057"
+name = "お腹ぺこぺこ〜！"
+idol = "伊吹 翼"
+rarity = "SR"
+text = "⋯⋯ねぇ。ミキのこともっとずっと見てて？"
+type = "support"
+[card.support_skill]
+live_type = ["rhythm"]
+description = ["アピール値(Vi)上昇(小)", "GOOD以上判定時のスコアUP(小)"]
+
+[[card]]
+id = "IMT-01-058"
+name = "Road to venue"
+idol = "春日 未来"
+rarity = "SR"
+text = "えへへっ、楽しみですね♪さぁ、早く行きましょう！"
+type = "support"
+[card.support_skill]
+live_type = ["rhythm"]
+description = ["アピール値(Vi)上昇(小)", "GOOD以上判定時のスコアUP(小)"]
+
+[[card]]
+id = "IMT-01-059"
+name = "Dive into the sound"
+idol = "如月 千早"
+rarity = "SR"
+text = "素敵な音楽⋯時間がたつのを忘れてしまいそう。"
+type = "support"
+[card.support_skill]
+live_type = ["rhythm"]
+description = ["GOOD以上判定時のスコア(中)"]
+
+[[card]]
+id = "IMT-01-060"
+name = "雨上がり、心も晴れ"
+idol = "風野 灯織"
+rarity = "SR"
+text = "空、明るくなりましたね。ふふっ眩しい⋯⋯。"
+type = "support"
+[card.support_skill]
+live_type = ["rhythm"]
+description = ["100コンボ毎にスコアUP(小)", "判定が長くなる(小)"]
+
+[[card]]
+id = "IMT-01-061"
+name = "ブライトスマイル"
+idol = "島村 卯月"
+rarity = "R"
+text = "私はいつでも笑顔でいっぱいです♪"
+type = "support"
+[card.support_skill]
+live_type = ["rhythm"]
+description = ["判定が長くなる(小)"]
+
+[[card]]
+id = "IMT-01-062"
+name = "二人だけのプライベートレッスン"
+idol = "如月 千早"
+rarity = "R"
+text = "最上さんとのハーモニー⋯⋯ふふっ楽しみです。"
+type = "support"
+[card.support_skill]
+live_type = ["rhythm"]
+description = ["PERFEC判定時のスコアUP(小)"]
+
+[[card]]
+id = "IMT-01-063"
+name = "二人だけのプライベートレッスン"
+idol = "最上 静香"
+rarity = "R"
+text = "ダメダメ⋯⋯！見惚れてないで、歌に集中しなきゃ！"
+type = "support"
+[card.support_skill]
+live_type = ["rhythm"]
+description = ["アピール値(Da)上昇(小)", "PERFECT判定時のスコアUP(極小)"]
+
+[[card]]
+id = "IMT-01-064"
+name = "あの一番星を掴んで本物のヒーローになるんだ！"
+idol = "天道 輝"
+rarity = "R"
+text = "ダメダメ⋯⋯！見惚れてないで、歌に集中しなきゃ！"
+type = "support"
+[card.support_skill]
+live_type = ["rhythm"]
+description = ["アピール値(Vo, Da)上昇(極小)", "GOOD以上判定時のスコアUP(極小)"]
+
+[[card]]
+id = "IMT-01-065"
+name = "凛とした立ち姿"
+idol = "渋谷 凛"
+rarity = "R"
+text = "どの瞬間も見られているって意識、なかなか難しいね。"
+type = "support"
+[card.support_skill]
+live_type = ["rhythm"]
+description = ["アピール値(Vi)上昇(小)"]
+
+[[card]]
+id = "IMT-01-066"
+name = "ほわっと決めポーズ"
+idol = "櫻木 真乃"
+rarity = "R"
+text = "可愛いポーズ⋯⋯こんな感じ、でしょうか？"
+type = "support"
+[card.support_skill]
+live_type = ["rhythm"]
+description = ["スコアUP系のSPアピールが強化される(小)"]
+
+[[card]]
+id = "IMT-01-067"
+name = "元気いっぱいポーズ☆彡"
+idol = "八宮 めぐる"
+rarity = "R"
+text = "今日も絶好調だよ〜！心も体も、弾んでるっ♪"
+type = "support"
+[card.support_skill]
+live_type = ["rhythm"]
+description = ["FEAVERゲージ上昇率UP(小)"]
+
+[[card]]
+id = "IMT-01-068"
+name = "ライブサポート"
+idol = "天海 春香"
+rarity = "N"
+text = "えへへっ、今日の服⋯⋯似合ってますか？"
+type = "support"
+[card.support_skill]
+live_type = ["rhythm", "create"]
+description = ["獲得着込なしLv経験値UP(極小)", "判定が長くなる(極小)"]
+
+[[card]]
+id = "IMT-01-069"
+name = "ライブサポート"
+idol = "如月 千早"
+rarity = "N"
+text = "今日はクラシックでも聴いてゆっくり過ごしましょうか。"
+type = "support"
+[card.support_skill]
+live_type = ["rhythm", "create"]
+description = ["獲得着込なしLv経験値UP(極小)", "判定が長くなる(極小)"]
+
+[[card]]
+id = "IMT-01-070"
+name = "ライブサポート"
+idol = "星井 美希"
+rarity = "N"
+text = "あふぅ⋯⋯おはようなの。今日は何するんだっけ？"
+type = "support"
+[card.support_skill]
+live_type = ["rhythm", "create"]
+description = ["獲得着込なしLv経験値UP(極小)", "判定が長くなる(極小)"]
+
+[[card]]
+id = "IMT-01-071"
+name = "ライブサポート"
+idol = "島村 卯月"
+rarity = "N"
+text = "どうですか？このスカート、お気に入りなんです♪"
+type = "support"
+[card.support_skill]
+live_type = ["rhythm", "create"]
+description = ["獲得着込なしLv経験値UP(極小)", "判定が長くなる(極小)"]
+
+[[card]]
+id = "IMT-01-072"
+name = "ライブサポート"
+idol = "渋谷 凛"
+rarity = "N"
+text = "雰囲気が違うって⋯⋯ふふ。よく、見てくれてるんだね。"
+type = "support"
+[card.support_skill]
+live_type = ["rhythm", "create"]
+description = ["獲得着込なしLv経験値UP(極小)", "判定が長くなる(極小)"]
+
+[[card]]
+id = "IMT-01-073"
+name = "ライブサポート"
+idol = "本田 未央"
+rarity = "N"
+text = "未央ちゃんウインクを受けてみよ！なーんてね☆"
+type = "support"
+[card.support_skill]
+live_type = ["rhythm", "create"]
+description = ["獲得着込なしLv経験値UP(極小)", "判定が長くなる(極小)"]
+
+[[card]]
+id = "IMT-01-074"
+name = "ライブサポート"
+idol = "春日 未来"
+rarity = "N"
+text = "あ！あのお店のパフェおいしそうじゃないですか？"
+type = "support"
+[card.support_skill]
+live_type = ["rhythm", "create"]
+description = ["獲得着込なしLv経験値UP(極小)", "判定が長くなる(極小)"]
+
+[[card]]
+id = "IMT-01-075"
+name = "ライブサポート"
+idol = "最上 静香"
+rarity = "N"
+text = "私服⋯子どもっぽく、ないですか？"
+type = "support"
+[card.support_skill]
+live_type = ["rhythm", "create"]
+description = ["獲得着込なしLv経験値UP(極小)", "判定が長くなる(極小)"]
+
+[[card]]
+id = "IMT-01-076"
+name = "ライブサポート"
+idol = "伊吹 翼"
+rarity = "N"
+text = "よーしっ、今日はめいっぱい楽しみますよ〜！"
+type = "support"
+[card.support_skill]
+live_type = ["rhythm", "create"]
+description = ["獲得着込なしLv経験値UP(極小)", "判定が長くなる(極小)"]
+
+[[card]]
+id = "IMT-01-077"
+name = "ライブサポート"
+idol = "天道 輝"
+rarity = "N"
+text = "⋯⋯お、こんなところで会うなんて、偶然だな。"
+type = "support"
+[card.support_skill]
+live_type = ["rhythm", "create"]
+description = ["獲得着込なしLv経験値UP(極小)", "判定が長くなる(極小)"]
+
+[[card]]
+id = "IMT-01-078"
+name = "ライブサポート"
+idol = "桜庭 薫"
+rarity = "N"
+text = "疲れたときは糖分摂取だ。ほら、君も食べるといい。"
+type = "support"
+[card.support_skill]
+live_type = ["rhythm", "create"]
+description = ["獲得着込なしLv経験値UP(極小)", "判定が長くなる(極小)"]
+
+[[card]]
+id = "IMT-01-079"
+name = "ライブサポート"
+idol = "柏木 翼"
+rarity = "N"
+text = "空が晴れてると気持ち良いですね。"
+type = "support"
+[card.support_skill]
+live_type = ["rhythm", "create"]
+description = ["獲得着込なしLv経験値UP(極小)", "判定が長くなる(極小)"]
+
+[[card]]
+id = "IMT-01-080"
+name = "ライブサポート"
+idol = "櫻木 真乃"
+rarity = "N"
+text = "ふう〜、お日様が暖かくていい気持ち⋯ほわぁ〜"
+type = "support"
+[card.support_skill]
+live_type = ["rhythm", "create"]
+description = ["獲得着込なしLv経験値UP(極小)", "判定が長くなる(極小)"]
+
+[[card]]
+id = "IMT-01-081"
+name = "ライブサポート"
+idol = "風野 灯織"
+rarity = "N"
+text = "オフだから、何しようか考えてたところなんです。"
+type = "support"
+[card.support_skill]
+live_type = ["rhythm", "create"]
+description = ["獲得着込なしLv経験値UP(極小)", "判定が長くなる(極小)"]
+
+[[card]]
+id = "IMT-01-082"
+name = "ライブサポート"
+idol = "八宮 めぐる"
+rarity = "N"
+text = "みんなが輝けるようにバッチリサポートするね！"
+type = "support"
+[card.support_skill]
+live_type = ["rhythm", "create"]
+description = ["獲得着込なしLv経験値UP(極小)", "判定が長くなる(極小)"]
