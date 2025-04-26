@@ -156,7 +156,7 @@ rarity = "N"
 text = "ほわぁ⋯⋯可愛い尻尾です\nふふっ。ふりふり、ゆらゆら⋯⋯"
 subject = "everyone"
 type = "accessory"
-body_part = "waist" 
+body_part = "waist"
 
 [[card]]
 id = "IMT-01-041"
@@ -166,7 +166,7 @@ rarity = "N"
 text = "今の私は、自由気ままな猫ちゃんです！にゃ〜♪"
 subject = "everyone"
 type = "accessory"
-body_part = "head" 
+body_part = "head"
 
 [[card]]
 id = "IMT-01-042"
@@ -176,7 +176,7 @@ rarity = "N"
 text = "どんな衣装も着こなしてこそアイドルだろう？"
 subject = "everyone"
 type = "accessory"
-body_part = "head" 
+body_part = "head"
 
 [[card]]
 id = "IMT-01-043"
@@ -186,7 +186,7 @@ rarity = "N"
 text = "し、仕方ありませんね⋯⋯に、にゃ〜ん⋯⋯！⋯⋯くっ！"
 subject = "everyone"
 type = "accessory"
-body_part = "waist" 
+body_part = "waist"
 
 [[card]]
 id = "IMT-01-044"
@@ -196,7 +196,7 @@ rarity = "N"
 text = "猫っぽく、ポーズとかとってみたりして。えへへ⋯"
 subject = "everyone"
 type = "accessory"
-body_part = "waist" 
+body_part = "waist"
 
 [[card]]
 id = "IMT-01-045"
@@ -206,7 +206,7 @@ rarity = "N"
 text = "猫っぽく⋯⋯出来ていますか？自分じゃわからなくて⋯⋯"
 subject = "everyone"
 type = "accessory"
-body_part = "head" 
+body_part = "head"
 
 [[card]]
 id = "IMT-01-046"
@@ -216,7 +216,7 @@ rarity = "N"
 text = "えへへ、翼猫のかわいさに見惚れちゃったかにゃ〜？"
 subject = "everyone"
 type = "accessory"
-body_part = "waist" 
+body_part = "waist"
 
 [[card]]
 id = "IMT-01-047"
@@ -226,7 +226,7 @@ rarity = "N"
 text = "うん、これなら思いっきり歌もダンスもファンのみんなに届けられそう。"
 subject = "everyone"
 type = "accessory"
-body_part = "face" 
+body_part = "face"
 
 [[card]]
 id = "IMT-01-048"
@@ -236,7 +236,7 @@ rarity = "N"
 text = "なになに？今のミキはなんでも教えてあげちゃう♪"
 subject = "everyone"
 type = "accessory"
-body_part = "face" 
+body_part = "face"
 
 [[card]]
 id = "IMT-01-049"
@@ -246,7 +246,7 @@ rarity = "N"
 text = "プロデューサーさん、見て見て！うぉっほん！ちゃーんとご褒美をくれたまえよ！"
 subject = "everyone"
 type = "accessory"
-body_part = "face" 
+body_part = "face"
 
 [[card]]
 id = "IMT-01-050"
@@ -256,7 +256,7 @@ rarity = "N"
 text = "チェーンのアクセにチェーンジしてっと⋯今のはイケてたか？"
 subject = "everyone"
 type = "accessory"
-body_part = "hand" 
+body_part = "hand"
 
 [[card]]
 id = "IMT-01-051"
@@ -266,7 +266,7 @@ rarity = "N"
 text = "私の手なら、いつでもお貸ししまーす！"
 subject = "everyone"
 type = "accessory"
-body_part = "hand" 
+body_part = "hand"
 
 [[card]]
 id = "IMT-01-052"
@@ -276,7 +276,7 @@ rarity = "N"
 text = "小さなころに読んだおとぎ話⋯その主人公になったみたいです。"
 subject = "everyone"
 type = "accessory"
-body_part = "body" 
+body_part = "body"
 
 [[card]]
 id = "IMT-01-053"
@@ -286,4 +286,4 @@ rarity = "N"
 text = "巳年の未央ちゃんも大活躍、間違いなし！見逃さないように♪"
 subject = "everyone"
 type = "accessory"
-body_part = "leg" 
+body_part = "leg"

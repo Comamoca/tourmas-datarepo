@@ -9,7 +9,9 @@
     git-hooks-nix.url = "github:cachix/git-hooks.nix";
     devenv.url = "github:cachix/devenv";
     nixpkgs-python.url = "github:cachix/nixpkgs-python";
-    nixpkgs-python.inputs = { nixpkgs.follows = "nixpkgs"; };
+    nixpkgs-python.inputs = {
+      nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
@@ -84,7 +86,7 @@
                   ''}/bin/validate-card-data-hook";
                   language = "script"; # The entry is now a script path
                   files = "^card_data/"; # Regex matching files in card_data/
-                  types = [ "toml" ];    # Only trigger for toml files
+                  types = [ "toml" ]; # Only trigger for toml files
                   pass_filenames = false; # The script doesn't take filenames as args
                 };
               };
@@ -94,9 +96,9 @@
           # When execute `nix develop`, you go in shell installed nil.
           devenv.shells.default = {
             packages = with pkgs; [
-	      # For aider
-	      playwright
-	      ruff
+              # For aider
+              playwright
+              ruff
               nil
             ];
 
@@ -104,15 +106,14 @@
               python = {
                 enable = true;
                 version = "3.13";
-		uv = {
-		  enable = true;
-		  sync.enable = true;
-		};
+                uv = {
+                  enable = true;
+                  sync.enable = true;
+                };
               };
             };
 
-            enterShell = ''
-	    '';
+            enterShell = ''	    '';
           };
         };
     };
