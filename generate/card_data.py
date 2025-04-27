@@ -29,7 +29,7 @@ def write_card_data(card_data: list[dict], output_file: Path):
     """Writes the combined card data to a JSON file."""
     output_file.parent.mkdir(parents=True, exist_ok=True)
     with open(output_file, "w", encoding="utf-8") as f:
-        json.dump({"card": card_data}, f, indent=2, ensure_ascii=False)
+        json.dump({"card": card_data}, f, indent=2, ensure_ascii=False, sort_keys=True, indent=2)
 
 
 def find_missing_ids(card_ids: list[str]) -> list[str]:
