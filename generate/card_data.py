@@ -35,7 +35,8 @@ def write_card_data(card_data: list[dict], output_file: Path):
 def find_missing_ids(card_ids: list[str]) -> list[str]:
     """Finds missing card IDs in the range IMT-01-001 to IMT-01-094."""
     all_ids = [f"IMT-01-{i:03}" for i in range(1, 95)]
-    missing_ids = sorted(list(set(all_ids) - set(card_ids)))
+    existing_ids = set(card_ids)
+    missing_ids = sorted(list(set(all_ids) - existing_ids))
     return missing_ids
 
 
