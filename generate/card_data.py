@@ -14,10 +14,13 @@ def load_card_data(card_data_dir: Path) -> list[dict]:
     for filename in os.listdir(card_data_dir):
         if filename.endswith(".toml"):
             file_path = card_data_dir / filename
-            with open(file_path, encoding="utf-8") as f:
-                data = toml.load(f)
-                if "card" in data:
-                    all_cards.extend(data["card"])
+            try:
+                with open(file_path, encoding="utf-8") as f:
+                    data = toml.load(f)
+                    if "card" in data:
+                        all_cards.extend(data["card"])
+            except FileNotFoundError:
+                print(f"Error: File not found: {file_path}")
     return all_cards
 
 
