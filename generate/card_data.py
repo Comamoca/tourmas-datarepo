@@ -47,6 +47,9 @@ def convert_toml_to_json(toml_dir: Union[str, Path], json_file_path: Union[str, 
             print(f"[ERROR] Failed to read {file_path.name}: {e}")
             continue
 
+    # Sort the cards by ID
+    all_card_data.sort(key=lambda card: card["id"])
+
     output_data = {"data": all_card_data}
 
     dist_dir = json_file_path.parent
