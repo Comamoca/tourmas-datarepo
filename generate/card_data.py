@@ -69,8 +69,8 @@ def main():
     else:
         print("No missing card IDs found.")
 
-    # Sort the cards by ID before writing to the output file
-    all_cards.sort(key=lambda card: card["id"])
+    # Sort the cards by ID (last two digits) before writing to the output file
+    all_cards.sort(key=lambda card: card["id"][-2:])
 
     write_card_data(all_cards, OUTPUT_FILE)
     print(f"Card data written to {OUTPUT_FILE}")
