@@ -30,11 +30,7 @@ def write_card_data(card_data: list[dict], output_file: Path):
 
 def main():
     """Main function to load and combine card data."""
-    all_cards = []
-    for filename in os.listdir(CARD_DATA_DIR):
-        if filename.endswith(".toml"):
-            cards = load_card_data(CARD_DATA_DIR / filename)
-            all_cards.extend(cards)
+    all_cards = load_card_data(CARD_DATA_DIR)
 
     print(f"Loaded {len(all_cards)} cards.")
     write_card_data(all_cards, OUTPUT_FILE)
