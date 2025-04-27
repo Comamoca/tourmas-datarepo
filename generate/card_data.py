@@ -25,9 +25,6 @@ def load_card_data(card_data_dir: Path) -> list[dict]:
                 print(f"Error: File not found: {file_path}")
             except toml.TomlDecodeError:
                 print(f"Error: Could not decode TOML in file: {file_path}")
-    return all_cards
-
-
 def write_card_data(card_data: list[dict], output_file: Path):
     """Writes the combined card data to a JSON file."""
     output_file.parent.mkdir(parents=True, exist_ok=True)
@@ -35,11 +32,28 @@ def write_card_data(card_data: list[dict], output_file: Path):
         json.dump({"card": card_data}, f, indent=2, ensure_ascii=False)
 
 
+def find_missing_ids(card_ids: list[str]) -> list[str]:
+    """Finds missing card IDs in the range IMT-01-001 to IMT-01-094."""
+    all_ids = [f"IMT-01-{i:03}" for i in range(1, 95)]
+    missing_ids = sorted(list(set(all_ids) - set(card_ids)))
+    return missing_ids
+
+
 def main():
     """Main function to load and combine card data."""
     all_cards = load_card_data(CARD_DATA_DIR)
-
     print(f"Loaded {len(all_cards)} cards.")
+
+    card_ids = [card["id"] for card in all_cards]
+    missing_ids = find_missing_ids(card_ids)
+
+    if missing_ids:
+        print("Missing card IDs:")
+        for card_id in missing_ids:
+            print(card_id)
+    else:
+        print("No missing card IDs found.")
+
     write_card_data(all_cards, OUTPUT_FILE)
     print(f"Card data written to {OUTPUT_FILE}")
 
