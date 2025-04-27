@@ -12,7 +12,7 @@ def load_card_data(card_data_dir: Path) -> list[dict]:
     """Loads card data from all TOML files in the given directory."""
     all_cards: list[dict] = []
     for filename in os.listdir(card_data_dir):
-        file_path = (card_data_dir / filename).resolve()
+        file_path = card_data_dir / filename
         if filename.endswith(".toml") and os.path.isfile(file_path):
             try:
                 with open(file_path, encoding="utf-8") as f:
