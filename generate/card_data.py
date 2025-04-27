@@ -45,7 +45,11 @@ def main():
     all_cards = load_card_data(CARD_DATA_DIR)
 
     if all_cards is None:
-        print("Error: Failed to load card data.")
+        print("Error: Failed to load card data - load_card_data returned None.")
+        return
+
+    if not all_cards:
+        print("Error: No cards loaded from TOML files.")
         return
 
     print(f"Loaded {len(all_cards)} cards.")
