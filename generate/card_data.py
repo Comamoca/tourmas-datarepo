@@ -21,6 +21,8 @@ def load_card_data(card_data_dir: Path) -> list[dict]:
                         all_cards.extend(data["card"])
             except FileNotFoundError:
                 print(f"Error: File not found: {file_path}")
+            except toml.TomlDecodeError:
+                print(f"Error: Could not decode TOML in file: {file_path}")
     return all_cards
 
 
