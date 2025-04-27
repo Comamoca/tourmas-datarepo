@@ -18,7 +18,9 @@ def load_card_data(card_data_dir: Path) -> list[dict]:
                 with open(file_path, encoding="utf-8") as f:
                     data = toml.load(f)
                     if "card" in data:
-                        all_cards.extend(data["card"])
+                        for card in data["card"]:
+                            print(f"Loaded card: id={card.get('id')}, type={card.get('type')}")
+                            all_cards.append(card)
             except FileNotFoundError:
                 print(f"Error: File not found: {file_path}")
             except toml.TomlDecodeError:
