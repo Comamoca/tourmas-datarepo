@@ -1,80 +1,66 @@
 import json
-import os
 from pathlib import Path
+from typing import Union
 
 import toml
 
-CARD_DATA_DIR = Path("card_data")
-OUTPUT_FILE = Path("dist/card_data.json")
 
+def convert_toml_to_json(toml_dir: Union[str, Path], json_file_path: Union[str, Path]) -> None:
+    """Converts TOML files in a directory to a single JSON file.
 
-def load_card_data(card_data_dir: Path) -> list[dict]:
-    """Loads card data from all TOML files in the given directory."""
-    all_cards: list[dict] = []
-    for filename in os.listdir(card_data_dir):
-        file_path = card_data_dir / filename
-        if filename.endswith(".toml") and os.path.isfile(file_path):
-            try:
-                with open(file_path, encoding="utf-8") as f:
-                    data = toml.load(f)
-                    if "card" in data:
-                        cards = data["card"]
-                        print(f"Loaded {len(cards)} cards from {file_path}")
-                        all_cards.extend(cards)
-            except FileNotFoundError:
-                print(f"Error: File not found: {file_path}")
-            except toml.TomlDecodeError:
-                print(f"Error: Could not decode TOML in file: {file_path}")
-            except Exception as e:
-                print(f"An unexpected error occurred: {e}")
-            return all_cards
+    The output JSON file has the structure {"data": [all card information]}.
 
+    Args:
+        toml_dir: The directory containing the TOML files.
+        json_file_path: The output JSON file path.
+    """
+    toml_dir = Path(toml_dir)
+    json_file_path = Path(json_file_path)
 
-def write_card_data(card_data: list[dict], output_file: Path):
-    """Writes the combined card data to a JSON file."""
-    output_file.parent.mkdir(parents=True, exist_ok=True)
-    with open(output_file, "w", encoding="utf-8") as f:
-        json.dump({"card": card_data}, f, indent=2, ensure_ascii=False, sort_keys=True)
+    all_card_data = []
 
-
-def find_missing_ids(card_ids: list[str]) -> list[str]:
-    """Finds missing card IDs in the range IMT-01-001 to IMT-01-094."""
-    all_ids = [f"IMT-01-{i:03}" for i in range(1, 95)]
-    existing_ids = set(card_ids)
-    missing_ids = sorted(list(set(all_ids) - existing_ids))
-    return missing_ids
-
-
-def main():
-    """Main function to load and combine card data."""
-    all_cards = load_card_data(CARD_DATA_DIR)
-
-    if all_cards is None:
-        print("Error: Failed to load card data - load_card_data returned None.")
+    if not toml_dir.exists():
+        print(f"[ERROR] TOML directory not found: {toml_dir}")
         return
 
-    if not all_cards:
-        print("Error: No cards loaded from TOML files.")
-        return
+    for file_path in toml_dir.iterdir():
+        if file_path.suffix != ".toml":
+            continue
 
-    print(f"Loaded {len(all_cards)} cards.")
+        print(f"[INFO] Reading {file_path.name}")
 
-    card_ids = [card["id"] for card in all_cards]
-    missing_ids = find_missing_ids(card_ids)
+        try:
+            with file_path.open("r", encoding="utf-8") as f:
+                toml_data = toml.load(f)
 
-    if missing_ids:
-        print("Missing card IDs:")
-        for card_id in missing_ids:
-            print(card_id)
-    else:
-        print("No missing card IDs found.")
+            if isinstance(toml_data, dict):
+                for value in toml_data.values():
+                    if isinstance(value, list):
+                        all_card_data.extend(value)
+                    else:
+                        all_card_data.append(value)
+            elif isinstance(toml_data, list):
+                all_card_data.extend(toml_data)
+            else:
+                print(f"[WARNING] Unexpected data structure in {file_path.name}")
+        except (OSError, toml.TomlDecodeError) as e:
+            print(f"[ERROR] Failed to read {file_path.name}: {e}")
+            continue
 
-    # Sort the cards by ID (last two digits) before writing to the output file
-    all_cards.sort(key=lambda card: card["id"][-2:])
+    output_data = {"data": all_card_data}
 
-    write_card_data(all_cards, OUTPUT_FILE)
-    print(f"Card data written to {OUTPUT_FILE}")
+    dist_dir = json_file_path.parent
+    dist_dir.mkdir(parents=True, exist_ok=True)
+
+    try:
+        with json_file_path.open("w", encoding="utf-8") as f:
+            json.dump(output_data, f, indent=4, ensure_ascii=False)
+        print(f"[SUCCESS] JSON file created at: {json_file_path.resolve()}")
+    except OSError as e:
+        print(f"[ERROR] Failed to write JSON file: {e}")
 
 
 if __name__ == "__main__":
-    main()
+    toml_directory = "./card_data"
+    output_json_file = "./dist/card_data.json"
+    convert_toml_to_json(toml_directory, output_json_file)
