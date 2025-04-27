@@ -27,8 +27,7 @@ def load_card_data(card_data_dir: Path) -> list[dict]:
                 print(f"Error: Could not decode TOML in file: {file_path}")
             except Exception as e:
                 print(f"An unexpected error occurred: {e}")
-                return []
-    return all_cards
+            return all_cards
 def write_card_data(card_data: list[dict], output_file: Path):
     """Writes the combined card data to a JSON file."""
     output_file.parent.mkdir(parents=True, exist_ok=True)
