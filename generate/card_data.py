@@ -43,6 +43,11 @@ def find_missing_ids(card_ids: list[str]) -> list[str]:
 def main():
     """Main function to load and combine card data."""
     all_cards = load_card_data(CARD_DATA_DIR)
+
+    if all_cards is None:
+        print("Error: Failed to load card data.")
+        return
+
     print(f"Loaded {len(all_cards)} cards.")
 
     card_ids = [card["id"] for card in all_cards]
