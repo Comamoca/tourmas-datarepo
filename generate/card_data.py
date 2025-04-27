@@ -44,6 +44,11 @@ def convert_toml_to_json(toml_dir: str, json_file_path: str) -> None:
 
     output_data = {"data": all_card_data}
 
+    # `./dist`が存在しなかったら作成する
+    dist_dir = Path(json_file_path).parent
+    if not dist_dir.exists():
+        dist_dir.mkdir()
+
     try:
         with open(json_file_path, "w", encoding="utf-8") as f:
             json.dump(output_data, f, indent=4, ensure_ascii=False)
@@ -56,5 +61,5 @@ def convert_toml_to_json(toml_dir: str, json_file_path: str) -> None:
 
 if __name__ == "__main__":
     toml_directory = "./card_data"
-    output_json_file = "card_data.json"
+    output_json_file = "./dist/card_data.json"
     convert_toml_to_json(toml_directory, output_json_file)
