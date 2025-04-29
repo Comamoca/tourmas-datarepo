@@ -20,8 +20,6 @@ jobs:
         uses: cachix/install-nix-action@v31
         with:
           github_access_token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate JSON
         run: uv run python ./generate/card_data.py
 
       - uses: actions/checkout@v4
