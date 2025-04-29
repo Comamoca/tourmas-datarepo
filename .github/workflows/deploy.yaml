@@ -23,7 +23,7 @@ jobs:
           github_access_token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate JSON
-        run: nix develop --command uv run python ./generate/card_data.py
+        run: nix develop --no-pure-eval --command uv run python ./generate/card_data.py
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
