@@ -1,9 +1,9 @@
 回答は必ず日本語でお願いします。
 
 このプロジェクトではuvを採用しています。
-Pythonスクリプトを実行する際は`./validators/`配下にて`uv run`コマンドを先頭に付けてpythonを実行してください。
+Pythonスクリプトを実行する際は`uv run`コマンドを先頭に付けてpythonを実行してください。
 
-また、新たにPythonパッケージをインストールする際は`./validators/pyproject.toml`の`dependencies `を編集した後、`./validators/`ディレクトリにて`uv sync`を実行してください。
+また、新たにPythonパッケージをインストールする際は`./pyproject.toml`の`dependencies `を編集した後`uv sync`を実行してください。
 
 このプロジェクトではlinterにflake8ではなくruffを採用しています。
 lintを実行する際は`ruff check`コマンドを実行してください。
