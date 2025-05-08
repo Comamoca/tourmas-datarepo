@@ -43,48 +43,6 @@
             }
         },
         {
-            "id": "IMT-01-012",
-            "name": "ノーブルプライド",
-            "idol": "天道 輝",
-            "rarity": "SSR",
-            "text": "さぁ、フェスの始まりだ！最後までついてきてくれよな！",
-            "subject": "unique",
-            "type": "costume",
-            "appeal": {
-                "vocal": 1333,
-                "dance": 1414,
-                "visual": 1293
-            }
-        },
-        {
-            "id": "IMT-01-013",
-            "name": "ノーブルプライド",
-            "idol": "天道 輝",
-            "rarity": "SSR",
-            "text": "さぁ、フェスの始まりだ！最後までついてきてくれよな！",
-            "subject": "unique",
-            "type": "costume",
-            "appeal": {
-                "vocal": 1333,
-                "dance": 1414,
-                "visual": 1293
-            }
-        },
-        {
-            "id": "IMT-01-014",
-            "name": "ノーブルプライド",
-            "idol": "天道 輝",
-            "rarity": "SSR",
-            "text": "さぁ、フェスの始まりだ！最後までついてきてくれよな！",
-            "subject": "unique",
-            "type": "costume",
-            "appeal": {
-                "vocal": 1333,
-                "dance": 1414,
-                "visual": 1293
-            }
-        },
-        {
             "id": "IMT-01-015",
             "name": "トワイライトダンス",
             "idol": "最上 静香",
