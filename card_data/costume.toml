@@ -37,6 +37,19 @@ vocal = 1333
 dance = 1414
 visual = 1293
 
+# [[card]]
+# id = "IMT-01-012"
+# name = "ノーブルプライド"
+# idol = "天道 輝"
+# rarity = "SSR"
+# text = "さぁ、フェスの始まりだ！最後までついてきてくれよな！"
+# subject = "unique"
+# type = "costume"
+# [card.appeal]
+# vocal = 1333
+# dance = 1414
+# visual = 1293
+
 [[card]]
 id = "IMT-01-015"
 name = "トワイライトダンス"
@@ -149,47 +162,6 @@ rarity = "N"
 text = "今日は思いっきり、楽しんじゃいます⋯⋯っ"
 subject = "everyone"
 type = "costume"
-
-
-
-[[card]]
-id = "IMT-01-012"
-name = "ノーブルプライド"
-idol = "天道 輝"
-rarity = "SSR"
-text = "さぁ、フェスの始まりだ！最後までついてきてくれよな！"
-subject = "unique"
-type = "costume"
-[card.appeal]
-vocal = 1333
-dance = 1414
-visual = 1293
-
-[[card]]
-id = "IMT-01-013"
-name = "ノーブルプライド"
-idol = "天道 輝"
-rarity = "SSR"
-text = "さぁ、フェスの始まりだ！最後までついてきてくれよな！"
-subject = "unique"
-type = "costume"
-[card.appeal]
-vocal = 1333
-dance = 1414
-visual = 1293
-
-[[card]]
-id = "IMT-01-014"
-name = "ノーブルプライド"
-idol = "天道 輝"
-rarity = "SSR"
-text = "さぁ、フェスの始まりだ！最後までついてきてくれよな！"
-subject = "unique"
-type = "costume"
-[card.appeal]
-vocal = 1333
-dance = 1414
-visual = 1293
 
 [[card]]
 id = "IMT-01-024"
