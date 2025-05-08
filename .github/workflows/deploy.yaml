@@ -17,13 +17,25 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - name: Install Nix
-        uses: cachix/install-nix-action@v31
-        with:
-          github_access_token: ${{ secrets.GITHUB_TOKEN }}
+      # - name: Install Nix
+      #   uses: cachix/install-nix-action@v31
+      #   with:
+      #     github_access_token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate JSON
-        run: nix develop --no-pure-eval --command uv run python ./generate/card_data.py
+      # - name: Generate JSON
+      #   run: nix develop --no-pure-eval --command uv run python ./generate/card_data.py
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Setup Python
+        run: uv python install
+
+      - name: Build
+        run: uv run python ./generate/card_data.py
+
+      - name: Copy pages
+        run: cp ./pages/index.html ./dist/index.html
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
