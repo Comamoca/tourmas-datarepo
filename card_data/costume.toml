@@ -162,6 +162,10 @@ rarity = "N"
 text = "今日は思いっきり、楽しんじゃいます⋯⋯っ"
 subject = "everyone"
 type = "costume"
+[card.appeal]
+vocal = 1252
+dance = 1283
+visual = 1240
 
 [[card]]
 id = "IMT-01-024"
