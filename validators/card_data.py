@@ -2,7 +2,7 @@ import re
 import sys
 import tomllib
 from pathlib import Path
-from typing import List, Literal, Optional
+from typing import Dict, List, Literal, Optional, Type
 
 from pydantic import BaseModel, Field, ValidationError, field_validator
 
@@ -10,67 +10,60 @@ from pydantic import BaseModel, Field, ValidationError, field_validator
 # --- Pydantic Models ---
 
 class BaseCard(BaseModel):
-    """Base model for all card types, containing common fields."""
-    id: str # Changed from card_id
-    name: str # Changed from card_name
-    idol: str # Changed from idol_name
+    """全カードタイプの基底モデル、共通フィールドを含む。"""
+    id: str
+    name: str
+    idol: str
     rarity: Literal["N", "R", "SR", "SSR"]
     text: str
     type: Literal["costume", "accessory", "support", "sp_appeal"]
-    subject: Optional[Literal["everyone", "female", "male", "unique"] | str] = None # Common but handled in subtypes for specific rules if needed
+    subject: Optional[Literal["everyone", "female", "male", "unique"] | str] = None
 
     @field_validator("idol")
     @classmethod
-    def check_idol_name_format(cls, value: str) -> str:
-        """Ensure idol has a space between first and last name."""
-        if " " not in value.strip():
-            # Allow single names (like 'P') for now, adjust if needed
-            if len(value.strip().split()) == 1:
-                 return value
-            raise ValueError("idol must contain a space between first and last name.")
+    def validate_idol_name(cls, value: str) -> str:
+        """アイドル名が適切な形式かを検証する。"""
+        if " " not in value.strip() and len(value.strip().split()) > 1:
+            raise ValueError("アイドル名は姓名の間にスペースが必要です")
         return value
 
     @field_validator("id")
     @classmethod
-    def check_card_id_format(cls, value: str) -> str:
-        """Ensure id follows the IMT-XX-XXX format."""
+    def validate_card_id(cls, value: str) -> str:
+        """カードIDがIMT-XX-XXX形式に従うかを検証する。"""
         if not re.match(r"^IMT-\d{2}-\d{3}$", value):
-            raise ValueError("id must be in the format IMT-XX-XXX")
+            raise ValueError("カードIDはIMT-XX-XXX形式である必要があります")
         return value
 
 
 class AppealValue(BaseModel):
-    """Model for appeal values (Vocal, Dance, Visual)."""
-    vocal: int = Field(..., ge=0)
-    dance: int = Field(..., ge=0)
-    visual: int = Field(..., ge=0)
+    """アピール値（ボーカル、ダンス、ビジュアル）のモデル。"""
+    vocal: int = Field(ge=0, description="ボーカル値")
+    dance: int = Field(ge=0, description="ダンス値")
+    visual: int = Field(ge=0, description="ビジュアル値")
 
 
 class Skill(BaseModel):
-    """Model for skill name and description (used by Costume)."""
+    """スキル名と説明のモデル（コスチューム用）。"""
     name: str
     description: str
 
 
 class SupportSkill(BaseModel):
-    """Model for support skill type and description (used by Support)."""
-    # name: str # Removed as it's not present in the updated support.toml example
-    live_type: List[Literal["rhythm", "create"]] # Changed from Literal to List[Literal] based on updated support.toml
-    description: List[str] # Changed from str to List[str] based on updated support.toml
+    """サポートスキルのタイプと説明のモデル（サポート用）。"""
+    live_type: List[Literal["rhythm", "create"]]
+    description: List[str]
 
 
 class SpAppeal(BaseModel):
-    """Model for SP appeal name and effect (used by SpAppeal)."""
+    """SPアピール名と効果のモデル（SPアピール用）。"""
     effect: List[str]
 
 
 class CostumeCard(BaseCard):
-    """Model for 'costume' type cards."""
+    """コスチュームタイプカードのモデル。"""
     type: Literal["costume"]
-    appeal: AppealValue # Renamed from appeal_value
-    # skill: Skill # Removed as costume cards don't have skills according to user feedback
-    # subject is inherited from BaseCard
-    # Ensure other type-specific fields are not present
+    appeal: AppealValue
     skill: Optional[Skill] = Field(None, exclude=True)
     support_skill: Optional[SupportSkill] = Field(None, exclude=True)
     sp_appeal: Optional[SpAppeal] = Field(None, exclude=True)
@@ -78,49 +71,44 @@ class CostumeCard(BaseCard):
 
 
 class AccessoryCard(BaseCard):
-    """Model for 'accessory' type cards."""
+    """アクセサリータイプカードのモデル。"""
     type: Literal["accessory"]
     body_part: Literal["head", "face", "hand", "body", "waist", "leg"]
-    # subject is inherited from BaseCard
-    appeal: Optional[AppealValue] = Field(None, exclude=True) # Ensure appeal is NOT present
-    skill: Optional[Skill] = Field(None, exclude=True) # Ensure skill is NOT present
-    support_skill: Optional[SupportSkill] = Field(None, exclude=True) # Ensure support_skill is NOT present
-    sp_appeal: Optional[SpAppeal] = Field(None, exclude=True) # Ensure sp_appeal is NOT present
+    appeal: Optional[AppealValue] = Field(None, exclude=True)
+    skill: Optional[Skill] = Field(None, exclude=True)
+    support_skill: Optional[SupportSkill] = Field(None, exclude=True)
+    sp_appeal: Optional[SpAppeal] = Field(None, exclude=True)
 
 
 class SupportCard(BaseCard):
-    """Model for 'support' type cards."""
+    """サポートタイプカードのモデル。"""
     type: Literal["support"]
-    support_skill: SupportSkill # Renamed from support_effects, now a structured model
-    # subject is inherited from BaseCard
-    appeal: Optional[AppealValue] = Field(None, exclude=True) # Ensure appeal is NOT present
-    skill: Optional[Skill] = Field(None, exclude=True) # Ensure skill is NOT present
-    body_part: Optional[str] = Field(None, exclude=True) # Ensure body_part is NOT present
-    sp_appeal: Optional[SpAppeal] = Field(None, exclude=True) # Ensure sp_appeal is NOT present
+    support_skill: SupportSkill
+    appeal: Optional[AppealValue] = Field(None, exclude=True)
+    skill: Optional[Skill] = Field(None, exclude=True)
+    body_part: Optional[str] = Field(None, exclude=True)
+    sp_appeal: Optional[SpAppeal] = Field(None, exclude=True)
 
 
 class SpAppealCard(BaseCard):
-    """Model for 'sp_appeal' type cards."""
-
+    """SPアピールタイプカードのモデル。"""
     type: Literal["sp_appeal"]
-    sp_appeal: SpAppeal  # Renamed from rhythm_live_effects, now a structured model
-    # subject is inherited from BaseCard
-    appeal: Optional[AppealValue] = Field(
-        None, exclude=True
-    )  # Ensure appeal is NOT present
-    skill: Optional[Skill] = Field(None, exclude=True) # Ensure skill is NOT present
-    body_part: Optional[str] = Field(None, exclude=True) # Ensure body_part is NOT present
-    support_skill: Optional[SupportSkill] = Field(None, exclude=True) # Ensure support_skill is NOT present
+    sp_appeal: SpAppeal
+    appeal: Optional[AppealValue] = Field(None, exclude=True)
+    skill: Optional[Skill] = Field(None, exclude=True)
+    body_part: Optional[str] = Field(None, exclude=True)
+    support_skill: Optional[SupportSkill] = Field(None, exclude=True)
 
 
-# --- Mapping and Validation Logic ---
-
-CARD_MODELS = {
+CARD_MODELS: Dict[str, Type[BaseCard]] = {
     "costume": CostumeCard,
     "accessory": AccessoryCard,
     "support": SupportCard,
     "sp_appeal": SpAppealCard,
 }
+
+CARD_ARRAY_KEY = "card"
+SEPARATOR_LINE = "-" * 20
 
 
 def validate_toml_file(file_path: Path) -> List[str]:
@@ -227,52 +215,79 @@ def _validate_single_card(filename: str, item_desc: str, card_id: str, card_data
         )
 
 
-def main():
-    """Finds and validates all TOML files in the ./card_data directory."""
-    project_root = Path(__file__).parent.parent # Assumes validators/ is one level down from root
-    card_data_dir = project_root / "card_data"
-
+def _find_toml_files(card_data_dir: Path) -> List[Path]:
+    """指定されたディレクトリからTOMLファイルを検索する。
+    
+    Args:
+        card_data_dir: 検索するディレクトリ
+        
+    Returns:
+        見つかったTOMLファイルのリスト
+        
+    Raises:
+        FileNotFoundError: ディレクトリが存在しない場合
+    """
     if not card_data_dir.is_dir():
-        print(f"Error: Directory not found: {card_data_dir}", file=sys.stderr)
-        sys.exit(1)
+        raise FileNotFoundError(f"ディレクトリが見つかりません: {card_data_dir}")
+    
+    return sorted(list(card_data_dir.glob("*.toml")))
 
-    toml_files = sorted(list(card_data_dir.glob("*.toml"))) # Sort for consistent order
 
-    if not toml_files:
-        print(f"No TOML files found in {card_data_dir}", file=sys.stderr)
-        # Exit with 0 if no files found is acceptable, or 1 if it's an error
-        sys.exit(0)
-
-    print(f"Found {len(toml_files)} TOML files to validate in {card_data_dir}:")
-    # for f in toml_files:
-    #     print(f"- {f.relative_to(project_root)}") # Print relative path
-    print("-" * 20)
-
+def _validate_all_files(toml_files: List[Path], project_root: Path) -> List[str]:
+    """すべてのTOMLファイルを検証する。
+    
+    Args:
+        toml_files: 検証するTOMLファイルのリスト
+        project_root: プロジェクトルートディレクトリ
+        
+    Returns:
+        すべての検証エラーのリスト
+    """
     all_errors = []
-    has_files_validated = False
+    
     for file_path in toml_files:
-         if file_path.is_file():
-             has_files_validated = True
-             file_errors = validate_toml_file(file_path)
-             if file_errors:
-                 all_errors.extend(file_errors)
-             else:
-                 print(f"Validation successful for {file_path.relative_to(project_root)}.")
-         else:
-             print(f"Warning: Skipping non-file item: {file_path}", file=sys.stderr)
+        if not file_path.is_file():
+            print(f"Warning: ファイルでないアイテムをスキップします: {file_path}", file=sys.stderr)
+            continue
+        
+        file_errors = validate_toml_file(file_path)
+        if file_errors:
+            all_errors.extend(file_errors)
+        else:
+            print(f"検証成功: {file_path.relative_to(project_root)}")
+    
+    return all_errors
 
 
-    print("-" * 20)
-    if not has_files_validated and toml_files:
-         print("Warning: No actual files were validated.", file=sys.stderr)
-
+def main() -> None:
+    """./card_dataディレクトリ内のすべてのTOMLファイルを検索し、検証する。"""
+    project_root = Path(__file__).parent.parent
+    card_data_dir = project_root / "card_data"
+    
+    try:
+        toml_files = _find_toml_files(card_data_dir)
+    except FileNotFoundError as e:
+        print(f"Error: {e}", file=sys.stderr)
+        sys.exit(1)
+    
+    if not toml_files:
+        print(f"TOMLファイルが見つかりません: {card_data_dir}", file=sys.stderr)
+        sys.exit(0)
+    
+    print(f"{card_data_dir}で検証する{len(toml_files)}個のTOMLファイルを発見:")
+    print(SEPARATOR_LINE)
+    
+    all_errors = _validate_all_files(toml_files, project_root)
+    
+    print(SEPARATOR_LINE)
+    
     if all_errors:
-        print(f"\nValidation failed with {len(all_errors)} errors:", file=sys.stderr)
+        print(f"\n検証失敗: {len(all_errors)}個のエラー:", file=sys.stderr)
         for error in all_errors:
             print(f"- {error}", file=sys.stderr)
         sys.exit(1)
     else:
-        print("\nValidation successful. All checked files conform to the defined rules.")
+        print("\n検証成功: すべてのファイルが定義されたルールに適合しています")
         sys.exit(0)
 
 
