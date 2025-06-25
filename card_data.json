@@ -161,7 +161,12 @@
             "rarity": "N",
             "text": "今日は思いっきり、楽しんじゃいます⋯⋯っ",
             "subject": "everyone",
-            "type": "costume"
+            "type": "costume",
+            "appeal": {
+                "vocal": 1252,
+                "dance": 1283,
+                "visual": 1240
+            }
         },
         {
             "id": "IMT-01-024",
