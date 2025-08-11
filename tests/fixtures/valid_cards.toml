@@ -1,0 +1,49 @@
+[[card]]
+id = "IMT-01-001"
+name = "テストコスチューム"
+idol = "天海 春香"
+rarity = "SSR"
+text = "テスト用のコスチュームカードです。"
+type = "costume"
+subject = "everyone"
+
+[card.appeal]
+vocal = 1000
+dance = 800
+visual = 900
+
+[card.skill]
+name = "テストスキル"
+description = "テスト用のスキル説明"
+
+[[card]]
+id = "IMT-01-002"
+name = "テストアクセサリー"
+idol = "如月 千早"
+rarity = "SR"
+text = "テスト用のアクセサリーカードです。"
+type = "accessory"
+body_part = "head"
+
+[[card]]
+id = "IMT-01-003"
+name = "テストサポート"
+idol = "星井 美希"
+rarity = "R"
+text = "テスト用のサポートカードです。"
+type = "support"
+
+[card.support_skill]
+live_type = ["rhythm", "create"]
+description = ["リズムライブでの効果", "クリエイトライブでの効果"]
+
+[[card]]
+id = "IMT-01-004"
+name = "テストSPアピール"
+idol = "萩原 雪歩"
+rarity = "N"
+text = "テスト用のSPアピールカードです。"
+type = "sp_appeal"
+
+[card.sp_appeal]
+effect = ["特別な効果1", "特別な効果2"]

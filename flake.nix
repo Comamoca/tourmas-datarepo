@@ -72,17 +72,17 @@
                   language = "system";
                   types = [ "text" ];
                 };
-                # Validate card data using the devenv environment
+                # Validate card data using pytest
                 validate-card-data = {
                   enable = true;
-                  name = "Validate Card Data";
+                  name = "Validate Card Data with pytest";
                   # Wrap the command in a script executed by the devenv shell
                   entry = "${config.devenv.shells.default.pkgs.writeShellScript "validate-card-data-hook" ''
                     set -e
-                    echo "Running card data validation hook..."
+                    echo "Running card data validation with pytest..."
                     # Ensure we are in the project root relative to the script
                     cd "$(${pkgs.git}/bin/git rev-parse --show-toplevel)"
-                    uv run python ./validators/card_data.py
+                    uv run pytest tests/test_card_validation.py::TestBulkValidation::test_validate_actual_card_data -v
                   ''}/bin/validate-card-data-hook";
                   language = "script"; # The entry is now a script path
                   files = "^card_data/"; # Regex matching files in card_data/

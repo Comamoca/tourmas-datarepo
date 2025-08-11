@@ -1,0 +1,40 @@
+[[card]]
+id = "INVALID-ID"
+name = "無効なIDのカード"
+idol = "テストアイドル"
+rarity = "SSR"
+text = "IDが無効な形式のカード"
+type = "costume"
+
+[card.appeal]
+vocal = 1000
+dance = 800
+visual = 900
+
+[[card]]
+id = "IMT-02-001"
+name = "必須フィールド欠如"
+rarity = "SR"
+text = "idolフィールドが欠けているカード"
+type = "accessory"
+body_part = "head"
+
+[[card]]
+id = "IMT-02-002"
+name = "不正なカードタイプ"
+idol = "テスト アイドル"
+rarity = "R"
+text = "存在しないカードタイプ"
+type = "unknown_type"
+
+[[card]]
+id = "IMT-02-002"
+name = "重複ID"
+idol = "別の アイドル"
+rarity = "N"
+text = "上と同じIDのカード"
+type = "support"
+
+[card.support_skill]
+live_type = ["rhythm"]
+description = ["サポート効果"]

@@ -14,4 +14,10 @@ docstring-code-format = true
 
 
 [dependency-groups]
-dev = ["python-lsp-server>=1.12.2"]
+dev = ["python-lsp-server>=1.12.2", "pytest>=8.0.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
