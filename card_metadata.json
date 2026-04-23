@@ -1,0 +1,5681 @@
+{
+  "IMT-05-001": {
+    "number": "0542",
+    "idol": "水瀬 伊織",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0542_u.webp"
+  },
+  "IMT-05-002": {
+    "number": "0543",
+    "idol": "小宮 果穂",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0543_u.webp"
+  },
+  "IMT-05-003": {
+    "number": "0544",
+    "idol": "紫雲 清夏",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0544_u.webp"
+  },
+  "IMT-05-004": {
+    "number": "0545",
+    "idol": "月村 手毬",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0545_u.webp"
+  },
+  "IMT-05-005": {
+    "number": "0546",
+    "idol": "硲 道夫",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0546_u.webp"
+  },
+  "IMT-05-006": {
+    "number": "0547",
+    "idol": "小宮 果穂",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0547_u.webp"
+  },
+  "IMT-05-007": {
+    "number": "0548",
+    "idol": "紫雲 清夏",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0548_u.webp"
+  },
+  "IMT-05-008": {
+    "number": "0549",
+    "idol": "小宮 果穂",
+    "rarity": "SR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0549_u.webp"
+  },
+  "IMT-05-009": {
+    "number": "0550",
+    "idol": "島村 卯月",
+    "rarity": "SR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0550_u.webp"
+  },
+  "IMT-05-010": {
+    "number": "0551",
+    "idol": "天道 輝",
+    "rarity": "SR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0551_u.webp"
+  },
+  "IMT-05-011": {
+    "number": "0552",
+    "idol": "神崎 蘭子",
+    "rarity": "SR",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0552_u.webp"
+  },
+  "IMT-05-012": {
+    "number": "0553",
+    "idol": "島村 卯月",
+    "rarity": "R",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0553_u.webp"
+  },
+  "IMT-05-013": {
+    "number": "0554",
+    "idol": "風野 灯織",
+    "rarity": "R",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0554_u.webp"
+  },
+  "IMT-05-014": {
+    "number": "0555",
+    "idol": "真壁 瑞希",
+    "rarity": "R",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0555_u.webp"
+  },
+  "IMT-05-015": {
+    "number": "0556",
+    "idol": "本田 未央",
+    "rarity": "R",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0556_u.webp"
+  },
+  "IMT-05-016": {
+    "number": "0557",
+    "idol": "如月 千早",
+    "rarity": "R",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0557_u.webp"
+  },
+  "IMT-05-017": {
+    "number": "0558",
+    "idol": "水瀬 伊織",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0558_u.webp"
+  },
+  "IMT-05-018": {
+    "number": "0559",
+    "idol": "桜庭 薫",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0559_u.webp"
+  },
+  "IMT-05-019": {
+    "number": "0560",
+    "idol": "伊吹 翼",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0560_u.webp"
+  },
+  "IMT-05-020": {
+    "number": "0561",
+    "idol": "櫻木 真乃",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0561_u.webp"
+  },
+  "IMT-05-021": {
+    "number": "0562",
+    "idol": "小宮 果穂",
+    "rarity": "SSR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0562_u.webp"
+  },
+  "IMT-05-022": {
+    "number": "0563",
+    "idol": "小宮 果穂",
+    "rarity": "SSR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0563_u.webp"
+  },
+  "IMT-05-023": {
+    "number": "0564",
+    "idol": "紫雲 清夏",
+    "rarity": "SSR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0564_u.webp"
+  },
+  "IMT-05-024": {
+    "number": "0565",
+    "idol": "紫雲 清夏",
+    "rarity": "SSR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0565_u.webp"
+  },
+  "IMT-05-025": {
+    "number": "0566",
+    "idol": "星井 美希",
+    "rarity": "SSR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0566_u.webp"
+  },
+  "IMT-05-026": {
+    "number": "0567",
+    "idol": "櫻木 真乃",
+    "rarity": "SSR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0567_u.webp"
+  },
+  "IMT-05-027": {
+    "number": "0568",
+    "idol": "真壁 瑞希",
+    "rarity": "SR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0568_u.webp"
+  },
+  "IMT-05-028": {
+    "number": "0569",
+    "idol": "硲 道夫",
+    "rarity": "SR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0569_u.webp"
+  },
+  "IMT-05-029": {
+    "number": "0570",
+    "idol": "八宮 めぐる",
+    "rarity": "SR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0570_u.webp"
+  },
+  "IMT-05-030": {
+    "number": "0571",
+    "idol": "花海 咲季",
+    "rarity": "SR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0571_u.webp"
+  },
+  "IMT-05-031": {
+    "number": "0572",
+    "idol": "島村 卯月",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0572_u.webp"
+  },
+  "IMT-05-032": {
+    "number": "0573",
+    "idol": "最上 静香",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0573_u.webp"
+  },
+  "IMT-05-033": {
+    "number": "0574",
+    "idol": "柏木 翼",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0574_u.webp"
+  },
+  "IMT-05-034": {
+    "number": "0575",
+    "idol": "硲 道夫",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0575_u.webp"
+  },
+  "IMT-05-035": {
+    "number": "0576",
+    "idol": "如月 千早",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0576_u.webp"
+  },
+  "IMT-05-036": {
+    "number": "0577",
+    "idol": "春日 未来",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0577_u.webp"
+  },
+  "IMT-05-037": {
+    "number": "0578",
+    "idol": "月村 手毬",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0578_u.webp"
+  },
+  "IMT-05-038": {
+    "number": "0579",
+    "idol": "藤田 ことね",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0579_u.webp"
+  },
+  "IMT-05-039": {
+    "number": "0580",
+    "idol": "天海 春香",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0580_u.webp"
+  },
+  "IMT-05-040": {
+    "number": "0581",
+    "idol": "如月 千早",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0581_u.webp"
+  },
+  "IMT-05-041": {
+    "number": "0582",
+    "idol": "星井 美希",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0582_u.webp"
+  },
+  "IMT-05-042": {
+    "number": "0583",
+    "idol": "渋谷 凛",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0583_u.webp"
+  },
+  "IMT-05-043": {
+    "number": "0584",
+    "idol": "本田 未央",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0584_u.webp"
+  },
+  "IMT-05-044": {
+    "number": "0585",
+    "idol": "神崎 蘭子",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0585_u.webp"
+  },
+  "IMT-05-045": {
+    "number": "0586",
+    "idol": "春日 未来",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0586_u.webp"
+  },
+  "IMT-05-046": {
+    "number": "0587",
+    "idol": "伊吹 翼",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0587_u.webp"
+  },
+  "IMT-05-047": {
+    "number": "0588",
+    "idol": "真壁 瑞希",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0588_u.webp"
+  },
+  "IMT-05-048": {
+    "number": "0589",
+    "idol": "天道 輝",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0589_u.webp"
+  },
+  "IMT-05-049": {
+    "number": "0590",
+    "idol": "桜庭 薫",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0590_u.webp"
+  },
+  "IMT-05-050": {
+    "number": "0591",
+    "idol": "柏木 翼",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0591_u.webp"
+  },
+  "IMT-05-051": {
+    "number": "0592",
+    "idol": "風野 灯織",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0592_u.webp"
+  },
+  "IMT-05-052": {
+    "number": "0593",
+    "idol": "八宮 めぐる",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0593_u.webp"
+  },
+  "IMT-05-053": {
+    "number": "0594",
+    "idol": "小宮 果穂",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0594_u.webp"
+  },
+  "IMT-05-054": {
+    "number": "0595",
+    "idol": "花海 咲季",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0595_u.webp"
+  },
+  "IMT-05-055": {
+    "number": "0596",
+    "idol": "月村 手毬",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0596_u.webp"
+  },
+  "IMT-05-056": {
+    "number": "0597",
+    "idol": "藤田 ことね",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0597_u.webp"
+  },
+  "IMT-05-057": {
+    "number": "0598",
+    "idol": "小宮 果穂",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0598_u.webp"
+  },
+  "IMT-05-058": {
+    "number": "0599",
+    "idol": "紫雲 清夏",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0599_u.webp"
+  },
+  "IMT-05-059": {
+    "number": "0600",
+    "idol": "天海 春香",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0600_u.webp"
+  },
+  "IMT-05-060": {
+    "number": "0601",
+    "idol": "如月 千早",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0601_u.webp"
+  },
+  "IMT-05-061": {
+    "number": "0602",
+    "idol": "星井 美希",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0602_u.webp"
+  },
+  "IMT-05-062": {
+    "number": "0603",
+    "idol": "渋谷 凛",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0603_u.webp"
+  },
+  "IMT-05-063": {
+    "number": "0604",
+    "idol": "本田 未央",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0604_u.webp"
+  },
+  "IMT-05-064": {
+    "number": "0605",
+    "idol": "神崎 蘭子",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0605_u.webp"
+  },
+  "IMT-05-065": {
+    "number": "0606",
+    "idol": "春日 未来",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0606_u.webp"
+  },
+  "IMT-05-066": {
+    "number": "0607",
+    "idol": "伊吹 翼",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0607_u.webp"
+  },
+  "IMT-05-067": {
+    "number": "0608",
+    "idol": "真壁 瑞希",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0608_u.webp"
+  },
+  "IMT-05-068": {
+    "number": "0609",
+    "idol": "天道 輝",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0609_u.webp"
+  },
+  "IMT-05-069": {
+    "number": "0610",
+    "idol": "桜庭 薫",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0610_u.webp"
+  },
+  "IMT-05-070": {
+    "number": "0611",
+    "idol": "柏木 翼",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0611_u.webp"
+  },
+  "IMT-05-071": {
+    "number": "0612",
+    "idol": "風野 灯織",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0612_u.webp"
+  },
+  "IMT-05-072": {
+    "number": "0613",
+    "idol": "八宮 めぐる",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0613_u.webp"
+  },
+  "IMT-05-073": {
+    "number": "0614",
+    "idol": "小宮 果穂",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0614_u.webp"
+  },
+  "IMT-05-074": {
+    "number": "0615",
+    "idol": "花海 咲季",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0615_u.webp"
+  },
+  "IMT-05-075": {
+    "number": "0616",
+    "idol": "月村 手毬",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0616_u.webp"
+  },
+  "IMT-05-076": {
+    "number": "0617",
+    "idol": "藤田 ことね",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0617_u.webp"
+  },
+  "IMT-05-077": {
+    "number": "0618",
+    "idol": "渋谷 凛",
+    "rarity": "SR",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0618_u.webp"
+  },
+  "IMT-05-078": {
+    "number": "0619",
+    "idol": "櫻木 真乃",
+    "rarity": "SR",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0619_u.webp"
+  },
+  "IMT-05-079": {
+    "number": "0620",
+    "idol": "伊吹 翼",
+    "rarity": "R",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0620_u.webp"
+  },
+  "IMT-05-080": {
+    "number": "0621",
+    "idol": "桜庭 薫",
+    "rarity": "R",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0621_u.webp"
+  },
+  "IMT-05-081": {
+    "number": "0622",
+    "idol": "水瀬 伊織",
+    "rarity": "N",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0622_u.webp"
+  },
+  "IMT-05-082": {
+    "number": "0623",
+    "idol": "島村 卯月",
+    "rarity": "N",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0623_u.webp"
+  },
+  "IMT-05-083": {
+    "number": "0624",
+    "idol": "花海 咲季",
+    "rarity": "N",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0624_u.webp"
+  },
+  "IMT-05-084": {
+    "number": "0625",
+    "idol": "最上 静香",
+    "rarity": "R",
+    "type_jp": "演出セット",
+    "type": "perf_set",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0625_u.webp"
+  },
+  "IMT-05-085": {
+    "number": "0626",
+    "idol": "天海 春香",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0626_u.webp"
+  },
+  "IMT-05-086": {
+    "number": "0627",
+    "idol": "島村 卯月",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0627_u.webp"
+  },
+  "IMT-05-087": {
+    "number": "0628",
+    "idol": "春日 未来",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0628_u.webp"
+  },
+  "IMT-05-088": {
+    "number": "0629",
+    "idol": "天道 輝",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0629_u.webp"
+  },
+  "IMT-05-089": {
+    "number": "0630",
+    "idol": "櫻木 真乃",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0630_u.webp"
+  },
+  "IMT-05-090": {
+    "number": "0631",
+    "idol": "花海 咲季",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-5",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0631_u.webp"
+  },
+  "IMT-04-094": {
+    "number": "0529",
+    "idol": "ストーリーイラスト",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0529_u.webp"
+  },
+  "IMT-04-095": {
+    "number": "0530",
+    "idol": "ストーリーイラスト",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0530_u.webp"
+  },
+  "IMT-04-096": {
+    "number": "0531",
+    "idol": "イラストレーターコラボ",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0531_u.webp"
+  },
+  "IMT-04-097": {
+    "number": "0532",
+    "idol": "イラストレーターコラボ",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0532_u.webp"
+  },
+  "IMT-04-098": {
+    "number": "0533",
+    "idol": "アイドルマスター TOURS（アイドルマスター SideM）",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0533_u.webp"
+  },
+  "IMT-04-099": {
+    "number": "0534",
+    "idol": "風野 灯織",
+    "rarity": "TR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0534_u.webp"
+  },
+  "IMT-04-100": {
+    "number": "0535",
+    "idol": "桜庭 薫",
+    "rarity": "TR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0535_u.webp"
+  },
+  "IMT-04-101": {
+    "number": "0536",
+    "idol": "如月 千早",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0536_u.webp"
+  },
+  "IMT-04-102": {
+    "number": "0537",
+    "idol": "神崎 蘭子",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0537_u.webp"
+  },
+  "IMT-04-103": {
+    "number": "0538",
+    "idol": "真壁 瑞希",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0538_u.webp"
+  },
+  "IMT-04-104": {
+    "number": "0539",
+    "idol": "柏木 翼",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0539_u.webp"
+  },
+  "IMT-04-105": {
+    "number": "0540",
+    "idol": "櫻木 真乃",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0540_u.webp"
+  },
+  "IMT-04-106": {
+    "number": "0541",
+    "idol": "花海 咲季",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0541_u.webp"
+  },
+  "IMT-04-001": {
+    "number": "0423",
+    "idol": "櫻木 真乃",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0423_u.webp"
+  },
+  "IMT-04-002": {
+    "number": "0424",
+    "idol": "櫻木 真乃",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0424_u.webp"
+  },
+  "IMT-04-003": {
+    "number": "0425",
+    "idol": "風野 灯織",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0425_u.webp"
+  },
+  "IMT-04-004": {
+    "number": "0426",
+    "idol": "八宮 めぐる",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0426_u.webp"
+  },
+  "IMT-04-005": {
+    "number": "0427",
+    "idol": "神崎 蘭子",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0427_u.webp"
+  },
+  "IMT-04-006": {
+    "number": "0428",
+    "idol": "真壁 瑞希",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0428_u.webp"
+  },
+  "IMT-04-007": {
+    "number": "0429",
+    "idol": "天道 輝",
+    "rarity": "SR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0429_u.webp"
+  },
+  "IMT-04-008": {
+    "number": "0430",
+    "idol": "真壁 瑞希",
+    "rarity": "R",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0430_u.webp"
+  },
+  "IMT-04-009": {
+    "number": "0431",
+    "idol": "神崎 蘭子",
+    "rarity": "N",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0431_u.webp"
+  },
+  "IMT-04-010": {
+    "number": "0432",
+    "idol": "風野 灯織",
+    "rarity": "SR",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0432_u.webp"
+  },
+  "IMT-04-011": {
+    "number": "0433",
+    "idol": "星井 美希",
+    "rarity": "SR",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0433_u.webp"
+  },
+  "IMT-04-012": {
+    "number": "0434",
+    "idol": "柏木 翼",
+    "rarity": "R",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0434_u.webp"
+  },
+  "IMT-04-013": {
+    "number": "0435",
+    "idol": "桜庭 薫",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0435_u.webp"
+  },
+  "IMT-04-014": {
+    "number": "0436",
+    "idol": "硲 道夫",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0436_u.webp"
+  },
+  "IMT-04-015": {
+    "number": "0437",
+    "idol": "渋谷 凛",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0437_u.webp"
+  },
+  "IMT-04-016": {
+    "number": "0438",
+    "idol": "月村 手毬",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0438_u.webp"
+  },
+  "IMT-04-017": {
+    "number": "0439",
+    "idol": "八宮 めぐる",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0439_u.webp"
+  },
+  "IMT-04-018": {
+    "number": "0440",
+    "idol": "天海 春香",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0440_u.webp"
+  },
+  "IMT-04-019": {
+    "number": "0441",
+    "idol": "櫻木 真乃",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0441_u.webp"
+  },
+  "IMT-04-020": {
+    "number": "0442",
+    "idol": "柏木 翼",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0442_u.webp"
+  },
+  "IMT-04-021": {
+    "number": "0443",
+    "idol": "花海 咲季",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0443_u.webp"
+  },
+  "IMT-04-022": {
+    "number": "0444",
+    "idol": "神崎 蘭子",
+    "rarity": "SSR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0444_u.webp"
+  },
+  "IMT-04-023": {
+    "number": "0445",
+    "idol": "神崎 蘭子",
+    "rarity": "SSR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0445_u.webp"
+  },
+  "IMT-04-024": {
+    "number": "0446",
+    "idol": "真壁 瑞希",
+    "rarity": "SSR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0446_u.webp"
+  },
+  "IMT-04-025": {
+    "number": "0447",
+    "idol": "真壁 瑞希",
+    "rarity": "SSR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0447_u.webp"
+  },
+  "IMT-04-026": {
+    "number": "0448",
+    "idol": "天海 春香",
+    "rarity": "SSR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0448_u.webp"
+  },
+  "IMT-04-027": {
+    "number": "0449",
+    "idol": "藤田 ことね",
+    "rarity": "SSR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0449_u.webp"
+  },
+  "IMT-04-028": {
+    "number": "0450",
+    "idol": "水瀬 伊織",
+    "rarity": "SR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0450_u.webp"
+  },
+  "IMT-04-029": {
+    "number": "0451",
+    "idol": "水瀬 伊織",
+    "rarity": "SR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0451_u.webp"
+  },
+  "IMT-04-030": {
+    "number": "0452",
+    "idol": "島村 卯月",
+    "rarity": "SR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0452_u.webp"
+  },
+  "IMT-04-031": {
+    "number": "0453",
+    "idol": "春日 未来",
+    "rarity": "SR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0453_u.webp"
+  },
+  "IMT-04-032": {
+    "number": "0454",
+    "idol": "花海 咲季",
+    "rarity": "SR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0454_u.webp"
+  },
+  "IMT-04-033": {
+    "number": "0455",
+    "idol": "春日 未来",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0455_u.webp"
+  },
+  "IMT-04-034": {
+    "number": "0456",
+    "idol": "最上 静香",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0456_u.webp"
+  },
+  "IMT-04-035": {
+    "number": "0457",
+    "idol": "伊吹 翼",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0457_u.webp"
+  },
+  "IMT-04-036": {
+    "number": "0458",
+    "idol": "本田 未央",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0458_u.webp"
+  },
+  "IMT-04-037": {
+    "number": "0459",
+    "idol": "硲 道夫",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0459_u.webp"
+  },
+  "IMT-04-038": {
+    "number": "0460",
+    "idol": "天道 輝",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0460_u.webp"
+  },
+  "IMT-04-039": {
+    "number": "0461",
+    "idol": "月村 手毬",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0461_u.webp"
+  },
+  "IMT-04-040": {
+    "number": "0462",
+    "idol": "袖屋 璃空",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0462_u.webp"
+  },
+  "IMT-04-041": {
+    "number": "0463",
+    "idol": "天海 春香",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0463_u.webp"
+  },
+  "IMT-04-042": {
+    "number": "0464",
+    "idol": "如月 千早",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0464_u.webp"
+  },
+  "IMT-04-043": {
+    "number": "0465",
+    "idol": "星井 美希",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0465_u.webp"
+  },
+  "IMT-04-044": {
+    "number": "0466",
+    "idol": "水瀬 伊織",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0466_u.webp"
+  },
+  "IMT-04-045": {
+    "number": "0467",
+    "idol": "島村 卯月",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0467_u.webp"
+  },
+  "IMT-04-046": {
+    "number": "0468",
+    "idol": "渋谷 凛",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0468_u.webp"
+  },
+  "IMT-04-047": {
+    "number": "0469",
+    "idol": "本田 未央",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0469_u.webp"
+  },
+  "IMT-04-048": {
+    "number": "0470",
+    "idol": "神崎 蘭子",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0470_u.webp"
+  },
+  "IMT-04-049": {
+    "number": "0471",
+    "idol": "春日 未来",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0471_u.webp"
+  },
+  "IMT-04-050": {
+    "number": "0472",
+    "idol": "最上 静香",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0472_u.webp"
+  },
+  "IMT-04-051": {
+    "number": "0473",
+    "idol": "伊吹 翼",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0473_u.webp"
+  },
+  "IMT-04-052": {
+    "number": "0474",
+    "idol": "真壁 瑞希",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0474_u.webp"
+  },
+  "IMT-04-053": {
+    "number": "0475",
+    "idol": "天道 輝",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0475_u.webp"
+  },
+  "IMT-04-054": {
+    "number": "0476",
+    "idol": "桜庭 薫",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0476_u.webp"
+  },
+  "IMT-04-055": {
+    "number": "0477",
+    "idol": "柏木 翼",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0477_u.webp"
+  },
+  "IMT-04-056": {
+    "number": "0478",
+    "idol": "硲 道夫",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0478_u.webp"
+  },
+  "IMT-04-057": {
+    "number": "0479",
+    "idol": "櫻木 真乃",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0479_u.webp"
+  },
+  "IMT-04-058": {
+    "number": "0480",
+    "idol": "風野 灯織",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0480_u.webp"
+  },
+  "IMT-04-059": {
+    "number": "0481",
+    "idol": "八宮 めぐる",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0481_u.webp"
+  },
+  "IMT-04-060": {
+    "number": "0482",
+    "idol": "花海 咲季",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0482_u.webp"
+  },
+  "IMT-04-061": {
+    "number": "0483",
+    "idol": "月村 手毬",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0483_u.webp"
+  },
+  "IMT-04-062": {
+    "number": "0484",
+    "idol": "藤田 ことね",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0484_u.webp"
+  },
+  "IMT-04-063": {
+    "number": "0485",
+    "idol": "神崎 蘭子",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0485_u.webp"
+  },
+  "IMT-04-064": {
+    "number": "0486",
+    "idol": "真壁 瑞希",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0486_u.webp"
+  },
+  "IMT-04-065": {
+    "number": "0487",
+    "idol": "天海 春香",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0487_u.webp"
+  },
+  "IMT-04-066": {
+    "number": "0488",
+    "idol": "如月 千早",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0488_u.webp"
+  },
+  "IMT-04-067": {
+    "number": "0489",
+    "idol": "星井 美希",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0489_u.webp"
+  },
+  "IMT-04-068": {
+    "number": "0490",
+    "idol": "水瀬 伊織",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0490_u.webp"
+  },
+  "IMT-04-069": {
+    "number": "0491",
+    "idol": "島村 卯月",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0491_u.webp"
+  },
+  "IMT-04-070": {
+    "number": "0492",
+    "idol": "渋谷 凛",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0492_u.webp"
+  },
+  "IMT-04-071": {
+    "number": "0493",
+    "idol": "本田 未央",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0493_u.webp"
+  },
+  "IMT-04-072": {
+    "number": "0494",
+    "idol": "神崎 蘭子",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0494_u.webp"
+  },
+  "IMT-04-073": {
+    "number": "0495",
+    "idol": "春日 未来",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0495_u.webp"
+  },
+  "IMT-04-074": {
+    "number": "0496",
+    "idol": "最上 静香",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0496_u.webp"
+  },
+  "IMT-04-075": {
+    "number": "0497",
+    "idol": "伊吹 翼",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0497_u.webp"
+  },
+  "IMT-04-076": {
+    "number": "0498",
+    "idol": "真壁 瑞希",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0498_u.webp"
+  },
+  "IMT-04-077": {
+    "number": "0499",
+    "idol": "天道 輝",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0499_u.webp"
+  },
+  "IMT-04-078": {
+    "number": "0500",
+    "idol": "桜庭 薫",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0500_u.webp"
+  },
+  "IMT-04-079": {
+    "number": "0501",
+    "idol": "柏木 翼",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0501_u.webp"
+  },
+  "IMT-04-080": {
+    "number": "0502",
+    "idol": "硲 道夫",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0502_u.webp"
+  },
+  "IMT-04-081": {
+    "number": "0503",
+    "idol": "櫻木 真乃",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0503_u.webp"
+  },
+  "IMT-04-082": {
+    "number": "0504",
+    "idol": "風野 灯織",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0504_u.webp"
+  },
+  "IMT-04-083": {
+    "number": "0505",
+    "idol": "八宮 めぐる",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0505_u.webp"
+  },
+  "IMT-04-084": {
+    "number": "0506",
+    "idol": "花海 咲季",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0506_u.webp"
+  },
+  "IMT-04-085": {
+    "number": "0507",
+    "idol": "月村 手毬",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0507_u.webp"
+  },
+  "IMT-04-086": {
+    "number": "0508",
+    "idol": "藤田 ことね",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0508_u.webp"
+  },
+  "IMT-04-087": {
+    "number": "0509",
+    "idol": "島村 卯月",
+    "rarity": "SR",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0509_u.webp"
+  },
+  "IMT-04-088": {
+    "number": "0510",
+    "idol": "藤田 ことね",
+    "rarity": "SR",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0510_u.webp"
+  },
+  "IMT-04-089": {
+    "number": "0511",
+    "idol": "星井 美希",
+    "rarity": "R",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0511_u.webp"
+  },
+  "IMT-04-090": {
+    "number": "0512",
+    "idol": "桜庭 薫",
+    "rarity": "R",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0512_u.webp"
+  },
+  "IMT-04-091": {
+    "number": "0513",
+    "idol": "月村 手毬",
+    "rarity": "N",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0513_u.webp"
+  },
+  "IMT-04-092": {
+    "number": "0514",
+    "idol": "如月 千早",
+    "rarity": "N",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0514_u.webp"
+  },
+  "IMT-04-093": {
+    "number": "0515",
+    "idol": "渋谷 凛",
+    "rarity": "N",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-4",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0515_u.webp"
+  },
+  "IMT-03-091": {
+    "number": "0416",
+    "idol": "アイドルマスター TOURS（アイドルマスター）",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0416_u.webp"
+  },
+  "IMT-03-092": {
+    "number": "0417",
+    "idol": "アイドルマスター TOURS（アイドルマスター SideM）",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0417_u.webp"
+  },
+  "IMT-03-093": {
+    "number": "0418",
+    "idol": "水瀬 伊織",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0418_u.webp"
+  },
+  "IMT-03-094": {
+    "number": "0419",
+    "idol": "アイドルマスター TOURS（アイドルマスター シンデレラガールズ）",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0419_u.webp"
+  },
+  "IMT-03-095": {
+    "number": "0420",
+    "idol": "アイドルマスター TOURS（アイドルマスター ミリオンライブ！）",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0420_u.webp"
+  },
+  "IMT-03-096": {
+    "number": "0421",
+    "idol": "アイドルマスター TOURS（アイドルマスター SideM）",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0421_u.webp"
+  },
+  "IMT-03-097": {
+    "number": "0422",
+    "idol": "アイドルマスター TOURS（アイドルマスター シャイニーカラーズ）",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0422_u.webp"
+  },
+  "IMT-03-001": {
+    "number": "0310",
+    "idol": "春日 未来",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0310_u.webp"
+  },
+  "IMT-03-002": {
+    "number": "0311",
+    "idol": "春日 未来",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0311_u.webp"
+  },
+  "IMT-03-003": {
+    "number": "0312",
+    "idol": "最上 静香",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0312_u.webp"
+  },
+  "IMT-03-004": {
+    "number": "0313",
+    "idol": "伊吹 翼",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0313_u.webp"
+  },
+  "IMT-03-005": {
+    "number": "0314",
+    "idol": "水瀬 伊織",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0314_u.webp"
+  },
+  "IMT-03-006": {
+    "number": "0315",
+    "idol": "硲 道夫",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0315_u.webp"
+  },
+  "IMT-03-007": {
+    "number": "0316",
+    "idol": "水瀬 伊織",
+    "rarity": "SR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0316_u.webp"
+  },
+  "IMT-03-008": {
+    "number": "0317",
+    "idol": "柏木 翼",
+    "rarity": "R",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0317_u.webp"
+  },
+  "IMT-03-009": {
+    "number": "0318",
+    "idol": "風野 灯織",
+    "rarity": "R",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0318_u.webp"
+  },
+  "IMT-03-010": {
+    "number": "0319",
+    "idol": "渋谷 凛",
+    "rarity": "R",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0319_u.webp"
+  },
+  "IMT-03-011": {
+    "number": "0320",
+    "idol": "伊吹 翼",
+    "rarity": "R",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0320_u.webp"
+  },
+  "IMT-03-012": {
+    "number": "0321",
+    "idol": "天道 輝",
+    "rarity": "R",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0321_u.webp"
+  },
+  "IMT-03-013": {
+    "number": "0322",
+    "idol": "八宮 めぐる",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0322_u.webp"
+  },
+  "IMT-03-014": {
+    "number": "0323",
+    "idol": "天道 輝",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0323_u.webp"
+  },
+  "IMT-03-015": {
+    "number": "0324",
+    "idol": "柏木 翼",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0324_u.webp"
+  },
+  "IMT-03-016": {
+    "number": "0325",
+    "idol": "桜庭 薫",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0325_u.webp"
+  },
+  "IMT-03-017": {
+    "number": "0326",
+    "idol": "天海 春香",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0326_u.webp"
+  },
+  "IMT-03-018": {
+    "number": "0327",
+    "idol": "花海 咲季",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0327_u.webp"
+  },
+  "IMT-03-019": {
+    "number": "0328",
+    "idol": "如月 千早",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0328_u.webp"
+  },
+  "IMT-03-020": {
+    "number": "0329",
+    "idol": "水瀬 伊織",
+    "rarity": "SSR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0329_u.webp"
+  },
+  "IMT-03-021": {
+    "number": "0330",
+    "idol": "星井 美希",
+    "rarity": "SSR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0330_u.webp"
+  },
+  "IMT-03-022": {
+    "number": "0331",
+    "idol": "硲 道夫",
+    "rarity": "SSR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0331_u.webp"
+  },
+  "IMT-03-023": {
+    "number": "0332",
+    "idol": "桜庭 薫",
+    "rarity": "SSR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0332_u.webp"
+  },
+  "IMT-03-024": {
+    "number": "0333",
+    "idol": "櫻木 真乃",
+    "rarity": "SSR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0333_u.webp"
+  },
+  "IMT-03-025": {
+    "number": "0334",
+    "idol": "本田 未央",
+    "rarity": "SSR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0334_u.webp"
+  },
+  "IMT-03-026": {
+    "number": "0335",
+    "idol": "島村 卯月",
+    "rarity": "SR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0335_u.webp"
+  },
+  "IMT-03-027": {
+    "number": "0336",
+    "idol": "伊吹 翼",
+    "rarity": "SR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0336_u.webp"
+  },
+  "IMT-03-028": {
+    "number": "0337",
+    "idol": "桜庭 薫",
+    "rarity": "SR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0337_u.webp"
+  },
+  "IMT-03-029": {
+    "number": "0338",
+    "idol": "柏木 翼",
+    "rarity": "SR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0338_u.webp"
+  },
+  "IMT-03-030": {
+    "number": "0339",
+    "idol": "星井 美希",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0339_u.webp"
+  },
+  "IMT-03-031": {
+    "number": "0340",
+    "idol": "渋谷 凛",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0340_u.webp"
+  },
+  "IMT-03-032": {
+    "number": "0341",
+    "idol": "天道 輝",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0341_u.webp"
+  },
+  "IMT-03-033": {
+    "number": "0342",
+    "idol": "桜庭 薫",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0342_u.webp"
+  },
+  "IMT-03-034": {
+    "number": "0343",
+    "idol": "最上 静香",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0343_u.webp"
+  },
+  "IMT-03-035": {
+    "number": "0344",
+    "idol": "硲 道夫",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0344_u.webp"
+  },
+  "IMT-03-036": {
+    "number": "0345",
+    "idol": "花海 咲季",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0345_u.webp"
+  },
+  "IMT-03-037": {
+    "number": "0346",
+    "idol": "藤田 ことね",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0346_u.webp"
+  },
+  "IMT-03-038": {
+    "number": "0347",
+    "idol": "天海 春香",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0347_u.webp"
+  },
+  "IMT-03-039": {
+    "number": "0348",
+    "idol": "如月 千早",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0348_u.webp"
+  },
+  "IMT-03-040": {
+    "number": "0349",
+    "idol": "星井 美希",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0349_u.webp"
+  },
+  "IMT-03-041": {
+    "number": "0350",
+    "idol": "水瀬 伊織",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0350_u.webp"
+  },
+  "IMT-03-042": {
+    "number": "0351",
+    "idol": "島村 卯月",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0351_u.webp"
+  },
+  "IMT-03-043": {
+    "number": "0352",
+    "idol": "渋谷 凛",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0352_u.webp"
+  },
+  "IMT-03-044": {
+    "number": "0353",
+    "idol": "本田 未央",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0353_u.webp"
+  },
+  "IMT-03-045": {
+    "number": "0354",
+    "idol": "春日 未来",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0354_u.webp"
+  },
+  "IMT-03-046": {
+    "number": "0355",
+    "idol": "最上 静香",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0355_u.webp"
+  },
+  "IMT-03-047": {
+    "number": "0356",
+    "idol": "伊吹 翼",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0356_u.webp"
+  },
+  "IMT-03-048": {
+    "number": "0357",
+    "idol": "天道 輝",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0357_u.webp"
+  },
+  "IMT-03-049": {
+    "number": "0358",
+    "idol": "桜庭 薫",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0358_u.webp"
+  },
+  "IMT-03-050": {
+    "number": "0359",
+    "idol": "柏木 翼",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0359_u.webp"
+  },
+  "IMT-03-051": {
+    "number": "0360",
+    "idol": "硲 道夫",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0360_u.webp"
+  },
+  "IMT-03-052": {
+    "number": "0361",
+    "idol": "櫻木 真乃",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0361_u.webp"
+  },
+  "IMT-03-053": {
+    "number": "0362",
+    "idol": "風野 灯織",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0362_u.webp"
+  },
+  "IMT-03-054": {
+    "number": "0363",
+    "idol": "八宮 めぐる",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0363_u.webp"
+  },
+  "IMT-03-055": {
+    "number": "0364",
+    "idol": "花海 咲季",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0364_u.webp"
+  },
+  "IMT-03-056": {
+    "number": "0365",
+    "idol": "月村 手毬",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0365_u.webp"
+  },
+  "IMT-03-057": {
+    "number": "0366",
+    "idol": "藤田 ことね",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0366_u.webp"
+  },
+  "IMT-03-058": {
+    "number": "0367",
+    "idol": "水瀬 伊織",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0367_u.webp"
+  },
+  "IMT-03-059": {
+    "number": "0368",
+    "idol": "硲 道夫",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0368_u.webp"
+  },
+  "IMT-03-060": {
+    "number": "0369",
+    "idol": "天海 春香",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0369_u.webp"
+  },
+  "IMT-03-061": {
+    "number": "0370",
+    "idol": "如月 千早",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0370_u.webp"
+  },
+  "IMT-03-062": {
+    "number": "0371",
+    "idol": "星井 美希",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0371_u.webp"
+  },
+  "IMT-03-063": {
+    "number": "0372",
+    "idol": "水瀬 伊織",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0372_u.webp"
+  },
+  "IMT-03-064": {
+    "number": "0373",
+    "idol": "島村 卯月",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0373_u.webp"
+  },
+  "IMT-03-065": {
+    "number": "0374",
+    "idol": "渋谷 凛",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0374_u.webp"
+  },
+  "IMT-03-066": {
+    "number": "0375",
+    "idol": "本田 未央",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0375_u.webp"
+  },
+  "IMT-03-067": {
+    "number": "0376",
+    "idol": "春日 未来",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0376_u.webp"
+  },
+  "IMT-03-068": {
+    "number": "0377",
+    "idol": "最上 静香",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0377_u.webp"
+  },
+  "IMT-03-069": {
+    "number": "0378",
+    "idol": "伊吹 翼",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0378_u.webp"
+  },
+  "IMT-03-070": {
+    "number": "0379",
+    "idol": "天道 輝",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0379_u.webp"
+  },
+  "IMT-03-071": {
+    "number": "0380",
+    "idol": "桜庭 薫",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0380_u.webp"
+  },
+  "IMT-03-072": {
+    "number": "0381",
+    "idol": "柏木 翼",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0381_u.webp"
+  },
+  "IMT-03-073": {
+    "number": "0382",
+    "idol": "硲 道夫",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0382_u.webp"
+  },
+  "IMT-03-074": {
+    "number": "0383",
+    "idol": "櫻木 真乃",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0383_u.webp"
+  },
+  "IMT-03-075": {
+    "number": "0384",
+    "idol": "風野 灯織",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0384_u.webp"
+  },
+  "IMT-03-076": {
+    "number": "0385",
+    "idol": "八宮 めぐる",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0385_u.webp"
+  },
+  "IMT-03-077": {
+    "number": "0386",
+    "idol": "花海 咲季",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0386_u.webp"
+  },
+  "IMT-03-078": {
+    "number": "0387",
+    "idol": "月村 手毬",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0387_u.webp"
+  },
+  "IMT-03-079": {
+    "number": "0388",
+    "idol": "藤田 ことね",
+    "rarity": "CO",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0388_u.webp"
+  },
+  "IMT-03-080": {
+    "number": "0389",
+    "idol": "如月 千早",
+    "rarity": "SR",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0389_u.webp"
+  },
+  "IMT-03-081": {
+    "number": "0390",
+    "idol": "風野 灯織",
+    "rarity": "SR",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0390_u.webp"
+  },
+  "IMT-03-082": {
+    "number": "0391",
+    "idol": "島村 卯月",
+    "rarity": "R",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0391_u.webp"
+  },
+  "IMT-03-083": {
+    "number": "0392",
+    "idol": "硲 道夫",
+    "rarity": "R",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0392_u.webp"
+  },
+  "IMT-03-084": {
+    "number": "0393",
+    "idol": "柏木 翼",
+    "rarity": "R",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0393_u.webp"
+  },
+  "IMT-03-085": {
+    "number": "0394",
+    "idol": "星井 美希",
+    "rarity": "N",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0394_u.webp"
+  },
+  "IMT-03-086": {
+    "number": "0395",
+    "idol": "八宮 めぐる",
+    "rarity": "N",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0395_u.webp"
+  },
+  "IMT-03-087": {
+    "number": "0396",
+    "idol": "藤田 ことね",
+    "rarity": "N",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0396_u.webp"
+  },
+  "IMT-03-088": {
+    "number": "0397",
+    "idol": "天海 春香",
+    "rarity": "SR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0397_u.webp"
+  },
+  "IMT-03-089": {
+    "number": "0398",
+    "idol": "本田 未央",
+    "rarity": "R",
+    "type_jp": "演出セット",
+    "type": "perf_set",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0398_u.webp"
+  },
+  "IMT-03-090": {
+    "number": "0399",
+    "idol": "櫻木 真乃",
+    "rarity": "R",
+    "type_jp": "演出セット",
+    "type": "perf_set",
+    "series_id": "series-3",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0399_u.webp"
+  },
+  "IMT-02-097": {
+    "number": "0300",
+    "idol": "アイドルマスター TOURS",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0300_u.webp"
+  },
+  "IMT-02-098": {
+    "number": "0301",
+    "idol": "アイドルマスター TOURS",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0301_u.webp"
+  },
+  "IMT-02-099": {
+    "number": "0302",
+    "idol": "アイドルマスター TOURS",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0302_u.webp"
+  },
+  "IMT-02-100": {
+    "number": "0303",
+    "idol": "アイドルマスター TOURS",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0303_u.webp"
+  },
+  "IMT-02-101": {
+    "number": "0304",
+    "idol": "アイドルマスター TOURS",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0304_u.webp"
+  },
+  "IMT-02-102": {
+    "number": "0305",
+    "idol": "アイドルマスター TOURS",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0305_u.webp"
+  },
+  "IMT-02-103": {
+    "number": "0306",
+    "idol": "アイドルマスター TOURS",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0306_u.webp"
+  },
+  "IMT-02-104": {
+    "number": "0307",
+    "idol": "アイドルマスター TOURS",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0307_u.webp"
+  },
+  "IMT-02-105": {
+    "number": "0308",
+    "idol": "アイドルマスター TOURS",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0308_u.webp"
+  },
+  "IMT-02-106": {
+    "number": "0309",
+    "idol": "アイドルマスター TOURS",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0309_u.webp"
+  },
+  "IMT-02-001": {
+    "number": "0204",
+    "idol": "島村 卯月",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0204_u.webp"
+  },
+  "IMT-02-002": {
+    "number": "0205",
+    "idol": "島村 卯月",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0205_u.webp"
+  },
+  "IMT-02-003": {
+    "number": "0206",
+    "idol": "渋谷 凛",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0206_u.webp"
+  },
+  "IMT-02-004": {
+    "number": "0207",
+    "idol": "本田 未央",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0207_u.webp"
+  },
+  "IMT-02-005": {
+    "number": "0208",
+    "idol": "花海咲季",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0208_u.webp"
+  },
+  "IMT-02-006": {
+    "number": "0209",
+    "idol": "花海 咲季",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0209_u.webp"
+  },
+  "IMT-02-007": {
+    "number": "0210",
+    "idol": "月村 手毬",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0210_u.webp"
+  },
+  "IMT-02-008": {
+    "number": "0211",
+    "idol": "藤田 ことね",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0211_u.webp"
+  },
+  "IMT-02-009": {
+    "number": "0212",
+    "idol": "桜庭 薫",
+    "rarity": "SR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0212_u.webp"
+  },
+  "IMT-02-010": {
+    "number": "0213",
+    "idol": "櫻木 真乃",
+    "rarity": "R",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0213_u.webp"
+  },
+  "IMT-02-011": {
+    "number": "0214",
+    "idol": "最上 静香",
+    "rarity": "N",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0214_u.webp"
+  },
+  "IMT-02-012": {
+    "number": "0215",
+    "idol": "桜庭 薫",
+    "rarity": "N",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0215_u.webp"
+  },
+  "IMT-02-013": {
+    "number": "0216",
+    "idol": "八宮 めぐる",
+    "rarity": "SR",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0216_u.webp"
+  },
+  "IMT-02-014": {
+    "number": "0217",
+    "idol": "天海 春香",
+    "rarity": "R",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0217_u.webp"
+  },
+  "IMT-02-015": {
+    "number": "0218",
+    "idol": "櫻木 真乃",
+    "rarity": "R",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0218_u.webp"
+  },
+  "IMT-02-016": {
+    "number": "0219",
+    "idol": "最上 静香",
+    "rarity": "R",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0219_u.webp"
+  },
+  "IMT-02-017": {
+    "number": "0220",
+    "idol": "風野 灯織",
+    "rarity": "R",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0220_u.webp"
+  },
+  "IMT-02-018": {
+    "number": "0221",
+    "idol": "星井 美希",
+    "rarity": "R",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0221_u.webp"
+  },
+  "IMT-02-019": {
+    "number": "0222",
+    "idol": "天道 輝",
+    "rarity": "R",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0222_u.webp"
+  },
+  "IMT-02-020": {
+    "number": "0223",
+    "idol": "柏木 翼",
+    "rarity": "R",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0223_u.webp"
+  },
+  "IMT-02-021": {
+    "number": "0224",
+    "idol": "春日 未来",
+    "rarity": "R",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0224_u.webp"
+  },
+  "IMT-02-022": {
+    "number": "0225",
+    "idol": "渋谷 凛",
+    "rarity": "R",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0225_u.webp"
+  },
+  "IMT-02-023": {
+    "number": "0226",
+    "idol": "如月 千早",
+    "rarity": "R",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0226_u.webp"
+  },
+  "IMT-02-024": {
+    "number": "0227",
+    "idol": "風野 灯織",
+    "rarity": "R",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0227_u.webp"
+  },
+  "IMT-02-025": {
+    "number": "0228",
+    "idol": "柏木 翼",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0228_u.webp"
+  },
+  "IMT-02-026": {
+    "number": "0229",
+    "idol": "八宮 めぐる",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0229_u.webp"
+  },
+  "IMT-02-027": {
+    "number": "0230",
+    "idol": "本田 未央",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0230_u.webp"
+  },
+  "IMT-02-028": {
+    "number": "0231",
+    "idol": "渋谷 凛",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0231_u.webp"
+  },
+  "IMT-02-029": {
+    "number": "0232",
+    "idol": "天道 輝",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0232_u.webp"
+  },
+  "IMT-02-030": {
+    "number": "0233",
+    "idol": "島村 卯月",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0233_u.webp"
+  },
+  "IMT-02-031": {
+    "number": "0234",
+    "idol": "伊吹 翼",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0234_u.webp"
+  },
+  "IMT-02-032": {
+    "number": "0235",
+    "idol": "藤田ことね",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0235_u.webp"
+  },
+  "IMT-02-033": {
+    "number": "0236",
+    "idol": "月村手毬",
+    "rarity": "SSR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0236_u.webp"
+  },
+  "IMT-02-034": {
+    "number": "0237",
+    "idol": "島村 卯月",
+    "rarity": "SSR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0237_u.webp"
+  },
+  "IMT-02-035": {
+    "number": "0238",
+    "idol": "如月 千早",
+    "rarity": "SSR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0238_u.webp"
+  },
+  "IMT-02-036": {
+    "number": "0239",
+    "idol": "本田 未央",
+    "rarity": "SR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0239_u.webp"
+  },
+  "IMT-02-037": {
+    "number": "0240",
+    "idol": "天道 輝",
+    "rarity": "SR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0240_u.webp"
+  },
+  "IMT-02-038": {
+    "number": "0241",
+    "idol": "天海 春香",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0241_u.webp"
+  },
+  "IMT-02-039": {
+    "number": "0242",
+    "idol": "伊吹 翼",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0242_u.webp"
+  },
+  "IMT-02-040": {
+    "number": "0243",
+    "idol": "島村 卯月",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0243_u.webp"
+  },
+  "IMT-02-041": {
+    "number": "0244",
+    "idol": "櫻木 真乃",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0244_u.webp"
+  },
+  "IMT-02-042": {
+    "number": "0245",
+    "idol": "風野 灯織",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0245_u.webp"
+  },
+  "IMT-02-043": {
+    "number": "0246",
+    "idol": "八宮 めぐる",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0246_u.webp"
+  },
+  "IMT-02-044": {
+    "number": "0247",
+    "idol": "柏木 翼",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0247_u.webp"
+  },
+  "IMT-02-045": {
+    "number": "0248",
+    "idol": "花海咲季",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0248_u.webp"
+  },
+  "IMT-02-046": {
+    "number": "0249",
+    "idol": "月村手毬",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0249_u.webp"
+  },
+  "IMT-02-047": {
+    "number": "0250",
+    "idol": "藤田ことね",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0250_u.webp"
+  },
+  "IMT-02-048": {
+    "number": "0251",
+    "idol": "天海 春香",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0251_u.webp"
+  },
+  "IMT-02-049": {
+    "number": "0252",
+    "idol": "如月 千早",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0252_u.webp"
+  },
+  "IMT-02-050": {
+    "number": "0253",
+    "idol": "星井 美希",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0253_u.webp"
+  },
+  "IMT-02-051": {
+    "number": "0254",
+    "idol": "島村 卯月",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0254_u.webp"
+  },
+  "IMT-02-052": {
+    "number": "0255",
+    "idol": "渋谷 凛",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0255_u.webp"
+  },
+  "IMT-02-053": {
+    "number": "0256",
+    "idol": "本田 未央",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0256_u.webp"
+  },
+  "IMT-02-054": {
+    "number": "0257",
+    "idol": "春日 未来",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0257_u.webp"
+  },
+  "IMT-02-055": {
+    "number": "0258",
+    "idol": "最上 静香",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0258_u.webp"
+  },
+  "IMT-02-056": {
+    "number": "0259",
+    "idol": "伊吹 翼",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0259_u.webp"
+  },
+  "IMT-02-057": {
+    "number": "0260",
+    "idol": "天道 輝",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0260_u.webp"
+  },
+  "IMT-02-058": {
+    "number": "0261",
+    "idol": "桜庭 薫",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0261_u.webp"
+  },
+  "IMT-02-059": {
+    "number": "0262",
+    "idol": "柏木 翼",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0262_u.webp"
+  },
+  "IMT-02-060": {
+    "number": "0263",
+    "idol": "櫻木 真乃",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0263_u.webp"
+  },
+  "IMT-02-061": {
+    "number": "0264",
+    "idol": "風野 灯織",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0264_u.webp"
+  },
+  "IMT-02-062": {
+    "number": "0265",
+    "idol": "八宮 めぐる",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0265_u.webp"
+  },
+  "IMT-02-063": {
+    "number": "0266",
+    "idol": "花海咲季",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0266_u.webp"
+  },
+  "IMT-02-064": {
+    "number": "0267",
+    "idol": "月村手毬",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0267_u.webp"
+  },
+  "IMT-02-065": {
+    "number": "0268",
+    "idol": "藤田ことね",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0268_u.webp"
+  },
+  "IMT-02-066": {
+    "number": "0269",
+    "idol": "袖屋 璃空",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0269_u.webp"
+  },
+  "IMT-02-067": {
+    "number": "0270",
+    "idol": "藤田ことね",
+    "rarity": "SSR",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0270_u.webp"
+  },
+  "IMT-02-068": {
+    "number": "0271",
+    "idol": "花海咲季",
+    "rarity": "SR",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0271_u.webp"
+  },
+  "IMT-02-069": {
+    "number": "0272",
+    "idol": "最上 静香",
+    "rarity": "SR",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0272_u.webp"
+  },
+  "IMT-02-070": {
+    "number": "0273",
+    "idol": "柏木 翼",
+    "rarity": "SR",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0273_u.webp"
+  },
+  "IMT-02-071": {
+    "number": "0274",
+    "idol": "天海 春香",
+    "rarity": "R",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0274_u.webp"
+  },
+  "IMT-02-072": {
+    "number": "0275",
+    "idol": "渋谷 凛",
+    "rarity": "R",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0275_u.webp"
+  },
+  "IMT-02-073": {
+    "number": "0276",
+    "idol": "天道 輝",
+    "rarity": "R",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0276_u.webp"
+  },
+  "IMT-02-074": {
+    "number": "0277",
+    "idol": "桜庭 薫",
+    "rarity": "R",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0277_u.webp"
+  },
+  "IMT-02-075": {
+    "number": "0278",
+    "idol": "星井 美希",
+    "rarity": "N",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0278_u.webp"
+  },
+  "IMT-02-076": {
+    "number": "0279",
+    "idol": "本田 未央",
+    "rarity": "N",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0279_u.webp"
+  },
+  "IMT-02-077": {
+    "number": "0280",
+    "idol": "春日 未来",
+    "rarity": "N",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0280_u.webp"
+  },
+  "IMT-02-078": {
+    "number": "0281",
+    "idol": "桜庭 薫",
+    "rarity": "N",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0281_u.webp"
+  },
+  "IMT-02-079": {
+    "number": "0282",
+    "idol": "天海 春香",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0282_u.webp"
+  },
+  "IMT-02-080": {
+    "number": "0283",
+    "idol": "如月 千早",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0283_u.webp"
+  },
+  "IMT-02-081": {
+    "number": "0284",
+    "idol": "星井 美希",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0284_u.webp"
+  },
+  "IMT-02-082": {
+    "number": "0285",
+    "idol": "島村 卯月",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0285_u.webp"
+  },
+  "IMT-02-083": {
+    "number": "0286",
+    "idol": "渋谷 凛",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0286_u.webp"
+  },
+  "IMT-02-084": {
+    "number": "0287",
+    "idol": "本田 未央",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0287_u.webp"
+  },
+  "IMT-02-085": {
+    "number": "0288",
+    "idol": "春日 未来",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0288_u.webp"
+  },
+  "IMT-02-086": {
+    "number": "0289",
+    "idol": "最上 静香",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0289_u.webp"
+  },
+  "IMT-02-087": {
+    "number": "0290",
+    "idol": "伊吹 翼",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0290_u.webp"
+  },
+  "IMT-02-088": {
+    "number": "0291",
+    "idol": "天道 輝",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0291_u.webp"
+  },
+  "IMT-02-089": {
+    "number": "0292",
+    "idol": "桜庭 薫",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0292_u.webp"
+  },
+  "IMT-02-090": {
+    "number": "0293",
+    "idol": "柏木 翼",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0293_u.webp"
+  },
+  "IMT-02-091": {
+    "number": "0294",
+    "idol": "櫻木 真乃",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0294_u.webp"
+  },
+  "IMT-02-092": {
+    "number": "0295",
+    "idol": "風野 灯織",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0295_u.webp"
+  },
+  "IMT-02-093": {
+    "number": "0296",
+    "idol": "八宮 めぐる",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0296_u.webp"
+  },
+  "IMT-02-094": {
+    "number": "0297",
+    "idol": "花海 咲季",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0297_u.webp"
+  },
+  "IMT-02-095": {
+    "number": "0298",
+    "idol": "月村 手毬",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0298_u.webp"
+  },
+  "IMT-02-096": {
+    "number": "0299",
+    "idol": "藤田 ことね",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0299_u.webp"
+  },
+  "IMT-01-001": {
+    "number": "0001",
+    "idol": "天海 春香",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0001_u.webp"
+  },
+  "IMT-01-002": {
+    "number": "0002",
+    "idol": "天海 春香",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0002_u.webp"
+  },
+  "IMT-01-003": {
+    "number": "0003",
+    "idol": "島村 卯月",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0003_u.webp"
+  },
+  "IMT-01-004": {
+    "number": "0004",
+    "idol": "春日 未来",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0004_u.webp"
+  },
+  "IMT-01-005": {
+    "number": "0005",
+    "idol": "天道 輝",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0005_u.webp"
+  },
+  "IMT-01-006": {
+    "number": "0006",
+    "idol": "櫻木 真乃",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0006_u.webp"
+  },
+  "IMT-01-007": {
+    "number": "0007",
+    "idol": "天海 春香",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0007_u.webp"
+  },
+  "IMT-01-008": {
+    "number": "0008",
+    "idol": "天海 春香",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0008_u.webp"
+  },
+  "IMT-01-009": {
+    "number": "0009",
+    "idol": "如月 千早",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0009_u.webp"
+  },
+  "IMT-01-010": {
+    "number": "0010",
+    "idol": "星井 美希",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0010_u.webp"
+  },
+  "IMT-01-011": {
+    "number": "0011",
+    "idol": "天道 輝",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0011_u.webp"
+  },
+  "IMT-01-012": {
+    "number": "0012",
+    "idol": "天道 輝",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0012_u.webp"
+  },
+  "IMT-01-013": {
+    "number": "0013",
+    "idol": "桜庭 薫",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0013_u.webp"
+  },
+  "IMT-01-014": {
+    "number": "0014",
+    "idol": "柏木 翼",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0014_u.webp"
+  },
+  "IMT-01-015": {
+    "number": "0015",
+    "idol": "最上 静香",
+    "rarity": "SR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0015_u.webp"
+  },
+  "IMT-01-016": {
+    "number": "0016",
+    "idol": "桜庭 薫",
+    "rarity": "SR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0016_u.webp"
+  },
+  "IMT-01-017": {
+    "number": "0017",
+    "idol": "風野 灯織",
+    "rarity": "R",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0017_u.webp"
+  },
+  "IMT-01-018": {
+    "number": "0018",
+    "idol": "桜庭 薫",
+    "rarity": "R",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0018_u.webp"
+  },
+  "IMT-01-019": {
+    "number": "0019",
+    "idol": "本田 未央",
+    "rarity": "R",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0019_u.webp"
+  },
+  "IMT-01-020": {
+    "number": "0020",
+    "idol": "柏木 翼",
+    "rarity": "R",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0020_u.webp"
+  },
+  "IMT-01-021": {
+    "number": "0021",
+    "idol": "渋谷 凛",
+    "rarity": "R",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0021_u.webp"
+  },
+  "IMT-01-022": {
+    "number": "0022",
+    "idol": "柏木 翼",
+    "rarity": "R",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0022_u.webp"
+  },
+  "IMT-01-023": {
+    "number": "0023",
+    "idol": "櫻木 真乃",
+    "rarity": "N",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0023_u.webp"
+  },
+  "IMT-01-024": {
+    "number": "0024",
+    "idol": "天道 輝",
+    "rarity": "N",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0024_u.webp"
+  },
+  "IMT-01-025": {
+    "number": "0025",
+    "idol": "島村 卯月",
+    "rarity": "SR",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0025_u.webp"
+  },
+  "IMT-01-026": {
+    "number": "0026",
+    "idol": "渋谷 凛",
+    "rarity": "SR",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0026_u.webp"
+  },
+  "IMT-01-027": {
+    "number": "0027",
+    "idol": "本田 未央",
+    "rarity": "R",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0027_u.webp"
+  },
+  "IMT-01-028": {
+    "number": "0028",
+    "idol": "春日 未来",
+    "rarity": "R",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0028_u.webp"
+  },
+  "IMT-01-029": {
+    "number": "0029",
+    "idol": "如月 千早",
+    "rarity": "R",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0029_u.webp"
+  },
+  "IMT-01-030": {
+    "number": "0030",
+    "idol": "桜庭 薫",
+    "rarity": "R",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0030_u.webp"
+  },
+  "IMT-01-031": {
+    "number": "0031",
+    "idol": "天海 春香",
+    "rarity": "R",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0031_u.webp"
+  },
+  "IMT-01-032": {
+    "number": "0032",
+    "idol": "星井 美希",
+    "rarity": "R",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0032_u.webp"
+  },
+  "IMT-01-033": {
+    "number": "0033",
+    "idol": "最上 静香",
+    "rarity": "R",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0033_u.webp"
+  },
+  "IMT-01-034": {
+    "number": "0034",
+    "idol": "渋谷 凛",
+    "rarity": "R",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0034_u.webp"
+  },
+  "IMT-01-035": {
+    "number": "0035",
+    "idol": "八宮 めぐる",
+    "rarity": "R",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0035_u.webp"
+  },
+  "IMT-01-036": {
+    "number": "0036",
+    "idol": "春日 未来",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0036_u.webp"
+  },
+  "IMT-01-037": {
+    "number": "0037",
+    "idol": "天海 春香",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0037_u.webp"
+  },
+  "IMT-01-038": {
+    "number": "0038",
+    "idol": "最上 静香",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0038_u.webp"
+  },
+  "IMT-01-039": {
+    "number": "0039",
+    "idol": "星井 美希",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0039_u.webp"
+  },
+  "IMT-01-040": {
+    "number": "0040",
+    "idol": "櫻木 真乃",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0040_u.webp"
+  },
+  "IMT-01-041": {
+    "number": "0041",
+    "idol": "島村 卯月",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0041_u.webp"
+  },
+  "IMT-01-042": {
+    "number": "0042",
+    "idol": "桜庭 薫",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0042_u.webp"
+  },
+  "IMT-01-043": {
+    "number": "0043",
+    "idol": "如月 千早",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0043_u.webp"
+  },
+  "IMT-01-044": {
+    "number": "0044",
+    "idol": "柏木 翼",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0044_u.webp"
+  },
+  "IMT-01-045": {
+    "number": "0045",
+    "idol": "風野 灯織",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0045_u.webp"
+  },
+  "IMT-01-046": {
+    "number": "0046",
+    "idol": "伊吹 翼",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0046_u.webp"
+  },
+  "IMT-01-047": {
+    "number": "0047",
+    "idol": "渋谷 凛",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0047_u.webp"
+  },
+  "IMT-01-048": {
+    "number": "0048",
+    "idol": "星井 美希",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0048_u.webp"
+  },
+  "IMT-01-049": {
+    "number": "0049",
+    "idol": "伊吹 翼",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0049_u.webp"
+  },
+  "IMT-01-050": {
+    "number": "0050",
+    "idol": "天道 輝",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0050_u.webp"
+  },
+  "IMT-01-051": {
+    "number": "0051",
+    "idol": "春日 未来",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0051_u.webp"
+  },
+  "IMT-01-052": {
+    "number": "0052",
+    "idol": "最上 静香",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0052_u.webp"
+  },
+  "IMT-01-053": {
+    "number": "0053",
+    "idol": "本田 未央",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0053_u.webp"
+  },
+  "IMT-01-054": {
+    "number": "0054",
+    "idol": "渋谷 凛",
+    "rarity": "SSR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0054_u.webp"
+  },
+  "IMT-01-055": {
+    "number": "0055",
+    "idol": "伊吹 翼",
+    "rarity": "SSR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0055_u.webp"
+  },
+  "IMT-01-056": {
+    "number": "0056",
+    "idol": "星井 美希",
+    "rarity": "SR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0056_u.webp"
+  },
+  "IMT-01-057": {
+    "number": "0057",
+    "idol": "伊吹 翼",
+    "rarity": "SR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0057_u.webp"
+  },
+  "IMT-01-058": {
+    "number": "0058",
+    "idol": "春日 未来",
+    "rarity": "SR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0058_u.webp"
+  },
+  "IMT-01-059": {
+    "number": "0059",
+    "idol": "如月 千早",
+    "rarity": "SR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0059_u.webp"
+  },
+  "IMT-01-060": {
+    "number": "0060",
+    "idol": "風野 灯織",
+    "rarity": "SR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0060_u.webp"
+  },
+  "IMT-01-061": {
+    "number": "0061",
+    "idol": "島村 卯月",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0061_u.webp"
+  },
+  "IMT-01-062": {
+    "number": "0062",
+    "idol": "如月 千早",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0062_u.webp"
+  },
+  "IMT-01-063": {
+    "number": "0063",
+    "idol": "最上 静香",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0063_u.webp"
+  },
+  "IMT-01-064": {
+    "number": "0064",
+    "idol": "天道 輝",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0064_u.webp"
+  },
+  "IMT-01-065": {
+    "number": "0065",
+    "idol": "渋谷 凛",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0065_u.webp"
+  },
+  "IMT-01-066": {
+    "number": "0066",
+    "idol": "櫻木 真乃",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0066_u.webp"
+  },
+  "IMT-01-067": {
+    "number": "0067",
+    "idol": "八宮 めぐる",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0067_u.webp"
+  },
+  "IMT-01-068": {
+    "number": "0068",
+    "idol": "天海 春香",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0068_u.webp"
+  },
+  "IMT-01-069": {
+    "number": "0069",
+    "idol": "如月 千早",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0069_u.webp"
+  },
+  "IMT-01-070": {
+    "number": "0070",
+    "idol": "星井 美希",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0070_u.webp"
+  },
+  "IMT-01-071": {
+    "number": "0071",
+    "idol": "島村 卯月",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0071_u.webp"
+  },
+  "IMT-01-072": {
+    "number": "0072",
+    "idol": "渋谷 凛",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0072_u.webp"
+  },
+  "IMT-01-073": {
+    "number": "0073",
+    "idol": "本田 未央",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0073_u.webp"
+  },
+  "IMT-01-074": {
+    "number": "0074",
+    "idol": "春日 未来",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0074_u.webp"
+  },
+  "IMT-01-075": {
+    "number": "0075",
+    "idol": "最上 静香",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0075_u.webp"
+  },
+  "IMT-01-076": {
+    "number": "0076",
+    "idol": "伊吹 翼",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0076_u.webp"
+  },
+  "IMT-01-077": {
+    "number": "0077",
+    "idol": "天道 輝",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0077_u.webp"
+  },
+  "IMT-01-078": {
+    "number": "0078",
+    "idol": "桜庭 薫",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0078_u.webp"
+  },
+  "IMT-01-079": {
+    "number": "0079",
+    "idol": "柏木 翼",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0079_u.webp"
+  },
+  "IMT-01-080": {
+    "number": "0080",
+    "idol": "櫻木 真乃",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0080_u.webp"
+  },
+  "IMT-01-081": {
+    "number": "0081",
+    "idol": "風野 灯織",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0081_u.webp"
+  },
+  "IMT-01-082": {
+    "number": "0082",
+    "idol": "八宮 めぐる",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0082_u.webp"
+  },
+  "IMT-01-083": {
+    "number": "0083",
+    "idol": "柏木 翼",
+    "rarity": "SSR",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0083_u.webp"
+  },
+  "IMT-01-084": {
+    "number": "0084",
+    "idol": "八宮 めぐる",
+    "rarity": "SR",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0084_u.webp"
+  },
+  "IMT-01-085": {
+    "number": "0085",
+    "idol": "春日 未来",
+    "rarity": "SR",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0085_u.webp"
+  },
+  "IMT-01-086": {
+    "number": "0086",
+    "idol": "本田 未央",
+    "rarity": "SR",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0086_u.webp"
+  },
+  "IMT-01-087": {
+    "number": "0087",
+    "idol": "伊吹 翼",
+    "rarity": "SR",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0087_u.webp"
+  },
+  "IMT-01-088": {
+    "number": "0088",
+    "idol": "天道 輝",
+    "rarity": "SR",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0088_u.webp"
+  },
+  "IMT-01-089": {
+    "number": "0089",
+    "idol": "星井 美希",
+    "rarity": "R",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0089_u.webp"
+  },
+  "IMT-01-090": {
+    "number": "0090",
+    "idol": "最上 静香",
+    "rarity": "R",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0090_u.webp"
+  },
+  "IMT-01-091": {
+    "number": "0091",
+    "idol": "天海 春香",
+    "rarity": "R",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0091_u.webp"
+  },
+  "IMT-01-092": {
+    "number": "0092",
+    "idol": "桜庭 薫",
+    "rarity": "R",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0092_u.webp"
+  },
+  "IMT-01-093": {
+    "number": "0093",
+    "idol": "櫻木 真乃",
+    "rarity": "N",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0093_u.webp"
+  },
+  "IMT-01-094": {
+    "number": "0094",
+    "idol": "風野 灯織",
+    "rarity": "N",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0094_u.webp"
+  },
+  "IMT-01-095": {
+    "number": "0095",
+    "idol": "THE IDOLM@STER",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0095_u.webp"
+  },
+  "IMT-01-096": {
+    "number": "0096",
+    "idol": "アイドルマスター TOURS",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0096_u.webp"
+  },
+  "IMT-01-097": {
+    "number": "0097",
+    "idol": "ストーリーイラスト",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0097_u.webp"
+  },
+  "IMT-01-098": {
+    "number": "0098",
+    "idol": "ストーリーイラスト",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0098_u.webp"
+  },
+  "IMT-01-099": {
+    "number": "0099",
+    "idol": "ストーリーイラスト",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0099_u.webp"
+  },
+  "IMT-01-100": {
+    "number": "0100",
+    "idol": "ストーリーイラスト",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0100_u.webp"
+  },
+  "IMT-01-101": {
+    "number": "0101",
+    "idol": "ストーリーイラスト",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0101_u.webp"
+  },
+  "IMT-01-102": {
+    "number": "0102",
+    "idol": "イラストレーターコラボ",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0102_u.webp"
+  },
+  "IMT-01-103": {
+    "number": "0103",
+    "idol": "イラストレーターコラボ",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0103_u.webp"
+  },
+  "IMT-01-104": {
+    "number": "0104",
+    "idol": "イラストレーターコラボ",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0104_u.webp"
+  },
+  "IMT-01-105": {
+    "number": "0105",
+    "idol": "イラストレーターコラボ",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0105_u.webp"
+  },
+  "IMT-01-106": {
+    "number": "0106",
+    "idol": "イラストレーターコラボ",
+    "rarity": "TR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0106_u.webp"
+  },
+  "IMT-07-001": {
+    "number": "0107",
+    "idol": "如月 千早",
+    "rarity": "なし",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-cp",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0107_u.webp"
+  },
+  "IMT-07-002": {
+    "number": "0108",
+    "idol": "渋谷 凛",
+    "rarity": "なし",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-cp",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0108_u.webp"
+  },
+  "IMT-07-003": {
+    "number": "0109",
+    "idol": "最上 静香",
+    "rarity": "なし",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-cp",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0109_u.webp"
+  },
+  "IMT-07-004": {
+    "number": "0110",
+    "idol": "桜庭 薫",
+    "rarity": "なし",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-cp",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0110_u.webp"
+  },
+  "IMT-07-005": {
+    "number": "0111",
+    "idol": "風野 灯織",
+    "rarity": "なし",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-cp",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0111_u.webp"
+  },
+  "IMT-06-001": {
+    "number": "0112",
+    "idol": "天道 輝",
+    "rarity": "なし",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-pm",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0112_u.webp"
+  },
+  "IMT-06-002": {
+    "number": "0113",
+    "idol": "天海 春香",
+    "rarity": "なし",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-pm",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0113_u.webp"
+  },
+  "IMT-06-003": {
+    "number": "0114",
+    "idol": "本田 未央",
+    "rarity": "なし",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-pm",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0114_u.webp"
+  },
+  "IMT-06-004": {
+    "number": "0115",
+    "idol": "渋谷 凛",
+    "rarity": "なし",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-pm",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0115_u.webp"
+  },
+  "IMT-06-005": {
+    "number": "0116",
+    "idol": "袖屋 璃空",
+    "rarity": "なし",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-pm",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0116_u.webp"
+  },
+  "IMT-08-001": {
+    "number": "0117",
+    "idol": "天海 春香",
+    "rarity": "なし",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-ex",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0117_u.webp"
+  },
+  "IMT-08-002": {
+    "number": "0118",
+    "idol": "島村 卯月",
+    "rarity": "なし",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-ex",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0118_u.webp"
+  },
+  "IMT-08-003": {
+    "number": "0119",
+    "idol": "春日 未来",
+    "rarity": "なし",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-ex",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0119_u.webp"
+  },
+  "IMT-08-004": {
+    "number": "0120",
+    "idol": "天道 輝",
+    "rarity": "なし",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-ex",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0120_u.webp"
+  },
+  "IMT-08-005": {
+    "number": "0121",
+    "idol": "櫻木 真乃",
+    "rarity": "なし",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-ex",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0121_u.webp"
+  },
+  "IMT-08-006": {
+    "number": "0122",
+    "idol": "天海 春香",
+    "rarity": "なし",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-ex",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0122_u.webp"
+  },
+  "IMT-08-007": {
+    "number": "0123",
+    "idol": "如月 千早",
+    "rarity": "なし",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-ex",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0123_u.webp"
+  },
+  "IMT-08-008": {
+    "number": "0124",
+    "idol": "星井 美希",
+    "rarity": "なし",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-ex",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0124_u.webp"
+  },
+  "IMT-08-009": {
+    "number": "0125",
+    "idol": "島村 卯月",
+    "rarity": "なし",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-ex",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0125_u.webp"
+  },
+  "IMT-08-010": {
+    "number": "0126",
+    "idol": "渋谷 凛",
+    "rarity": "なし",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-ex",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0126_u.webp"
+  },
+  "IMT-08-011": {
+    "number": "0127",
+    "idol": "本田 未央",
+    "rarity": "なし",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-ex",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0127_u.webp"
+  },
+  "IMT-08-012": {
+    "number": "0128",
+    "idol": "春日 未来",
+    "rarity": "なし",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-ex",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0128_u.webp"
+  },
+  "IMT-08-013": {
+    "number": "0129",
+    "idol": "最上 静香",
+    "rarity": "なし",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-ex",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0129_u.webp"
+  },
+  "IMT-08-014": {
+    "number": "0130",
+    "idol": "伊吹 翼",
+    "rarity": "なし",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-ex",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0130_u.webp"
+  },
+  "IMT-08-015": {
+    "number": "0131",
+    "idol": "天道 輝",
+    "rarity": "なし",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-ex",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0131_u.webp"
+  },
+  "IMT-08-016": {
+    "number": "0132",
+    "idol": "桜庭 薫",
+    "rarity": "なし",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-ex",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0132_u.webp"
+  },
+  "IMT-08-017": {
+    "number": "0133",
+    "idol": "柏木 翼",
+    "rarity": "なし",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-ex",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0133_u.webp"
+  },
+  "IMT-08-018": {
+    "number": "0134",
+    "idol": "櫻木 真乃",
+    "rarity": "なし",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-ex",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0134_u.webp"
+  },
+  "IMT-08-019": {
+    "number": "0135",
+    "idol": "風野 灯織",
+    "rarity": "なし",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-ex",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0135_u.webp"
+  },
+  "IMT-08-020": {
+    "number": "0136",
+    "idol": "八宮 めぐる",
+    "rarity": "なし",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-ex",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0136_u.webp"
+  },
+  "IMT-09-001": {
+    "number": "0137",
+    "idol": "天海 春香",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-1test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0137_u.webp"
+  },
+  "IMT-09-002": {
+    "number": "0138",
+    "idol": "天海 春香",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-1test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0138_u.webp"
+  },
+  "IMT-09-003": {
+    "number": "0139",
+    "idol": "風野 灯織",
+    "rarity": "R",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-1test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0139_u.webp"
+  },
+  "IMT-09-004": {
+    "number": "0140",
+    "idol": "本田 未央",
+    "rarity": "R",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-1test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0140_u.webp"
+  },
+  "IMT-09-005": {
+    "number": "0141",
+    "idol": "天海 春香",
+    "rarity": "R",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0141_u.webp"
+  },
+  "IMT-09-006": {
+    "number": "0142",
+    "idol": "渋谷 凛",
+    "rarity": "R",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0142_u.webp"
+  },
+  "IMT-09-007": {
+    "number": "0143",
+    "idol": "八宮 めぐる",
+    "rarity": "R",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0143_u.webp"
+  },
+  "IMT-09-008": {
+    "number": "0144",
+    "idol": "春日 未来",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0144_u.webp"
+  },
+  "IMT-09-009": {
+    "number": "0145",
+    "idol": "最上 静香",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0145_u.webp"
+  },
+  "IMT-09-010": {
+    "number": "0146",
+    "idol": "星井 美希",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0146_u.webp"
+  },
+  "IMT-09-011": {
+    "number": "0147",
+    "idol": "櫻木 真乃",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0147_u.webp"
+  },
+  "IMT-09-012": {
+    "number": "0148",
+    "idol": "島村 卯月",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0148_u.webp"
+  },
+  "IMT-09-013": {
+    "number": "0149",
+    "idol": "如月 千早",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0149_u.webp"
+  },
+  "IMT-09-014": {
+    "number": "0150",
+    "idol": "風野 灯織",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0150_u.webp"
+  },
+  "IMT-09-015": {
+    "number": "0151",
+    "idol": "伊吹 翼",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-1test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0151_u.webp"
+  },
+  "IMT-09-016": {
+    "number": "0152",
+    "idol": "渋谷 凛",
+    "rarity": "SSR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0152_u.webp"
+  },
+  "IMT-09-017": {
+    "number": "0153",
+    "idol": "星井 美希",
+    "rarity": "SR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0153_u.webp"
+  },
+  "IMT-09-018": {
+    "number": "0154",
+    "idol": "伊吹 翼",
+    "rarity": "SR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0154_u.webp"
+  },
+  "IMT-09-019": {
+    "number": "0155",
+    "idol": "島村 卯月",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0155_u.webp"
+  },
+  "IMT-09-020": {
+    "number": "0156",
+    "idol": "如月 千早",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0156_u.webp"
+  },
+  "IMT-09-021": {
+    "number": "0157",
+    "idol": "最上 静香",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0157_u.webp"
+  },
+  "IMT-09-022": {
+    "number": "0158",
+    "idol": "天海 春香",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0158_u.webp"
+  },
+  "IMT-09-023": {
+    "number": "0159",
+    "idol": "櫻木 真乃",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0159_u.webp"
+  },
+  "IMT-09-024": {
+    "number": "0160",
+    "idol": "本田 未央",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0160_u.webp"
+  },
+  "IMT-09-025": {
+    "number": "0161",
+    "idol": "渋谷 凛",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0161_u.webp"
+  },
+  "IMT-09-026": {
+    "number": "0162",
+    "idol": "風野 灯織",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-1test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0162_u.webp"
+  },
+  "IMT-09-027": {
+    "number": "0163",
+    "idol": "八宮 めぐる",
+    "rarity": "SR",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-1test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0163_u.webp"
+  },
+  "IMT-09-028": {
+    "number": "0164",
+    "idol": "春日 未来",
+    "rarity": "SR",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-1test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0164_u.webp"
+  },
+  "IMT-09-029": {
+    "number": "0165",
+    "idol": "星井 美希",
+    "rarity": "R",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-1test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0165_u.webp"
+  },
+  "IMT-10-001": {
+    "number": "0166",
+    "idol": "天海 春香",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0166_u.webp"
+  },
+  "IMT-10-002": {
+    "number": "0167",
+    "idol": "天海 春香",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0167_u.webp"
+  },
+  "IMT-10-003": {
+    "number": "0168",
+    "idol": "島村 卯月",
+    "rarity": "SSR",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0168_u.webp"
+  },
+  "IMT-10-004": {
+    "number": "0169",
+    "idol": "風野 灯織",
+    "rarity": "R",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0169_u.webp"
+  },
+  "IMT-10-005": {
+    "number": "0170",
+    "idol": "桜庭 薫",
+    "rarity": "R",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0170_u.webp"
+  },
+  "IMT-10-006": {
+    "number": "0171",
+    "idol": "本田 未央",
+    "rarity": "R",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0171_u.webp"
+  },
+  "IMT-10-007": {
+    "number": "0172",
+    "idol": "柏木 翼",
+    "rarity": "R",
+    "type_jp": "コスチューム",
+    "type": "costume",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0172_u.webp"
+  },
+  "IMT-10-008": {
+    "number": "0173",
+    "idol": "天海 春香",
+    "rarity": "R",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0173_u.webp"
+  },
+  "IMT-10-009": {
+    "number": "0174",
+    "idol": "渋谷 凛",
+    "rarity": "R",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0174_u.webp"
+  },
+  "IMT-10-010": {
+    "number": "0175",
+    "idol": "八宮 めぐる",
+    "rarity": "R",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0175_u.webp"
+  },
+  "IMT-10-011": {
+    "number": "0176",
+    "idol": "春日 未来",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0176_u.webp"
+  },
+  "IMT-10-012": {
+    "number": "0177",
+    "idol": "最上 静香",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0177_u.webp"
+  },
+  "IMT-10-013": {
+    "number": "0178",
+    "idol": "星井 美希",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0178_u.webp"
+  },
+  "IMT-10-014": {
+    "number": "0179",
+    "idol": "櫻木 真乃",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0179_u.webp"
+  },
+  "IMT-10-015": {
+    "number": "0180",
+    "idol": "島村 卯月",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0180_u.webp"
+  },
+  "IMT-10-016": {
+    "number": "0181",
+    "idol": "桜庭 薫",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0181_u.webp"
+  },
+  "IMT-10-017": {
+    "number": "0182",
+    "idol": "如月 千早",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0182_u.webp"
+  },
+  "IMT-10-018": {
+    "number": "0183",
+    "idol": "柏木 翼",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0183_u.webp"
+  },
+  "IMT-10-019": {
+    "number": "0184",
+    "idol": "風野 灯織",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0184_u.webp"
+  },
+  "IMT-10-020": {
+    "number": "0185",
+    "idol": "伊吹 翼",
+    "rarity": "N",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0185_u.webp"
+  },
+  "IMT-10-021": {
+    "number": "0186",
+    "idol": "渋谷 凛",
+    "rarity": "SSR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0186_u.webp"
+  },
+  "IMT-10-022": {
+    "number": "0187",
+    "idol": "星井 美希",
+    "rarity": "SR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0187_u.webp"
+  },
+  "IMT-10-023": {
+    "number": "0188",
+    "idol": "伊吹 翼",
+    "rarity": "SR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0188_u.webp"
+  },
+  "IMT-10-024": {
+    "number": "0189",
+    "idol": "春日 未来",
+    "rarity": "SR",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0189_u.webp"
+  },
+  "IMT-10-025": {
+    "number": "0190",
+    "idol": "島村 卯月",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0190_u.webp"
+  },
+  "IMT-10-026": {
+    "number": "0191",
+    "idol": "如月 千早",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0191_u.webp"
+  },
+  "IMT-10-027": {
+    "number": "0192",
+    "idol": "最上 静香",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0192_u.webp"
+  },
+  "IMT-10-028": {
+    "number": "0193",
+    "idol": "天道 輝",
+    "rarity": "R",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0193_u.webp"
+  },
+  "IMT-10-029": {
+    "number": "0194",
+    "idol": "天海 春香",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0194_u.webp"
+  },
+  "IMT-10-030": {
+    "number": "0195",
+    "idol": "櫻木 真乃",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0195_u.webp"
+  },
+  "IMT-10-031": {
+    "number": "0196",
+    "idol": "本田 未央",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0196_u.webp"
+  },
+  "IMT-10-032": {
+    "number": "0197",
+    "idol": "渋谷 凛",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0197_u.webp"
+  },
+  "IMT-10-033": {
+    "number": "0198",
+    "idol": "風野 灯織",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0198_u.webp"
+  },
+  "IMT-10-034": {
+    "number": "0199",
+    "idol": "八宮 めぐる",
+    "rarity": "N",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0199_u.webp"
+  },
+  "IMT-10-035": {
+    "number": "0200",
+    "idol": "八宮 めぐる",
+    "rarity": "SR",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0200_u.webp"
+  },
+  "IMT-10-036": {
+    "number": "0201",
+    "idol": "春日 未来",
+    "rarity": "SR",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0201_u.webp"
+  },
+  "IMT-10-037": {
+    "number": "0202",
+    "idol": "星井 美希",
+    "rarity": "R",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-2test",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0202_u.webp"
+  },
+  "IMT-07-006": {
+    "number": "0203",
+    "idol": "春日 未来",
+    "rarity": "なし",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-cp",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0203_u.webp"
+  },
+  "IMT-06-006": {
+    "number": "0400",
+    "idol": "天海 春香",
+    "rarity": "なし",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-pm",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0400_u.webp"
+  },
+  "IMT-06-007": {
+    "number": "0401",
+    "idol": "如月 千早",
+    "rarity": "なし",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-pm",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0401_u.webp"
+  },
+  "IMT-06-008": {
+    "number": "0402",
+    "idol": "星井 美希",
+    "rarity": "なし",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-pm",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0402_u.webp"
+  },
+  "IMT-07-007": {
+    "number": "0403",
+    "idol": "天海 春香",
+    "rarity": "なし",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-cp",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0403_u.webp"
+  },
+  "IMT-07-008": {
+    "number": "0404",
+    "idol": "如月 千早",
+    "rarity": "なし",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-cp",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0404_u.webp"
+  },
+  "IMT-07-009": {
+    "number": "0405",
+    "idol": "星井 美希",
+    "rarity": "なし",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-cp",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0405_u.webp"
+  },
+  "IMT-07-010": {
+    "number": "0406",
+    "idol": "水瀬 伊織",
+    "rarity": "なし",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-cp",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0406_u.webp"
+  },
+  "IMT-07-011": {
+    "number": "0407",
+    "idol": "島村 卯月",
+    "rarity": "なし",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-cp",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0407_u.webp"
+  },
+  "IMT-07-012": {
+    "number": "0408",
+    "idol": "渋谷 凛",
+    "rarity": "なし",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-cp",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0408_u.webp"
+  },
+  "IMT-07-013": {
+    "number": "0409",
+    "idol": "本田 未央",
+    "rarity": "なし",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-cp",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0409_u.webp"
+  },
+  "IMT-07-014": {
+    "number": "0410",
+    "idol": "春日 未来",
+    "rarity": "なし",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-cp",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0410_u.webp"
+  },
+  "IMT-07-015": {
+    "number": "0411",
+    "idol": "最上 静香",
+    "rarity": "なし",
+    "type_jp": "アクセサリー",
+    "type": "accessory",
+    "series_id": "series-cp",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0411_u.webp"
+  },
+  "IMT-07-016": {
+    "number": "0412",
+    "idol": "伊吹 翼",
+    "rarity": "なし",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-cp",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0412_u.webp"
+  },
+  "IMT-07-017": {
+    "number": "0413",
+    "idol": "星井 美希",
+    "rarity": "なし",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-cp",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0413_u.webp"
+  },
+  "IMT-07-018": {
+    "number": "0414",
+    "idol": "本田 未央",
+    "rarity": "なし",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-cp",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0414_u.webp"
+  },
+  "IMT-07-019": {
+    "number": "0415",
+    "idol": "伊吹 翼",
+    "rarity": "なし",
+    "type_jp": "SPアピール",
+    "type": "sp_appeal",
+    "series_id": "series-cp",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0415_u.webp"
+  },
+  "IMT-07-020": {
+    "number": "0516",
+    "idol": "天道 輝",
+    "rarity": "なし",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-cp",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0516_u.webp"
+  },
+  "IMT-07-021": {
+    "number": "0517",
+    "idol": "桜庭 薫",
+    "rarity": "なし",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-cp",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0517_u.webp"
+  },
+  "IMT-07-022": {
+    "number": "0518",
+    "idol": "柏木 翼",
+    "rarity": "なし",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-cp",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0518_u.webp"
+  },
+  "IMT-07-023": {
+    "number": "0519",
+    "idol": "硲 道夫",
+    "rarity": "なし",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-cp",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0519_u.webp"
+  },
+  "IMT-07-024": {
+    "number": "0520",
+    "idol": "櫻木 真乃",
+    "rarity": "なし",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-cp",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0520_u.webp"
+  },
+  "IMT-07-025": {
+    "number": "0521",
+    "idol": "風野 灯織",
+    "rarity": "なし",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-cp",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0521_u.webp"
+  },
+  "IMT-07-026": {
+    "number": "0522",
+    "idol": "八宮 めぐる",
+    "rarity": "なし",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-cp",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0522_u.webp"
+  },
+  "IMT-07-027": {
+    "number": "0523",
+    "idol": "花海 咲季",
+    "rarity": "なし",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-cp",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0523_u.webp"
+  },
+  "IMT-07-028": {
+    "number": "0524",
+    "idol": "月村 手毬",
+    "rarity": "なし",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-cp",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0524_u.webp"
+  },
+  "IMT-07-029": {
+    "number": "0525",
+    "idol": "藤田 ことね",
+    "rarity": "なし",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-cp",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0525_u.webp"
+  },
+  "IMT-07-030": {
+    "number": "0526",
+    "idol": "柏木 翼",
+    "rarity": "なし",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-cp",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0526_u.webp"
+  },
+  "IMT-07-031": {
+    "number": "0527",
+    "idol": "八宮 めぐる",
+    "rarity": "なし",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-cp",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0527_u.webp"
+  },
+  "IMT-07-032": {
+    "number": "0528",
+    "idol": "花海 咲季",
+    "rarity": "なし",
+    "type_jp": "サポート",
+    "type": "support",
+    "series_id": "series-cp",
+    "image_path": "/home/coma/.ghq/github.com/Comamoca/tourmas-datarepo/dist/card_images/0528_u.webp"
+  }
+}
