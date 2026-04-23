@@ -1,0 +1,24 @@
+[[card]]
+id = "IMT-03-089"
+name = "演出セット：オータム"
+idol = "本田 未央"
+rarity = "R"
+text = "秋色に染まったステージ！私と一緒に、楽しんじゃお♪"
+type = "perf_set"
+
+[[card]]
+id = "IMT-03-090"
+name = "演出セット：ハロウィン"
+idol = "櫻木 真乃"
+rarity = "R"
+text = "ほわあ……素敵なハロウィンになりそうですねっ"
+type = "perf_set"
+
+[[card]]
+id = "IMT-05-084"
+name = "演出セット：スプリング"
+idol = "最上 静香"
+rarity = "R"
+text = "今日は、いつも以上に伸びやかに、春の温もりが伝わるように歌ってきます。"
+type = "perf_set"
+

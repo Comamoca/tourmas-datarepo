@@ -6,43 +6,42 @@ rarity = "SSR"
 text = "オレたちの歌をステージいっぱいに響かせます！"
 type = "sp_appeal"
 subject = "everyone"
-[card.sp_appeal]
-effect = ["成功判定のコンボ数UP(中)"]
 
+[card.sp_appeal]
+effect = [ "成功判定のコンボ数UP(中)", "判定が長くなる(中)",]
 [[card]]
 id = "IMT-01-084"
 name = "パーティータイム"
 idol = "八宮 めぐる"
 rarity = "SR"
-text = "みんなが笑顔になるステージわたしたちならきっとできるよ！"
+text = "みんなが笑顔になるステージ、わたしたちならきっとできるよ！"
 type = "sp_appeal"
-subject = "everyone"
-[card.sp_appeal]
-effect = ["全ての判定がPERFECTになる"]
+subject = "female"
 
+[card.sp_appeal]
+effect = [ "全ての判定がPERFECTになる",]
 [[card]]
 id = "IMT-01-085"
 name = "トリオザベスト"
 idol = "春日 未来"
 rarity = "SR"
-text = "みんなと作る最高のステージ見逃がさないでくださいね！"
+text = "みんなと作る最高のステージ、見逃さないでくださいね！"
 type = "sp_appeal"
 subject = "female"
+
 [card.sp_appeal]
-effect = ["GOOD以上判定時のスコアUP(小)"]
-
-
+effect = [ "GOOD以上判定時のスコアUP(中)",]
 [[card]]
 id = "IMT-01-086"
 name = "ゲンキの魔法☆"
 idol = "本田 未央"
 rarity = "SR"
-text = "みんな、ちゅうもーく☆"
+text = "みんな、ちゅうもーく☆宇宙一楽しいステージにするよー！"
 type = "sp_appeal"
-subject = "uniq"
-[card.sp_appeal]
-effect = ["GOOD以上判定のスコアUP(小)", "FEAVERゲージ上昇率UP(小)"]
+subject = "unique"
 
+[card.sp_appeal]
+effect = [ "GOOD以上判定時のスコアUP(小)", "FEVERゲージ上昇率UP(小)",]
 [[card]]
 id = "IMT-01-087"
 name = "addicted♡"
@@ -50,24 +49,21 @@ idol = "伊吹 翼"
 rarity = "SR"
 text = "わたしから目を離しちゃだめですよ♪ちゃーんと見ててね？"
 type = "sp_appeal"
-subject = "uniq"
-[card.sp_appeal]
-effect = ["コンボに応じてスコア獲得(大)するが、残りのSPアピール個数を1回消費する", "※SPアピールが消費できない場合、効果は発動しない"]
+subject = "unique"
 
+[card.sp_appeal]
+effect = [ "コンボ数に応じてスコア獲得(大)するが、残りのSPアピール回数を1回消費する",]
 [[card]]
 id = "IMT-01-088"
-name = "グッとしてGOOD‼"
+name = "グッとしてGOOD!!"
 idol = "天道 輝"
 rarity = "SR"
-text = "みんな、待たせたな！アイドル界の一番星になる男、天道輝だ！"
+text = "みんな、待たせたな！アイドル界の一番星に信る男、天道顕だ！"
 type = "sp_appeal"
-subject = "uniq"
-[card.sp_appeal]
-effect = [
-  "GOOD以上判定時のスコア上昇(大)するが、FEAVERゲージを消費する(中)",
-  "※FEAVERゲージが消費できない場合、効果は発動しない",
-]
+subject = "unique"
 
+[card.sp_appeal]
+effect = [ "GOOD以上判定時のスコアUP(大)するが、FEVERゲージを消費する(中)",]
 [[card]]
 id = "IMT-01-089"
 name = "Buddy☆Bang"
@@ -76,9 +72,9 @@ rarity = "R"
 text = "ミキたちのパフォーマンスでハートを狙い撃ちなのっ☆"
 type = "sp_appeal"
 subject = "female"
-[card.sp_appeal]
-effect = ["PERFECT判定時のスコアUP(小)"]
 
+[card.sp_appeal]
+effect = [ "PERFECT判定時のスコアUP(小)",]
 [[card]]
 id = "IMT-01-090"
 name = "スカイハイ！"
@@ -87,9 +83,9 @@ rarity = "R"
 text = "会場中のファンのみなさんに見てもらえるようにもっと高く！"
 type = "sp_appeal"
 subject = "everyone"
-[card.sp_appeal]
-effect = ["GREAT以上判定時のスコアUP(小)"]
 
+[card.sp_appeal]
+effect = [ "GREAT以上判定時のスコアUP(小)",]
 [[card]]
 id = "IMT-01-091"
 name = "Flower blow"
@@ -98,20 +94,20 @@ rarity = "R"
 text = "みなさんに、素敵な春！届きますように。"
 type = "sp_appeal"
 subject = "female"
-[card.sp_appeal]
-effect = ["FEAVERゲージ上昇率UP(小)"]
 
+[card.sp_appeal]
+effect = [ "FEVERゲージ上昇率UP(小)",]
 [[card]]
 id = "IMT-01-092"
 name = "We are 315!!"
 idol = "桜庭 薫"
 rarity = "R"
-text = "コンディションは抜群だ。最高のパフォーマンスを見せよう。"
+text = "コンディションは万全だ。最高のパフォーマンスを見せよう。"
 type = "sp_appeal"
 subject = "male"
-[card.sp_appeal]
-effect = ["MISS判定でもコンボが継続する"]
 
+[card.sp_appeal]
+effect = [ "MISS判定でもコンボが継続する",]
 [[card]]
 id = "IMT-01-093"
 name = "ラブリー♡エフェクト"
@@ -120,12 +116,9 @@ rarity = "N"
 text = "みなさんが一緒に楽しんでくれると嬉しいですっ"
 type = "sp_appeal"
 subject = "everyone"
-[card.sp_appeal]
-effect = [
-  "GOOD以上判定時のスコアUP(小)するが、FEAVERゲージを消費する(極小)",
-  "※FEAVERゲージが消費できない場合、効果は発動しない",
-]
 
+[card.sp_appeal]
+effect = [ "GOOD以上判定時のスコアUP(小)するが、FEVERゲージを消費する(極小)",]
 [[card]]
 id = "IMT-01-094"
 name = "スカイアングル"
@@ -134,5 +127,465 @@ rarity = "N"
 text = "この距離なら、手が届きますか。"
 type = "sp_appeal"
 subject = "everyone"
+
 [card.sp_appeal]
-effect = ["GOOD判定以上のスコアUP(小)", "判定が長くなる(極小)"]
+effect = [ "GOOD以上判定時のスコアUP(小)", "判定が長くなる(極小)",]
+[[card]]
+id = "IMT-02-067"
+name = "Leave it to us!"
+idol = "藤田ことね"
+rarity = "SSR"
+text = "可愛いだけじゃないってとこ、見ていてくださいねっ！"
+type = "sp_appeal"
+subject = "female"
+
+[card.sp_appeal]
+effect = [ "PERFECT判定時のスコアUP(極大)するが、判定が短くなる(大)",]
+[[card]]
+id = "IMT-02-068"
+name = "わたしが1番になってみせるわ!"
+idol = "花海咲季"
+rarity = "SR"
+text = "あなたたち、ラッキーね♪今日は最高のライブになるわよ！"
+type = "sp_appeal"
+subject = "unique"
+
+[card.sp_appeal]
+effect = [ "コンボ時のスコアUP(大)するが、FEVERゲージを消費する(大)", "FEVERゲージが消費できない場合、発動しない",]
+[[card]]
+id = "IMT-02-069"
+name = "Shouting my soul"
+idol = "最上 静香"
+rarity = "SR"
+text = "この一曲に、私のすべてを込めていきます……！"
+type = "sp_appeal"
+subject = "unique"
+
+[card.sp_appeal]
+effect = [ "PERFECT判定時のスコアUP(中)", "GOOD以上判定がPERFECTになるが、MISS判定時スコアDOWN(小)",]
+[[card]]
+id = "IMT-02-070"
+name = "Flight to Dream"
+idol = "柏木 翼"
+rarity = "SR"
+text = "今日の景色も、素敵な思い出になりましたね！"
+type = "sp_appeal"
+subject = "unique"
+
+[card.sp_appeal]
+effect = [ "PERFECT初定時のスコアUP(小)", "GREAT以上判定のスコアUP(極小)", "GOOD以上判定のスコアUP(極小)",]
+[[card]]
+id = "IMT-02-071"
+name = "デュアルハート"
+idol = "天海 春香"
+rarity = "R"
+text = "千早ちゃん千早ちゃん！せーので、いつも応援ありがとうございます！"
+type = "sp_appeal"
+subject = "female"
+
+[card.sp_appeal]
+effect = [ "PERFECT初定時のスコアUP(小)", "判定が長くなる(小)が、MISS判定スコアDOWN(小)",]
+[[card]]
+id = "IMT-02-072"
+name = "狙い撃ち☆"
+idol = "渋谷 凛"
+rarity = "R"
+text = "みんなのハートを撃ち抜くよ。……ふふ、冗談。"
+type = "sp_appeal"
+subject = "female"
+
+[card.sp_appeal]
+effect = [ "GOOD以上判定のスコアUP(小)",]
+[[card]]
+id = "IMT-02-073"
+name = "We are 315!!"
+idol = "天道 輝"
+rarity = "R"
+text = "今のパフォーマンス、サイコーだっただろ？まだまだ楽しませるぜ！"
+type = "sp_appeal"
+subject = "male"
+
+[card.sp_appeal]
+effect = [ "成功判定のコンボ数UP(小)",]
+[[card]]
+id = "IMT-02-074"
+name = "I'll lead you"
+idol = "桜庭 薫"
+rarity = "R"
+text = "僕のパフォーマンスはどうだ？引き続き楽しんでいってくれ。"
+type = "sp_appeal"
+subject = "male"
+
+[card.sp_appeal]
+effect = [ "GOOD以上判定でPERFECTになる",]
+[[card]]
+id = "IMT-02-075"
+name = "ライブコミュニケーション"
+idol = "星井 美希"
+rarity = "N"
+text = "みんなはミキのこと、好きっ、あはっ☆そうだよね、ミキもだよ！"
+type = "sp_appeal"
+subject = "everyone"
+
+[card.sp_appeal]
+effect = [ "PERFECT初定時のスコアUP(極小)", "GREAT以上判定がPERFECTになる",]
+[[card]]
+id = "IMT-02-076"
+name = "スプラッシュインク"
+idol = "本田 未央"
+rarity = "N"
+text = "未央ちゃんスマイルはおあずけだわっ。カッコよくキメちゃうよ！"
+type = "sp_appeal"
+subject = "everyone"
+
+[card.sp_appeal]
+effect = [ "PERFECT初定時のスコアUP(小)が、判定が短くなる(極小)",]
+[[card]]
+id = "IMT-02-077"
+name = "スター☆エフェクト"
+idol = "春日 未来"
+rarity = "N"
+text = "とびっきり楽しいライブを…会場の外まで！お届けしますっ♪"
+type = "sp_appeal"
+subject = "everyone"
+
+[card.sp_appeal]
+effect = [ "成功判定のコンボ数UP(極小)", "FEVERゲージ上昇率UP(極小)",]
+[[card]]
+id = "IMT-02-078"
+name = "エクスプロージョン"
+idol = "桜庭 薫"
+rarity = "N"
+text = "何やら後ろが騒がしいが…本当に問題ないんだろうか…？"
+type = "sp_appeal"
+subject = "everyone"
+
+[card.sp_appeal]
+effect = [ "GOOD以上判定のスコアUP(極小)", "コンボ数に応じてスコア獲得(極小)",]
+[[card]]
+id = "IMT-03-080"
+name = "蒼き歌姫"
+idol = "如月 千早"
+rarity = "SR"
+text = "あなたの心に残るような歌声を届けます。"
+type = "sp_appeal"
+subject = "unique"
+
+[card.sp_appeal]
+effect = [ "コンボ数に応じてスコア獲得(大)が、FEVERゲージを消費する(大)", "FEVERゲージが消費できない場合、発動しない",]
+[[card]]
+id = "IMT-03-081"
+name = "Bashful smile"
+idol = "風野 灯織"
+rarity = "SR"
+text = "ここから見える景色……きっと忘れないと思います。"
+type = "sp_appeal"
+subject = "unique"
+
+[card.sp_appeal]
+effect = [ "GREAT以上判定時のスコアUP(中)", "判定が長くなる(中)が、MISS判定時スコアDOWN(中)",]
+[[card]]
+id = "IMT-03-082"
+name = "ハートフォー・ユー"
+idol = "島村 卯月"
+rarity = "R"
+text = "みなさんを笑顔にする魔法、届きましたか？えへへ♪"
+type = "sp_appeal"
+subject = "female"
+
+[card.sp_appeal]
+effect = [ "判定が長くなる(小)",]
+[[card]]
+id = "IMT-03-083"
+name = "スタンドアップ！"
+idol = "硲 道夫"
+rarity = "R"
+text = "さあ、ライブの時間だ。最高のパフォーマンスを見せよう。"
+type = "sp_appeal"
+subject = "male"
+
+[card.sp_appeal]
+effect = [ "PERFECT判定時のスコアUP(小)",]
+[[card]]
+id = "IMT-03-084"
+name = "We are 315!!"
+idol = "柏木 翼"
+rarity = "R"
+text = "最高のステージにしましょう！オレも全力で頑張ります！"
+type = "sp_appeal"
+subject = "male"
+
+[card.sp_appeal]
+effect = [ "コンボ数に応じてスコア獲得(小)",]
+[[card]]
+id = "IMT-03-085"
+name = "クロスライト"
+idol = "星井 美希"
+rarity = "N"
+text = "今日のミキはビシッと決めるの！ホンキでいくから、見てて！"
+type = "sp_appeal"
+subject = "everyone"
+
+[card.sp_appeal]
+effect = [ "PERFECT判定時のスコアUP(小)が、FEVERゲージを消費する(小)", "FEVERゲージが消費できない場合、発動しない",]
+[[card]]
+id = "IMT-03-086"
+name = "バブルシャワー"
+idol = "八宮 めぐる"
+rarity = "N"
+text = "みんな、楽しむ準備はいい？それじゃあ、いっくよー！"
+type = "sp_appeal"
+subject = "everyone"
+
+[card.sp_appeal]
+effect = [ "判定が長くなる(極小)",]
+[[card]]
+id = "IMT-03-087"
+name = "ポップフレーム"
+idol = "藤田 ことね"
+rarity = "N"
+text = "とびっきりかわいいところ、見てくださいねっ♡"
+type = "sp_appeal"
+subject = "everyone"
+
+[card.sp_appeal]
+effect = [ "PERFECT判定時のスコアUP(極小)", "GREAT判定をPERFECTになる",]
+[[card]]
+id = "IMT-04-087"
+name = "笑顔満点ですっ♡"
+idol = "島村 卯月"
+rarity = "SR"
+text = "会場のみなさんを、笑顔でいっぱいにしちゃいます！"
+type = "sp_appeal"
+subject = "everyone"
+
+[card.sp_appeal]
+effect = [ "ランダムな効果を1つ発動する(大)", "ランダムな効果を1つ発動する(小)",]
+[[card]]
+id = "IMT-04-088"
+name = "はいっ、注目☆"
+idol = "藤田 ことね"
+rarity = "SR"
+text = "ねえ、あたしの歌どうだった？みんなの声も、聴かせてね！"
+type = "sp_appeal"
+subject = "unique"
+
+[card.sp_appeal]
+effect = [ "コンボ数に応じてスコア獲得(大)", "コンボ時のスコアUP(極小)になるが、判定が短くなる(大)",]
+[[card]]
+id = "IMT-04-089"
+name = "がおっ♪とポーズ"
+idol = "星井 美希"
+rarity = "R"
+text = "ガオー！食べちゃうぞー！なんで、ビックリした？あぼっ☆"
+type = "sp_appeal"
+subject = "female"
+
+[card.sp_appeal]
+effect = [ "コンボ時のスコアUP(極小)", "FEVERゲージ上昇率UP(極小)",]
+[[card]]
+id = "IMT-04-090"
+name = "君に感謝を"
+idol = "桜庭 薫"
+rarity = "R"
+text = "いつもありがとう。今日も楽しんでいってくれ。"
+type = "sp_appeal"
+subject = "male"
+
+[card.sp_appeal]
+effect = [ "GREAT以上判定時のスコアUP(小)", "判定が長くなる(極小)",]
+[[card]]
+id = "IMT-04-091"
+name = "スノー＊エフェクト"
+idol = "月村 手毬"
+rarity = "N"
+text = "私の歌で、会場の空気を変えてみせます……！"
+type = "sp_appeal"
+subject = "everyone"
+
+[card.sp_appeal]
+effect = [ "PERFECT判定時のスコアUP(極小)",]
+[[card]]
+id = "IMT-04-092"
+name = "Feather Shower"
+idol = "如月 千早"
+rarity = "N"
+text = "空を羽ばたく鳥のように 優雅に華麗に舞いましょう。"
+type = "sp_appeal"
+subject = "everyone"
+
+[card.sp_appeal]
+effect = [ "GREAT判定がPERFECTになる",]
+[[card]]
+id = "IMT-04-093"
+name = "ホラーフレーム"
+idol = "渋谷 凛"
+rarity = "N"
+text = "恐怖も不安も全部抱えて… 歌いきってみせる！"
+type = "sp_appeal"
+subject = "everyone"
+
+[card.sp_appeal]
+effect = [ "GREAT以上判定時のスコアUP(小)するが、判定が短くなる(小)",]
+[[card]]
+id = "IMT-05-077"
+name = "蒼き高唱"
+idol = "渋谷 凛"
+rarity = "SR"
+text = "会場の熱気が伝わってくる……負けてられないね、もっと盛り上げちゃうよ！"
+type = "sp_appeal"
+subject = "unique"
+
+[card.sp_appeal]
+effect = [ "PERFECT判定時のスコアUP(大)", "GREAT以上判定時のスコアUP(中)するが、判定が短くなる(極大)",]
+[[card]]
+id = "IMT-05-078"
+name = "翼を胸に"
+idol = "櫻木 真乃"
+rarity = "SR"
+text = "大空を羽ばたく鳥さんのように……いろんな景色を見に行きたいですっ。"
+type = "sp_appeal"
+subject = "unique"
+
+[card.sp_appeal]
+effect = [ "コンボ時のスコアUP(大)", "コンボ時のスコアUP(小)するが、MISS判定時スコアDOWN(大)",]
+[[card]]
+id = "IMT-05-079"
+name = "Pretty face♡"
+idol = "伊吹 翼"
+rarity = "R"
+text = "わたしのとっておきのポーズ、ずっと見ててくださいね～？"
+type = "sp_appeal"
+subject = "female"
+
+[card.sp_appeal]
+effect = [ "ランダムな効果を1つ発動する(中)",]
+[[card]]
+id = "IMT-05-080"
+name = "Quiet Charm"
+idol = "桜庭 薫"
+rarity = "R"
+text = "では、次の曲にいくとしよう。最高の歌声を届けてみせる。"
+type = "sp_appeal"
+subject = "male"
+
+[card.sp_appeal]
+effect = [ "GOOD以上判定時のスコアUP(中)",]
+[[card]]
+id = "IMT-05-081"
+name = "ネオンスター"
+idol = "水瀬 伊織"
+rarity = "N"
+text = "きらめくネオンをバックに、クールに決めた私も素敵でしょ？"
+type = "sp_appeal"
+subject = "everyone"
+
+[card.sp_appeal]
+effect = [ "MISS判定でもコンボが継続する",]
+[[card]]
+id = "IMT-05-082"
+name = "Toon Boom！"
+idol = "島村 卯月"
+rarity = "N"
+text = "ヒーローみたいにカッコよく決めちゃいますっ"
+type = "sp_appeal"
+subject = "everyone"
+
+[card.sp_appeal]
+effect = [ "FEVERゲージ上昇率UP(小)",]
+[[card]]
+id = "IMT-05-083"
+name = "サクラ★エフェクト"
+idol = "花海 咲季"
+rarity = "N"
+text = "わたしのパフォーマンスで、春の陽気をみんなに届けてあげるわ！"
+type = "sp_appeal"
+subject = "everyone"
+
+[card.sp_appeal]
+effect = [ "判定が長くなる(小)",]
+[[card]]
+id = "IMT-07-018"
+name = "クリスマス☆エフェクト"
+idol = "本田 未央"
+rarity = "なし"
+text = "このカードを使用するとSPアピールを変更できます。"
+type = "sp_appeal"
+subject = "everyone"
+
+[card.sp_appeal]
+effect = [ "PERFECT判定時のスコアUP(大)", "FEVERゲージ上昇率UP(小)",]
+[[card]]
+id = "IMT-07-019"
+name = "クリスマス☆フレーム"
+idol = "伊吹 翼"
+rarity = "なし"
+text = "このカードを使用するとSPアピールを変更できます。"
+type = "sp_appeal"
+subject = "everyone"
+
+[card.sp_appeal]
+effect = [ "MISS判定でもコンボが継続する", "FEVERゲージ上昇率UP(中)",]
+[[card]]
+id = "IMT-09-027"
+name = "パーティータイム"
+idol = "八宮 めぐる"
+rarity = "SR"
+text = "このカードを使用するとSPアピールを変更できます。"
+type = "sp_appeal"
+
+[card.sp_appeal]
+effect = [ "発動中、全ての判定がPERFECT判定&コンボ継続",]
+[[card]]
+id = "IMT-09-028"
+name = "トリオザベスト"
+idol = "春日 未来"
+rarity = "SR"
+text = "このカードを使用するとSPアピールを変更できます。"
+type = "sp_appeal"
+
+[card.sp_appeal]
+effect = [ "発動中、GOOD以上判定時のスコアUP(大)",]
+[[card]]
+id = "IMT-09-029"
+name = "Buddy☆Bang"
+idol = "星井 美希"
+rarity = "R"
+text = "このカードを使用するとSPアピールを変更できます。"
+type = "sp_appeal"
+
+[card.sp_appeal]
+effect = [ "発動中、全ての判定でコンボ継続",]
+[[card]]
+id = "IMT-10-035"
+name = "パーティータイム"
+idol = "八宮 めぐる"
+rarity = "SR"
+text = "みんなが笑顔になるステージ、わたしたちならさっとできるよ！"
+type = "sp_appeal"
+subject = "female"
+
+[card.sp_appeal]
+effect = [ "発動中、全ての判定がPERFECT判定とコンボ継続",]
+[[card]]
+id = "IMT-10-036"
+name = "トリオザベスト"
+idol = "春日 未来"
+rarity = "SR"
+text = "みんなと作る最高のステージ、見逃さないでくださいね！"
+type = "sp_appeal"
+subject = "female"
+
+[card.sp_appeal]
+effect = [ "発動中、GOOD以上判定時のスコアUP(大)",]
+[[card]]
+id = "IMT-10-037"
+name = "Buddy☆Bang"
+idol = "星井 美希"
+rarity = "R"
+text = "ミキたちのパフォーマンスでハートを狙い撃ちなのっ☆"
+type = "sp_appeal"
+subject = "female"
+
+[card.sp_appeal]
+effect = [ "発動中、全ての判定でコンボ継続",]

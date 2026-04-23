@@ -15,9 +15,9 @@ class BaseCard(BaseModel):
     id: str
     name: str
     idol: str
-    rarity: Literal["N", "R", "SR", "SSR"]
-    text: str
-    type: Literal["costume", "accessory", "support", "sp_appeal"]
+    rarity: Literal["N", "R", "SR", "SSR", "TR", "CO", "なし"]
+    text: str = ""
+    type: Literal["costume", "accessory", "support", "sp_appeal", "perf_set"]
     subject: Optional[Literal["everyone", "female", "male", "unique"] | str] = (
         None
     )
@@ -111,11 +111,23 @@ class SpAppealCard(BaseCard):
     support_skill: Optional[SupportSkill] = Field(None, exclude=True)
 
 
+class PerfSetCard(BaseCard):
+    """演出セットタイプカードのモデル。"""
+
+    type: Literal["perf_set"]
+    appeal: Optional[AppealValue] = Field(None, exclude=True)
+    skill: Optional[Skill] = Field(None, exclude=True)
+    body_part: Optional[str] = Field(None, exclude=True)
+    support_skill: Optional[SupportSkill] = Field(None, exclude=True)
+    sp_appeal: Optional[SpAppeal] = Field(None, exclude=True)
+
+
 CARD_MODELS: Dict[str, Type[BaseCard]] = {
     "costume": CostumeCard,
     "accessory": AccessoryCard,
     "support": SupportCard,
     "sp_appeal": SpAppealCard,
+    "perf_set": PerfSetCard,
 }
 
 CARD_ARRAY_KEY = "card"

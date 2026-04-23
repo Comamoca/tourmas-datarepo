@@ -197,9 +197,9 @@ class TestCardTypeMapping:
 
     def test_card_models_mapping(self):
         """CARD_MODELSマッピングの確認"""
-        expected_types = ["costume", "accessory", "support", "sp_appeal"]
+        expected_types = ["costume", "accessory", "support", "sp_appeal", "perf_set"]
         assert set(CARD_MODELS.keys()) == set(expected_types)
-        
+
         assert CARD_MODELS["costume"] == CostumeCard
         assert CARD_MODELS["accessory"] == AccessoryCard
         assert CARD_MODELS["support"] == SupportCard
